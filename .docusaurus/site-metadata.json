@@ -1,6 +1,6 @@
 {
   "docusaurusVersion": "2.0.0-beta.18",
-  "siteVersion": "0.0.0",
+  "siteVersion": "0.1.0",
   "pluginVersions": {
     "docusaurus-plugin-content-docs": {
       "type": "package",
@@ -25,6 +25,11 @@
     "docusaurus-theme-classic": {
       "type": "package",
       "name": "@docusaurus/theme-classic",
+      "version": "2.0.0-beta.18"
+    },
+    "docusaurus-plugin-pwa": {
+      "type": "package",
+      "name": "@docusaurus/plugin-pwa",
       "version": "2.0.0-beta.18"
     }
   }

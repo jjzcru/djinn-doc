@@ -670,5 +670,6 @@
     ]
   },
   "docusaurus-plugin-debug": {},
-  "docusaurus-theme-classic": {}
+  "docusaurus-theme-classic": {},
+  "docusaurus-plugin-pwa": {}
 }

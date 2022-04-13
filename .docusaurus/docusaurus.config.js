@@ -4,15 +4,15 @@
  * Modify the docusaurus.config.js file at your site's root instead.
  */
 export default {
-  "title": "My Site",
-  "tagline": "Dinosaurs are cool",
-  "url": "https://your-docusaurus-test-site.com",
+  "title": "Djinn",
+  "tagline": "IoT Simplified",
+  "url": "https://djinn.fennex.dev",
   "baseUrl": "/",
   "onBrokenLinks": "throw",
   "onBrokenMarkdownLinks": "warn",
   "favicon": "img/favicon.ico",
-  "organizationName": "facebook",
-  "projectName": "docusaurus",
+  "organizationName": "jjzcru",
+  "projectName": "Djinn",
   "presets": [
     [
       "classic",
@@ -33,9 +33,9 @@ export default {
   ],
   "themeConfig": {
     "navbar": {
-      "title": "My Site",
+      "title": "Djin",
       "logo": {
-        "alt": "My Site Logo",
+        "alt": "Djinn Logo",
         "src": "img/logo.svg"
       },
       "items": [
@@ -43,15 +43,10 @@ export default {
           "type": "doc",
           "docId": "intro",
           "position": "left",
-          "label": "Tutorial"
+          "label": "Architecture"
         },
         {
-          "to": "/blog",
-          "label": "Blog",
-          "position": "left"
-        },
-        {
-          "href": "https://github.com/facebook/docusaurus",
+          "href": "https://github.com/jjzcru/djinn",
           "label": "GitHub",
           "position": "right"
         }
@@ -86,22 +81,9 @@ export default {
               "href": "https://twitter.com/docusaurus"
             }
           ]
-        },
-        {
-          "title": "More",
-          "items": [
-            {
-              "label": "Blog",
-              "to": "/blog"
-            },
-            {
-              "label": "GitHub",
-              "href": "https://github.com/facebook/docusaurus"
-            }
-          ]
         }
       ],
-      "copyright": "Copyright © 2022 My Project, Inc. Built with Docusaurus."
+      "copyright": "Copyright © 2022 Djinn, Fennex. Built with Docusaurus."
     },
     "prism": {
       "theme": {
@@ -313,6 +295,36 @@ export default {
       "maxHeadingLevel": 3
     }
   },
+  "plugins": [
+    [
+      "@docusaurus/plugin-pwa",
+      {
+        "debug": true,
+        "offlineModeActivationStrategies": [
+          "appInstalled",
+          "standalone",
+          "queryString"
+        ],
+        "pwaHead": [
+          {
+            "tagName": "link",
+            "rel": "icon",
+            "href": "/img/docusaurus.png"
+          },
+          {
+            "tagName": "link",
+            "rel": "manifest",
+            "href": "/manifest.json"
+          },
+          {
+            "tagName": "meta",
+            "name": "theme-color",
+            "content": "rgb(37, 194, 160)"
+          }
+        ]
+      }
+    ]
+  ],
   "baseUrlIssueBanner": true,
   "i18n": {
     "defaultLocale": "en",
@@ -326,7 +338,6 @@ export default {
     "static"
   ],
   "customFields": {},
-  "plugins": [],
   "themes": [],
   "scripts": [],
   "stylesheets": [],
