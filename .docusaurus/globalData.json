@@ -11,6 +11,11 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "djinn-board/agent",
+              "path": "/docs/djinn-board/agent",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "djinn-board/authentication-server",
               "path": "/docs/djinn-board/authentication-server",
               "sidebar": "tutorialSidebar"

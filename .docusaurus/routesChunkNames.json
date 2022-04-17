@@ -148,10 +148,14 @@
     "content": "content---markdown-page-393-028",
     "__routeContextModule": "__routeContextModule---markdown-pagea-80-077"
   },
-  "/docs-157": {
+  "/docs-116": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398",
     "__routeContextModule": "__routeContextModule---docs-9-bf-205"
+  },
+  "/docs/djinn-board/agent-69b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-board-agent-782-88c"
   },
   "/docs/djinn-board/authentication-server-1f5": {
     "component": "component---theme-doc-item-178-a40",

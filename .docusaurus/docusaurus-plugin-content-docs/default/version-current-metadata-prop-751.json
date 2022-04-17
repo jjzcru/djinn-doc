@@ -61,6 +61,12 @@
             "label": "Web Client",
             "href": "/docs/djinn-board/web-client",
             "docId": "djinn-board/web-client"
+          },
+          {
+            "type": "link",
+            "label": "Agent",
+            "href": "/docs/djinn-board/agent",
+            "docId": "djinn-board/agent"
           }
         ]
       },
@@ -131,6 +137,12 @@
     ]
   },
   "docs": {
+    "djinn-board/agent": {
+      "id": "djinn-board/agent",
+      "title": "Agent",
+      "description": "This is a module that will handled the communication with the cloud, it talks with the cloud via gRPC, which uses proto buffers underneath.",
+      "sidebar": "tutorialSidebar"
+    },
     "djinn-board/authentication-server": {
       "id": "djinn-board/authentication-server",
       "title": "Authentication Server",

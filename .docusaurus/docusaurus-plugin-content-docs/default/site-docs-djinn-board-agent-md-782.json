@@ -1,8 +1,8 @@
 {
   "unversionedId": "djinn-board/agent",
   "id": "djinn-board/agent",
-  "title": "agent",
-  "description": "",
+  "title": "Agent",
+  "description": "This is a module that will handled the communication with the cloud, it talks with the cloud via gRPC, which uses proto buffers underneath.",
   "source": "@site/docs/djinn-board/agent.md",
   "sourceDirName": "djinn-board",
   "slug": "/djinn-board/agent",
@@ -10,14 +10,19 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/agent.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "id": "agent",
+    "title": "Agent",
+    "sidebar_position": 8
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Glossary",
-    "permalink": "/docs/djinn-board/glossary"
+    "title": "Web Client",
+    "permalink": "/docs/djinn-board/web-client"
   },
   "next": {
-    "title": "authentication-server",
-    "permalink": "/docs/djinn-board/authentication-server"
+    "title": "Create a Page",
+    "permalink": "/docs/tutorial-basics/create-a-page"
   }
 }
