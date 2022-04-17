@@ -19,6 +19,34 @@
           "contentPathLocalized": "/Users/jjzcru/Workspace/Djinn/djinn/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "djinn-board/event-bus",
+              "id": "djinn-board/event-bus",
+              "title": "Event Bus",
+              "description": "In the application all the comunication is going to be asynchrounous and is going to use an message queue to handle the request, the reason we are doing this is because is easy to scale the application using the asynchrounous nature of a publish-subscribe system.",
+              "source": "@site/docs/djinn-board/event-bus.md",
+              "sourceDirName": "djinn-board",
+              "slug": "/djinn-board/event-bus",
+              "permalink": "/docs/djinn-board/event-bus",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/event-bus.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "id": "event-bus",
+                "title": "Event Bus",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Persistance Layer",
+                "permalink": "/docs/djinn-board/persistance-layer"
+              },
+              "next": {
+                "title": "Create a Page",
+                "permalink": "/docs/tutorial-basics/create-a-page"
+              }
+            },
+            {
               "unversionedId": "djinn-board/overview",
               "id": "djinn-board/overview",
               "title": "Overview",
@@ -68,8 +96,8 @@
                 "permalink": "/docs/djinn-board/platform"
               },
               "next": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "title": "Event Bus",
+                "permalink": "/docs/djinn-board/event-bus"
               }
             },
             {
@@ -218,8 +246,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Persistance Layer",
-                "permalink": "/docs/djinn-board/persistance-layer"
+                "title": "Event Bus",
+                "permalink": "/docs/djinn-board/event-bus"
               },
               "next": {
                 "title": "Create a Document",
@@ -350,6 +378,10 @@
                   {
                     "type": "doc",
                     "id": "djinn-board/persistance-layer"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-board/event-bus"
                   }
                 ]
               },

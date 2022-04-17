@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Persistance Layer",
-    "permalink": "/docs/djinn-board/persistance-layer"
+    "title": "Event Bus",
+    "permalink": "/docs/djinn-board/event-bus"
   },
   "next": {
     "title": "Create a Document",

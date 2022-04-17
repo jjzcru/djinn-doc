@@ -37,6 +37,12 @@
             "label": "Persistance Layer",
             "href": "/docs/djinn-board/persistance-layer",
             "docId": "djinn-board/persistance-layer"
+          },
+          {
+            "type": "link",
+            "label": "Event Bus",
+            "href": "/docs/djinn-board/event-bus",
+            "docId": "djinn-board/event-bus"
           }
         ]
       },
@@ -107,6 +113,12 @@
     ]
   },
   "docs": {
+    "djinn-board/event-bus": {
+      "id": "djinn-board/event-bus",
+      "title": "Event Bus",
+      "description": "In the application all the comunication is going to be asynchrounous and is going to use an message queue to handle the request, the reason we are doing this is because is easy to scale the application using the asynchrounous nature of a publish-subscribe system.",
+      "sidebar": "tutorialSidebar"
+    },
     "djinn-board/overview": {
       "id": "djinn-board/overview",
       "title": "Overview",
