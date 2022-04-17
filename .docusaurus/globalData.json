@@ -51,8 +51,18 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "djinn-client/gateway",
+              "path": "/docs/djinn-client/gateway",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "djinn-client/overview",
               "path": "/docs/djinn-client/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-client/web",
+              "path": "/docs/djinn-client/web",
               "sidebar": "tutorialSidebar"
             },
             {

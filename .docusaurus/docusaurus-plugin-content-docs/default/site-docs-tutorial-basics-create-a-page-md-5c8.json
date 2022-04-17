@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Overview",
-    "permalink": "/docs/djinn-client/overview"
+    "title": "gateway",
+    "permalink": "/docs/djinn-client/gateway"
   },
   "next": {
     "title": "Create a Document",
