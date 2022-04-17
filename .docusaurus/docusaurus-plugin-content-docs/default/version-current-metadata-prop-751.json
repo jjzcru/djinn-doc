@@ -81,6 +81,18 @@
             "label": "Overview",
             "href": "/docs/djinn-cloud/overview",
             "docId": "djinn-cloud/overview"
+          },
+          {
+            "type": "link",
+            "label": "Community Edition",
+            "href": "/docs/djinn-cloud/community-edition",
+            "docId": "djinn-cloud/community-edition"
+          },
+          {
+            "type": "link",
+            "label": "Enterprise Edition",
+            "href": "/docs/djinn-cloud/enterprise-edition",
+            "docId": "djinn-cloud/enterprise-edition"
           }
         ]
       },
@@ -197,6 +209,18 @@
       "id": "djinn-board/web-client",
       "title": "Web Client",
       "description": "This is a web interface that is build in react and runs on top of the Djinn Gateway, it runs on port 80 and enables the users to configure and control the Djinn OS from a browser.",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-cloud/community-edition": {
+      "id": "djinn-cloud/community-edition",
+      "title": "Community Edition",
+      "description": "This is totally open source and is target for a single tenancy installation, is going to be distributed by a docker image and use sqlite as a database.",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-cloud/enterprise-edition": {
+      "id": "djinn-cloud/enterprise-edition",
+      "title": "Enterprise Edition",
+      "description": "The enterprise edition is the managed service of the Djinn Cloud, it's build on top on Kubernetes and it supports multinancy.",
       "sidebar": "tutorialSidebar"
     },
     "djinn-cloud/overview": {

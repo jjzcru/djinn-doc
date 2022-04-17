@@ -148,7 +148,7 @@
     "content": "content---markdown-page-393-028",
     "__routeContextModule": "__routeContextModule---markdown-pagea-80-077"
   },
-  "/docs-890": {
+  "/docs-477": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398",
     "__routeContextModule": "__routeContextModule---docs-9-bf-205"
@@ -184,6 +184,14 @@
   "/docs/djinn-board/web-client-165": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-djinn-board-web-client-47-b-fe9"
+  },
+  "/docs/djinn-cloud/community-edition-965": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-cloud-community-editiona-26-942"
+  },
+  "/docs/djinn-cloud/enterprise-edition-c29": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-cloud-enterprise-edition-1-dd-2c6"
   },
   "/docs/djinn-cloud/overview-4dc": {
     "component": "component---theme-doc-item-178-a40",

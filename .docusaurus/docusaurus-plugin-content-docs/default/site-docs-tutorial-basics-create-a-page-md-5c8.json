@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Overview",
-    "permalink": "/docs/djinn-cloud/overview"
+    "title": "Enterprise Edition",
+    "permalink": "/docs/djinn-cloud/enterprise-edition"
   },
   "next": {
     "title": "Create a Document",

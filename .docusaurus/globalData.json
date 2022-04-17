@@ -51,6 +51,16 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "djinn-cloud/community-edition",
+              "path": "/docs/djinn-cloud/community-edition",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-cloud/enterprise-edition",
+              "path": "/docs/djinn-cloud/enterprise-edition",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "djinn-cloud/overview",
               "path": "/docs/djinn-cloud/overview",
               "sidebar": "tutorialSidebar"
