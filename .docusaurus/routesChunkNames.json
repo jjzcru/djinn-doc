@@ -148,7 +148,7 @@
     "content": "content---markdown-page-393-028",
     "__routeContextModule": "__routeContextModule---markdown-pagea-80-077"
   },
-  "/docs-00f": {
+  "/docs-3fb": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398",
     "__routeContextModule": "__routeContextModule---docs-9-bf-205"
@@ -156,6 +156,10 @@
   "/docs/djinn-board/event-bus-f79": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-djinn-board-event-bus-5-f-6-8f7"
+  },
+  "/docs/djinn-board/gateway-983": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-board-gatewayd-63-dba"
   },
   "/docs/djinn-board/overview-ac4": {
     "component": "component---theme-doc-item-178-a40",

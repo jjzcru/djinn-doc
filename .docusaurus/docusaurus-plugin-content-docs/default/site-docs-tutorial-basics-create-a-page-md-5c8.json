@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Event Bus",
-    "permalink": "/docs/djinn-board/event-bus"
+    "title": "Gateway",
+    "permalink": "/docs/djinn-board/gateway"
   },
   "next": {
     "title": "Create a Document",

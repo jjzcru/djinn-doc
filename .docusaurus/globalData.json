@@ -16,6 +16,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "djinn-board/gateway",
+              "path": "/docs/djinn-board/gateway",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "djinn-board/overview",
               "path": "/docs/djinn-board/overview",
               "sidebar": "tutorialSidebar"

@@ -43,6 +43,12 @@
             "label": "Event Bus",
             "href": "/docs/djinn-board/event-bus",
             "docId": "djinn-board/event-bus"
+          },
+          {
+            "type": "link",
+            "label": "Gateway",
+            "href": "/docs/djinn-board/gateway",
+            "docId": "djinn-board/gateway"
           }
         ]
       },
@@ -117,6 +123,12 @@
       "id": "djinn-board/event-bus",
       "title": "Event Bus",
       "description": "In the application all the comunication is going to be asynchrounous and is going to use an message queue to handle the request, the reason we are doing this is because is easy to scale the application using the asynchrounous nature of a publish-subscribe system.",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-board/gateway": {
+      "id": "djinn-board/gateway",
+      "title": "Gateway",
+      "description": "This is a service that is going to offer a graphql API to interact with the application from the outside world, is going to run in the port 5555 and applications can be built on top of the graphql.",
       "sidebar": "tutorialSidebar"
     },
     "djinn-board/overview": {
