@@ -55,6 +55,12 @@
             "label": "Authentication Server",
             "href": "/docs/djinn-board/authentication-server",
             "docId": "djinn-board/authentication-server"
+          },
+          {
+            "type": "link",
+            "label": "Web Client",
+            "href": "/docs/djinn-board/web-client",
+            "docId": "djinn-board/web-client"
           }
         ]
       },
@@ -159,6 +165,12 @@
       "id": "djinn-board/platform",
       "title": "Platform",
       "description": "This part of the architecture is going to handle the communication between the",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-board/web-client": {
+      "id": "djinn-board/web-client",
+      "title": "Web Client",
+      "description": "This is a web interface that is build in react and runs on top of the Djinn Gateway, it runs on port 80 and enables the users to configure and control the Djinn OS from a browser.",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

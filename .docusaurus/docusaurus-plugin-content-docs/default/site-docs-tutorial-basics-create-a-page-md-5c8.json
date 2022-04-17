@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Authentication Server",
-    "permalink": "/docs/djinn-board/authentication-server"
+    "title": "Web Client",
+    "permalink": "/docs/djinn-board/web-client"
   },
   "next": {
     "title": "Create a Document",

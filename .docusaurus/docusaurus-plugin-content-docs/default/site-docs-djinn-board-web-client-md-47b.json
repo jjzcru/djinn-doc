@@ -1,8 +1,8 @@
 {
   "unversionedId": "djinn-board/web-client",
   "id": "djinn-board/web-client",
-  "title": "web-client",
-  "description": "",
+  "title": "Web Client",
+  "description": "This is a web interface that is build in react and runs on top of the Djinn Gateway, it runs on port 80 and enables the users to configure and control the Djinn OS from a browser.",
   "source": "@site/docs/djinn-board/web-client.md",
   "sourceDirName": "djinn-board",
   "slug": "/djinn-board/web-client",
@@ -10,11 +10,16 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/web-client.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "id": "web-client",
+    "title": "Web Client",
+    "sidebar_position": 7
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "persistance-layer",
-    "permalink": "/docs/djinn-board/persistance-layer"
+    "title": "Authentication Server",
+    "permalink": "/docs/djinn-board/authentication-server"
   },
   "next": {
     "title": "Create a Page",
