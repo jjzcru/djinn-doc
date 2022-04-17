@@ -1,0 +1,28 @@
+{
+  "unversionedId": "djinn-client/gateway",
+  "id": "djinn-client/gateway",
+  "title": "Gateway",
+  "description": "The gateway clients are native applications (Android, iOS, macOS, Windows,",
+  "source": "@site/docs/djinn-client/gateway.md",
+  "sourceDirName": "djinn-client",
+  "slug": "/djinn-client/gateway",
+  "permalink": "/docs/djinn-client/gateway",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-client/gateway.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "gateway",
+    "title": "Gateway",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Web",
+    "permalink": "/docs/djinn-client/web"
+  },
+  "next": {
+    "title": "Create a Page",
+    "permalink": "/docs/tutorial-basics/create-a-page"
+  }
+}

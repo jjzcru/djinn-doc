@@ -241,6 +241,90 @@
               }
             },
             {
+              "unversionedId": "djinn-client/gateway",
+              "id": "djinn-client/gateway",
+              "title": "Gateway",
+              "description": "The gateway clients are native applications (Android, iOS, macOS, Windows,",
+              "source": "@site/docs/djinn-client/gateway.md",
+              "sourceDirName": "djinn-client",
+              "slug": "/djinn-client/gateway",
+              "permalink": "/docs/djinn-client/gateway",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-client/gateway.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "gateway",
+                "title": "Gateway",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Web",
+                "permalink": "/docs/djinn-client/web"
+              },
+              "next": {
+                "title": "Create a Page",
+                "permalink": "/docs/tutorial-basics/create-a-page"
+              }
+            },
+            {
+              "unversionedId": "djinn-client/overview",
+              "id": "djinn-client/overview",
+              "title": "Overview",
+              "description": "This is an application that is going to talk directly with the Djinn Gateway",
+              "source": "@site/docs/djinn-client/overview.md",
+              "sourceDirName": "djinn-client",
+              "slug": "/djinn-client/overview",
+              "permalink": "/docs/djinn-client/overview",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-client/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "overview",
+                "title": "Overview",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Enterprise Edition",
+                "permalink": "/docs/djinn-cloud/enterprise-edition"
+              },
+              "next": {
+                "title": "Web",
+                "permalink": "/docs/djinn-client/web"
+              }
+            },
+            {
+              "unversionedId": "djinn-client/web",
+              "id": "djinn-client/web",
+              "title": "Web",
+              "description": "This is an application that is embbed in the environment that is running, this",
+              "source": "@site/docs/djinn-client/web.md",
+              "sourceDirName": "djinn-client",
+              "slug": "/djinn-client/web",
+              "permalink": "/docs/djinn-client/web",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-client/web.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "web",
+                "title": "Web",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/djinn-client/overview"
+              },
+              "next": {
+                "title": "Gateway",
+                "permalink": "/docs/djinn-client/gateway"
+              }
+            },
+            {
               "unversionedId": "djinn-cloud/community-edition",
               "id": "djinn-cloud/community-edition",
               "title": "Community Edition",
@@ -292,8 +376,8 @@
                 "permalink": "/docs/djinn-cloud/community-edition"
               },
               "next": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "title": "Overview",
+                "permalink": "/docs/djinn-client/overview"
               }
             },
             {
@@ -442,8 +526,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Enterprise Edition",
-                "permalink": "/docs/djinn-cloud/enterprise-edition"
+                "title": "Gateway",
+                "permalink": "/docs/djinn-client/gateway"
               },
               "next": {
                 "title": "Create a Document",
@@ -614,6 +698,26 @@
                   {
                     "type": "doc",
                     "id": "djinn-cloud/enterprise-edition"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Djinn Client",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "djinn-client/overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-client/web"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-client/gateway"
                   }
                 ]
               },

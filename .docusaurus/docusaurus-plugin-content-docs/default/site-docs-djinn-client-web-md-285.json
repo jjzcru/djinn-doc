@@ -1,0 +1,28 @@
+{
+  "unversionedId": "djinn-client/web",
+  "id": "djinn-client/web",
+  "title": "Web",
+  "description": "This is an application that is embbed in the environment that is running, this",
+  "source": "@site/docs/djinn-client/web.md",
+  "sourceDirName": "djinn-client",
+  "slug": "/djinn-client/web",
+  "permalink": "/docs/djinn-client/web",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-client/web.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "web",
+    "title": "Web",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/djinn-client/overview"
+  },
+  "next": {
+    "title": "Gateway",
+    "permalink": "/docs/djinn-client/gateway"
+  }
+}
