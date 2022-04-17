@@ -22,7 +22,7 @@
     "permalink": "/docs/djinn-board/event-bus"
   },
   "next": {
-    "title": "Create a Page",
-    "permalink": "/docs/tutorial-basics/create-a-page"
+    "title": "Authentication Server",
+    "permalink": "/docs/djinn-board/authentication-server"
   }
 }

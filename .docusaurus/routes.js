@@ -100,8 +100,14 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','3fb'),
+    component: ComponentCreator('/docs','f1d'),
     routes: [
+      {
+        path: '/docs/djinn-board/authentication-server',
+        component: ComponentCreator('/docs/djinn-board/authentication-server','1f5'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/docs/djinn-board/event-bus',
         component: ComponentCreator('/docs/djinn-board/event-bus','f79'),

@@ -49,6 +49,12 @@
             "label": "Gateway",
             "href": "/docs/djinn-board/gateway",
             "docId": "djinn-board/gateway"
+          },
+          {
+            "type": "link",
+            "label": "Authentication Server",
+            "href": "/docs/djinn-board/authentication-server",
+            "docId": "djinn-board/authentication-server"
           }
         ]
       },
@@ -119,6 +125,12 @@
     ]
   },
   "docs": {
+    "djinn-board/authentication-server": {
+      "id": "djinn-board/authentication-server",
+      "title": "Authentication Server",
+      "description": "This is a OAuth 2.0 server, build in go, that handles the authentication of the users that wan't to control the board.",
+      "sidebar": "tutorialSidebar"
+    },
     "djinn-board/event-bus": {
       "id": "djinn-board/event-bus",
       "title": "Event Bus",
