@@ -20,9 +20,5 @@
   "previous": {
     "title": "Web",
     "permalink": "/docs/djinn-client/web"
-  },
-  "next": {
-    "title": "Create a Page",
-    "permalink": "/docs/tutorial-basics/create-a-page"
   }
 }

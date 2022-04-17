@@ -2,7 +2,7 @@
   "unversionedId": "intro",
   "id": "intro",
   "title": "Introduction",
-  "description": "Let's discover Docusaurus in less than 5 minutes.",
+  "description": "TODO Write the overall architecture",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
