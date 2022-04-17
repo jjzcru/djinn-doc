@@ -241,6 +241,34 @@
               }
             },
             {
+              "unversionedId": "djinn-client/overview",
+              "id": "djinn-client/overview",
+              "title": "Overview",
+              "description": "This is an application that is going to talk directly with the Djinn Gateway",
+              "source": "@site/docs/djinn-client/overview.md",
+              "sourceDirName": "djinn-client",
+              "slug": "/djinn-client/overview",
+              "permalink": "/docs/djinn-client/overview",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-client/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "overview",
+                "title": "Overview",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Enterprise Edition",
+                "permalink": "/docs/djinn-cloud/enterprise-edition"
+              },
+              "next": {
+                "title": "Create a Page",
+                "permalink": "/docs/tutorial-basics/create-a-page"
+              }
+            },
+            {
               "unversionedId": "djinn-cloud/community-edition",
               "id": "djinn-cloud/community-edition",
               "title": "Community Edition",
@@ -292,8 +320,8 @@
                 "permalink": "/docs/djinn-cloud/community-edition"
               },
               "next": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "title": "Overview",
+                "permalink": "/docs/djinn-client/overview"
               }
             },
             {
@@ -442,8 +470,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Enterprise Edition",
-                "permalink": "/docs/djinn-cloud/enterprise-edition"
+                "title": "Overview",
+                "permalink": "/docs/djinn-client/overview"
               },
               "next": {
                 "title": "Create a Document",
@@ -614,6 +642,18 @@
                   {
                     "type": "doc",
                     "id": "djinn-cloud/enterprise-edition"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Djinn Client",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "djinn-client/overview"
                   }
                 ]
               },
