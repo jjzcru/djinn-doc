@@ -116,7 +116,7 @@
           },
           {
             "type": "link",
-            "label": "gateway",
+            "label": "Gateway",
             "href": "/docs/djinn-client/gateway",
             "docId": "djinn-client/gateway"
           }
@@ -239,8 +239,8 @@
     },
     "djinn-client/gateway": {
       "id": "djinn-client/gateway",
-      "title": "gateway",
-      "description": "",
+      "title": "Gateway",
+      "description": "The gateway clients are native applications (Android, iOS, macOS, Windows,",
       "sidebar": "tutorialSidebar"
     },
     "djinn-client/overview": {
