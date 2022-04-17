@@ -100,59 +100,95 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','8b5'),
+    component: ComponentCreator('/docs','8cf'),
     routes: [
+      {
+        path: '/docs/djinn-board/agent',
+        component: ComponentCreator('/docs/djinn-board/agent','69b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-board/authentication-server',
+        component: ComponentCreator('/docs/djinn-board/authentication-server','1f5'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-board/event-bus',
+        component: ComponentCreator('/docs/djinn-board/event-bus','f79'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-board/gateway',
+        component: ComponentCreator('/docs/djinn-board/gateway','983'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-board/overview',
+        component: ComponentCreator('/docs/djinn-board/overview','ac4'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-board/persistance-layer',
+        component: ComponentCreator('/docs/djinn-board/persistance-layer','11a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-board/platform',
+        component: ComponentCreator('/docs/djinn-board/platform','11d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-board/web-client',
+        component: ComponentCreator('/docs/djinn-board/web-client','165'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-client/gateway',
+        component: ComponentCreator('/docs/djinn-client/gateway','fef'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-client/overview',
+        component: ComponentCreator('/docs/djinn-client/overview','c27'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-client/web',
+        component: ComponentCreator('/docs/djinn-client/web','f7a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-cloud/community-edition',
+        component: ComponentCreator('/docs/djinn-cloud/community-edition','965'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-cloud/enterprise-edition',
+        component: ComponentCreator('/docs/djinn-cloud/enterprise-edition','c29'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-cloud/overview',
+        component: ComponentCreator('/docs/djinn-cloud/overview','4dc'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','aed'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/congratulations',
-        component: ComponentCreator('/docs/tutorial-basics/congratulations','793'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/create-a-blog-post',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-blog-post','68e'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/create-a-document',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-document','c2d'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/create-a-page',
-        component: ComponentCreator('/docs/tutorial-basics/create-a-page','f44'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/deploy-your-site',
-        component: ComponentCreator('/docs/tutorial-basics/deploy-your-site','e46'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-basics/markdown-features',
-        component: ComponentCreator('/docs/tutorial-basics/markdown-features','4b7'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-extras/manage-docs-versions',
-        component: ComponentCreator('/docs/tutorial-extras/manage-docs-versions','fdd'),
-        exact: true,
-        sidebar: "tutorialSidebar"
-      },
-      {
-        path: '/docs/tutorial-extras/translate-your-site',
-        component: ComponentCreator('/docs/tutorial-extras/translate-your-site','2d7'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

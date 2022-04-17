@@ -1,0 +1,23 @@
+{
+  "unversionedId": "djinn-board/event_bus",
+  "id": "djinn-board/event_bus",
+  "title": "event_bus",
+  "description": "",
+  "source": "@site/docs/djinn-board/event_bus.md",
+  "sourceDirName": "djinn-board",
+  "slug": "/djinn-board/event_bus",
+  "permalink": "/docs/djinn-board/event_bus",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/event_bus.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/djinn-board/overview"
+  },
+  "next": {
+    "title": "persistance_layer",
+    "permalink": "/docs/djinn-board/persistance_layer"
+  }
+}

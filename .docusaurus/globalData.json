@@ -11,48 +11,78 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "djinn-board/agent",
+              "path": "/docs/djinn-board/agent",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/authentication-server",
+              "path": "/docs/djinn-board/authentication-server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/event-bus",
+              "path": "/docs/djinn-board/event-bus",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/gateway",
+              "path": "/docs/djinn-board/gateway",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/overview",
+              "path": "/docs/djinn-board/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/persistance-layer",
+              "path": "/docs/djinn-board/persistance-layer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/platform",
+              "path": "/docs/djinn-board/platform",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/web-client",
+              "path": "/docs/djinn-board/web-client",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-client/gateway",
+              "path": "/docs/djinn-client/gateway",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-client/overview",
+              "path": "/docs/djinn-client/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-client/web",
+              "path": "/docs/djinn-client/web",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-cloud/community-edition",
+              "path": "/docs/djinn-cloud/community-edition",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-cloud/enterprise-edition",
+              "path": "/docs/djinn-cloud/enterprise-edition",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-cloud/overview",
+              "path": "/docs/djinn-cloud/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/congratulations",
-              "path": "/docs/tutorial-basics/congratulations",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-blog-post",
-              "path": "/docs/tutorial-basics/create-a-blog-post",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-document",
-              "path": "/docs/tutorial-basics/create-a-document",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/create-a-page",
-              "path": "/docs/tutorial-basics/create-a-page",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/deploy-your-site",
-              "path": "/docs/tutorial-basics/deploy-your-site",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-basics/markdown-features",
-              "path": "/docs/tutorial-basics/markdown-features",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/manage-docs-versions",
-              "path": "/docs/tutorial-extras/manage-docs-versions",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "tutorial-extras/translate-your-site",
-              "path": "/docs/tutorial-extras/translate-your-site",
               "sidebar": "tutorialSidebar"
             }
           ],

@@ -19,10 +19,396 @@
           "contentPathLocalized": "/Users/jjzcru/Workspace/Djinn/djinn/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "djinn-board/agent",
+              "id": "djinn-board/agent",
+              "title": "Agent",
+              "description": "This is a module that will handled the communication with the cloud, it talks with the cloud via gRPC, which uses proto buffers underneath.",
+              "source": "@site/docs/djinn-board/agent.md",
+              "sourceDirName": "djinn-board",
+              "slug": "/djinn-board/agent",
+              "permalink": "/docs/djinn-board/agent",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/agent.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 8,
+              "frontMatter": {
+                "id": "agent",
+                "title": "Agent",
+                "sidebar_position": 8
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Web Client",
+                "permalink": "/docs/djinn-board/web-client"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/djinn-cloud/overview"
+              }
+            },
+            {
+              "unversionedId": "djinn-board/authentication-server",
+              "id": "djinn-board/authentication-server",
+              "title": "Authentication Server",
+              "description": "This is a OAuth 2.0 server, build in go, that handles the authentication of the users that wan't to control the board.",
+              "source": "@site/docs/djinn-board/authentication-server.md",
+              "sourceDirName": "djinn-board",
+              "slug": "/djinn-board/authentication-server",
+              "permalink": "/docs/djinn-board/authentication-server",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/authentication-server.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 6,
+              "frontMatter": {
+                "id": "authentication-server",
+                "title": "Authentication Server",
+                "sidebar_position": 6
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Gateway",
+                "permalink": "/docs/djinn-board/gateway"
+              },
+              "next": {
+                "title": "Web Client",
+                "permalink": "/docs/djinn-board/web-client"
+              }
+            },
+            {
+              "unversionedId": "djinn-board/event-bus",
+              "id": "djinn-board/event-bus",
+              "title": "Event Bus",
+              "description": "In the application all the comunication is going to be asynchrounous and is going to use an message queue to handle the request, the reason we are doing this is because is easy to scale the application using the asynchrounous nature of a publish-subscribe system.",
+              "source": "@site/docs/djinn-board/event-bus.md",
+              "sourceDirName": "djinn-board",
+              "slug": "/djinn-board/event-bus",
+              "permalink": "/docs/djinn-board/event-bus",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/event-bus.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 4,
+              "frontMatter": {
+                "id": "event-bus",
+                "title": "Event Bus",
+                "sidebar_position": 4
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Persistance Layer",
+                "permalink": "/docs/djinn-board/persistance-layer"
+              },
+              "next": {
+                "title": "Gateway",
+                "permalink": "/docs/djinn-board/gateway"
+              }
+            },
+            {
+              "unversionedId": "djinn-board/gateway",
+              "id": "djinn-board/gateway",
+              "title": "Gateway",
+              "description": "This is a service that is going to offer a graphql API to interact with the application from the outside world, is going to run in the port 5555 and applications can be built on top of the graphql.",
+              "source": "@site/docs/djinn-board/gateway.md",
+              "sourceDirName": "djinn-board",
+              "slug": "/djinn-board/gateway",
+              "permalink": "/docs/djinn-board/gateway",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/gateway.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 5,
+              "frontMatter": {
+                "id": "gateway",
+                "title": "Gateway",
+                "sidebar_position": 5
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Event Bus",
+                "permalink": "/docs/djinn-board/event-bus"
+              },
+              "next": {
+                "title": "Authentication Server",
+                "permalink": "/docs/djinn-board/authentication-server"
+              }
+            },
+            {
+              "unversionedId": "djinn-board/overview",
+              "id": "djinn-board/overview",
+              "title": "Overview",
+              "description": "This is the architecture for the application that is going to run inside the board,",
+              "source": "@site/docs/djinn-board/overview.md",
+              "sourceDirName": "djinn-board",
+              "slug": "/djinn-board/overview",
+              "permalink": "/docs/djinn-board/overview",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Platform",
+                "permalink": "/docs/djinn-board/platform"
+              }
+            },
+            {
+              "unversionedId": "djinn-board/persistance-layer",
+              "id": "djinn-board/persistance-layer",
+              "title": "Persistance Layer",
+              "description": "This is the layer that is used to keep a persistant state of the system, is accesed by the Authentication Service, the Gateway and the platform.",
+              "source": "@site/docs/djinn-board/persistance-layer.md",
+              "sourceDirName": "djinn-board",
+              "slug": "/djinn-board/persistance-layer",
+              "permalink": "/docs/djinn-board/persistance-layer",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/persistance-layer.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "persistance-layer",
+                "title": "Persistance Layer",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Platform",
+                "permalink": "/docs/djinn-board/platform"
+              },
+              "next": {
+                "title": "Event Bus",
+                "permalink": "/docs/djinn-board/event-bus"
+              }
+            },
+            {
+              "unversionedId": "djinn-board/platform",
+              "id": "djinn-board/platform",
+              "title": "Platform",
+              "description": "This part of the architecture is going to handle the communication between the",
+              "source": "@site/docs/djinn-board/platform.md",
+              "sourceDirName": "djinn-board",
+              "slug": "/djinn-board/platform",
+              "permalink": "/docs/djinn-board/platform",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/platform.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "platform",
+                "title": "Platform",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/djinn-board/overview"
+              },
+              "next": {
+                "title": "Persistance Layer",
+                "permalink": "/docs/djinn-board/persistance-layer"
+              }
+            },
+            {
+              "unversionedId": "djinn-board/web-client",
+              "id": "djinn-board/web-client",
+              "title": "Web Client",
+              "description": "This is a web interface that is build in react and runs on top of the Djinn Gateway, it runs on port 80 and enables the users to configure and control the Djinn OS from a browser.",
+              "source": "@site/docs/djinn-board/web-client.md",
+              "sourceDirName": "djinn-board",
+              "slug": "/djinn-board/web-client",
+              "permalink": "/docs/djinn-board/web-client",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/web-client.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "id": "web-client",
+                "title": "Web Client",
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Authentication Server",
+                "permalink": "/docs/djinn-board/authentication-server"
+              },
+              "next": {
+                "title": "Agent",
+                "permalink": "/docs/djinn-board/agent"
+              }
+            },
+            {
+              "unversionedId": "djinn-client/gateway",
+              "id": "djinn-client/gateway",
+              "title": "Gateway",
+              "description": "The gateway clients are native applications (Android, iOS, macOS, Windows,",
+              "source": "@site/docs/djinn-client/gateway.md",
+              "sourceDirName": "djinn-client",
+              "slug": "/djinn-client/gateway",
+              "permalink": "/docs/djinn-client/gateway",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-client/gateway.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "gateway",
+                "title": "Gateway",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Web",
+                "permalink": "/docs/djinn-client/web"
+              }
+            },
+            {
+              "unversionedId": "djinn-client/overview",
+              "id": "djinn-client/overview",
+              "title": "Overview",
+              "description": "This is an application that is going to talk directly with the Djinn Gateway",
+              "source": "@site/docs/djinn-client/overview.md",
+              "sourceDirName": "djinn-client",
+              "slug": "/djinn-client/overview",
+              "permalink": "/docs/djinn-client/overview",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-client/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "overview",
+                "title": "Overview",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Enterprise Edition",
+                "permalink": "/docs/djinn-cloud/enterprise-edition"
+              },
+              "next": {
+                "title": "Web",
+                "permalink": "/docs/djinn-client/web"
+              }
+            },
+            {
+              "unversionedId": "djinn-client/web",
+              "id": "djinn-client/web",
+              "title": "Web",
+              "description": "This is an application that is embbed in the environment that is running, this",
+              "source": "@site/docs/djinn-client/web.md",
+              "sourceDirName": "djinn-client",
+              "slug": "/djinn-client/web",
+              "permalink": "/docs/djinn-client/web",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-client/web.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "web",
+                "title": "Web",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/djinn-client/overview"
+              },
+              "next": {
+                "title": "Gateway",
+                "permalink": "/docs/djinn-client/gateway"
+              }
+            },
+            {
+              "unversionedId": "djinn-cloud/community-edition",
+              "id": "djinn-cloud/community-edition",
+              "title": "Community Edition",
+              "description": "This is totally open source and is target for a single tenancy installation, is going to be distributed by a docker image and use sqlite as a database.",
+              "source": "@site/docs/djinn-cloud/community-edition.md",
+              "sourceDirName": "djinn-cloud",
+              "slug": "/djinn-cloud/community-edition",
+              "permalink": "/docs/djinn-cloud/community-edition",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-cloud/community-edition.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "community-edition",
+                "title": "Community Edition",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/djinn-cloud/overview"
+              },
+              "next": {
+                "title": "Enterprise Edition",
+                "permalink": "/docs/djinn-cloud/enterprise-edition"
+              }
+            },
+            {
+              "unversionedId": "djinn-cloud/enterprise-edition",
+              "id": "djinn-cloud/enterprise-edition",
+              "title": "Enterprise Edition",
+              "description": "The enterprise edition is the managed service of the Djinn Cloud, it's build on top on Kubernetes and it supports multinancy.",
+              "source": "@site/docs/djinn-cloud/enterprise-edition.md",
+              "sourceDirName": "djinn-cloud",
+              "slug": "/djinn-cloud/enterprise-edition",
+              "permalink": "/docs/djinn-cloud/enterprise-edition",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-cloud/enterprise-edition.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "enterprise-edition",
+                "title": "Enterprise Edition",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Community Edition",
+                "permalink": "/docs/djinn-cloud/community-edition"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/djinn-client/overview"
+              }
+            },
+            {
+              "unversionedId": "djinn-cloud/overview",
+              "id": "djinn-cloud/overview",
+              "title": "Overview",
+              "description": "Djinn is going to use the Open-core business model, which is the same that is used by:",
+              "source": "@site/docs/djinn-cloud/overview.md",
+              "sourceDirName": "djinn-cloud",
+              "slug": "/djinn-cloud/overview",
+              "permalink": "/docs/djinn-cloud/overview",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-cloud/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "overview",
+                "title": "Overview",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Agent",
+                "permalink": "/docs/djinn-board/agent"
+              },
+              "next": {
+                "title": "Community Edition",
+                "permalink": "/docs/djinn-cloud/community-edition"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
-              "title": "Tutorial Intro",
-              "description": "Let's discover Docusaurus in less than 5 minutes.",
+              "title": "Introduction",
+              "description": "TODO Write the overall architecture",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
@@ -36,212 +422,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/congratulations",
-              "id": "tutorial-basics/congratulations",
-              "title": "Congratulations!",
-              "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-              "source": "@site/docs/tutorial-basics/congratulations.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/congratulations",
-              "permalink": "/docs/tutorial-basics/congratulations",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/congratulations.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 6,
-              "frontMatter": {
-                "sidebar_position": 6
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              },
-              "next": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-blog-post",
-              "id": "tutorial-basics/create-a-blog-post",
-              "title": "Create a Blog Post",
-              "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-              "source": "@site/docs/tutorial-basics/create-a-blog-post.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-blog-post",
-              "permalink": "/docs/tutorial-basics/create-a-blog-post",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-blog-post.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              },
-              "next": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-document",
-              "id": "tutorial-basics/create-a-document",
-              "title": "Create a Document",
-              "description": "Documents are groups of pages connected through:",
-              "source": "@site/docs/tutorial-basics/create-a-document.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-document",
-              "permalink": "/docs/tutorial-basics/create-a-document",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-document.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
-              },
-              "next": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/create-a-page",
-              "id": "tutorial-basics/create-a-page",
-              "title": "Create a Page",
-              "description": "Add Markdown or React files to src/pages to create a standalone page:",
-              "source": "@site/docs/tutorial-basics/create-a-page.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/create-a-page",
-              "permalink": "/docs/tutorial-basics/create-a-page",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/create-a-page.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
-              },
-              "next": {
-                "title": "Create a Document",
-                "permalink": "/docs/tutorial-basics/create-a-document"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/deploy-your-site",
-              "id": "tutorial-basics/deploy-your-site",
-              "title": "Deploy your site",
-              "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-              "source": "@site/docs/tutorial-basics/deploy-your-site.md",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/deploy-your-site",
-              "permalink": "/docs/tutorial-basics/deploy-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/deploy-your-site.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 5,
-              "frontMatter": {
-                "sidebar_position": 5
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Markdown Features",
-                "permalink": "/docs/tutorial-basics/markdown-features"
-              },
-              "next": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              }
-            },
-            {
-              "unversionedId": "tutorial-basics/markdown-features",
-              "id": "tutorial-basics/markdown-features",
-              "title": "Markdown Features",
-              "description": "Docusaurus supports Markdown and a few additional features.",
-              "source": "@site/docs/tutorial-basics/markdown-features.mdx",
-              "sourceDirName": "tutorial-basics",
-              "slug": "/tutorial-basics/markdown-features",
-              "permalink": "/docs/tutorial-basics/markdown-features",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-basics/markdown-features.mdx",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 4,
-              "frontMatter": {
-                "sidebar_position": 4
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Create a Blog Post",
-                "permalink": "/docs/tutorial-basics/create-a-blog-post"
-              },
-              "next": {
-                "title": "Deploy your site",
-                "permalink": "/docs/tutorial-basics/deploy-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/manage-docs-versions",
-              "id": "tutorial-extras/manage-docs-versions",
-              "title": "Manage Docs Versions",
-              "description": "Docusaurus can manage multiple versions of your docs.",
-              "source": "@site/docs/tutorial-extras/manage-docs-versions.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/manage-docs-versions",
-              "permalink": "/docs/tutorial-extras/manage-docs-versions",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/manage-docs-versions.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "sidebar_position": 1
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Congratulations!",
-                "permalink": "/docs/tutorial-basics/congratulations"
-              },
-              "next": {
-                "title": "Translate your site",
-                "permalink": "/docs/tutorial-extras/translate-your-site"
-              }
-            },
-            {
-              "unversionedId": "tutorial-extras/translate-your-site",
-              "id": "tutorial-extras/translate-your-site",
-              "title": "Translate your site",
-              "description": "Let's translate docs/intro.md to French.",
-              "source": "@site/docs/tutorial-extras/translate-your-site.md",
-              "sourceDirName": "tutorial-extras",
-              "slug": "/tutorial-extras/translate-your-site",
-              "permalink": "/docs/tutorial-extras/translate-your-site",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/tutorial-extras/translate-your-site.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Manage Docs Versions",
-                "permalink": "/docs/tutorial-extras/manage-docs-versions"
+                "title": "Overview",
+                "permalink": "/docs/djinn-board/overview"
               }
             }
           ],
@@ -253,49 +435,81 @@
               },
               {
                 "type": "category",
-                "label": "Tutorial - Basics",
+                "label": "Djinn Board",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-page"
+                    "id": "djinn-board/overview"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-document"
+                    "id": "djinn-board/platform"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/create-a-blog-post"
+                    "id": "djinn-board/persistance-layer"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/markdown-features"
+                    "id": "djinn-board/event-bus"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/deploy-your-site"
+                    "id": "djinn-board/gateway"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-basics/congratulations"
+                    "id": "djinn-board/authentication-server"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-board/web-client"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-board/agent"
                   }
                 ]
               },
               {
                 "type": "category",
-                "label": "Tutorial - Extras",
+                "label": "Djinn Cloud",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "tutorial-extras/manage-docs-versions"
+                    "id": "djinn-cloud/overview"
                   },
                   {
                     "type": "doc",
-                    "id": "tutorial-extras/translate-your-site"
+                    "id": "djinn-cloud/community-edition"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-cloud/enterprise-edition"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Djinn Client",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "djinn-client/overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-client/web"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-client/gateway"
                   }
                 ]
               }
@@ -315,7 +529,6 @@
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
             "source": "@site/blog/2021-08-26-welcome/index.md",
             "title": "Welcome",
             "description": "Docusaurus blogging features are powered by the blog plugin.",
@@ -377,7 +590,6 @@
           "id": "mdx-blog-post",
           "metadata": {
             "permalink": "/blog/mdx-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
             "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
             "title": "MDX Blog Post",
             "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
@@ -425,7 +637,6 @@
           "id": "long-blog-post",
           "metadata": {
             "permalink": "/blog/long-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
             "source": "@site/blog/2019-05-29-long-blog-post.md",
             "title": "Long Blog Post",
             "description": "This is the summary of a very long blog post,",
@@ -476,7 +687,6 @@
           "id": "first-blog-post",
           "metadata": {
             "permalink": "/blog/first-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
             "source": "@site/blog/2019-05-28-first-blog-post.md",
             "title": "First Blog Post",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",
@@ -670,5 +880,6 @@
     ]
   },
   "docusaurus-plugin-debug": {},
-  "docusaurus-theme-classic": {}
+  "docusaurus-theme-classic": {},
+  "docusaurus-plugin-pwa": {}
 }

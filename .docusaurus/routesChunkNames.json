@@ -148,46 +148,70 @@
     "content": "content---markdown-page-393-028",
     "__routeContextModule": "__routeContextModule---markdown-pagea-80-077"
   },
-  "/docs-8b5": {
+  "/docs-8cf": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398",
     "__routeContextModule": "__routeContextModule---docs-9-bf-205"
   },
+  "/docs/djinn-board/agent-69b": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-board-agent-782-88c"
+  },
+  "/docs/djinn-board/authentication-server-1f5": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-board-authentication-server-942-5c6"
+  },
+  "/docs/djinn-board/event-bus-f79": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-board-event-bus-5-f-6-8f7"
+  },
+  "/docs/djinn-board/gateway-983": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-board-gatewayd-63-dba"
+  },
+  "/docs/djinn-board/overview-ac4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-board-overview-1-f-4-d60"
+  },
+  "/docs/djinn-board/persistance-layer-11a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-board-persistance-layer-559-717"
+  },
+  "/docs/djinn-board/platform-11d": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-board-platform-681-c6a"
+  },
+  "/docs/djinn-board/web-client-165": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-board-web-client-47-b-fe9"
+  },
+  "/docs/djinn-client/gateway-fef": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-client-gatewayd-50-db5"
+  },
+  "/docs/djinn-client/overview-c27": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-client-overview-27-e-5ce"
+  },
+  "/docs/djinn-client/web-f7a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-client-web-285-530"
+  },
+  "/docs/djinn-cloud/community-edition-965": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-cloud-community-editiona-26-942"
+  },
+  "/docs/djinn-cloud/enterprise-edition-c29": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-cloud-enterprise-edition-1-dd-2c6"
+  },
+  "/docs/djinn-cloud/overview-4dc": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-cloud-overviewddb-571"
+  },
   "/docs/intro-aed": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
-  },
-  "/docs/tutorial-basics/congratulations-793": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-congratulations-822-958"
-  },
-  "/docs/tutorial-basics/create-a-blog-post-68e": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-blog-post-533-e85"
-  },
-  "/docs/tutorial-basics/create-a-document-c2d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-document-1-e-4-078"
-  },
-  "/docs/tutorial-basics/create-a-page-f44": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-create-a-page-5-c-8-e19"
-  },
-  "/docs/tutorial-basics/deploy-your-site-e46": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-deploy-your-sitef-55-a3f"
-  },
-  "/docs/tutorial-basics/markdown-features-4b7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-basics-markdown-features-18-c-a79"
-  },
-  "/docs/tutorial-extras/manage-docs-versions-fdd": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-manage-docs-versionsdff-6d4"
-  },
-  "/docs/tutorial-extras/translate-your-site-2d7": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-tutorial-extras-translate-your-sitee-44-ddf"
   },
   "/-18b": {
     "component": "component---site-src-pages-index-jsc-4-f-f99",

@@ -10,129 +10,209 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
+        "label": "Introduction",
         "href": "/docs/intro",
         "docId": "intro"
       },
       {
         "type": "category",
-        "label": "Tutorial - Basics",
+        "label": "Djinn Board",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Create a Page",
-            "href": "/docs/tutorial-basics/create-a-page",
-            "docId": "tutorial-basics/create-a-page"
+            "label": "Overview",
+            "href": "/docs/djinn-board/overview",
+            "docId": "djinn-board/overview"
           },
           {
             "type": "link",
-            "label": "Create a Document",
-            "href": "/docs/tutorial-basics/create-a-document",
-            "docId": "tutorial-basics/create-a-document"
+            "label": "Platform",
+            "href": "/docs/djinn-board/platform",
+            "docId": "djinn-board/platform"
           },
           {
             "type": "link",
-            "label": "Create a Blog Post",
-            "href": "/docs/tutorial-basics/create-a-blog-post",
-            "docId": "tutorial-basics/create-a-blog-post"
+            "label": "Persistance Layer",
+            "href": "/docs/djinn-board/persistance-layer",
+            "docId": "djinn-board/persistance-layer"
           },
           {
             "type": "link",
-            "label": "Markdown Features",
-            "href": "/docs/tutorial-basics/markdown-features",
-            "docId": "tutorial-basics/markdown-features"
+            "label": "Event Bus",
+            "href": "/docs/djinn-board/event-bus",
+            "docId": "djinn-board/event-bus"
           },
           {
             "type": "link",
-            "label": "Deploy your site",
-            "href": "/docs/tutorial-basics/deploy-your-site",
-            "docId": "tutorial-basics/deploy-your-site"
+            "label": "Gateway",
+            "href": "/docs/djinn-board/gateway",
+            "docId": "djinn-board/gateway"
           },
           {
             "type": "link",
-            "label": "Congratulations!",
-            "href": "/docs/tutorial-basics/congratulations",
-            "docId": "tutorial-basics/congratulations"
+            "label": "Authentication Server",
+            "href": "/docs/djinn-board/authentication-server",
+            "docId": "djinn-board/authentication-server"
+          },
+          {
+            "type": "link",
+            "label": "Web Client",
+            "href": "/docs/djinn-board/web-client",
+            "docId": "djinn-board/web-client"
+          },
+          {
+            "type": "link",
+            "label": "Agent",
+            "href": "/docs/djinn-board/agent",
+            "docId": "djinn-board/agent"
           }
         ]
       },
       {
         "type": "category",
-        "label": "Tutorial - Extras",
+        "label": "Djinn Cloud",
         "collapsible": true,
         "collapsed": true,
         "items": [
           {
             "type": "link",
-            "label": "Manage Docs Versions",
-            "href": "/docs/tutorial-extras/manage-docs-versions",
-            "docId": "tutorial-extras/manage-docs-versions"
+            "label": "Overview",
+            "href": "/docs/djinn-cloud/overview",
+            "docId": "djinn-cloud/overview"
           },
           {
             "type": "link",
-            "label": "Translate your site",
-            "href": "/docs/tutorial-extras/translate-your-site",
-            "docId": "tutorial-extras/translate-your-site"
+            "label": "Community Edition",
+            "href": "/docs/djinn-cloud/community-edition",
+            "docId": "djinn-cloud/community-edition"
+          },
+          {
+            "type": "link",
+            "label": "Enterprise Edition",
+            "href": "/docs/djinn-cloud/enterprise-edition",
+            "docId": "djinn-cloud/enterprise-edition"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Djinn Client",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/docs/djinn-client/overview",
+            "docId": "djinn-client/overview"
+          },
+          {
+            "type": "link",
+            "label": "Web",
+            "href": "/docs/djinn-client/web",
+            "docId": "djinn-client/web"
+          },
+          {
+            "type": "link",
+            "label": "Gateway",
+            "href": "/docs/djinn-client/gateway",
+            "docId": "djinn-client/gateway"
           }
         ]
       }
     ]
   },
   "docs": {
+    "djinn-board/agent": {
+      "id": "djinn-board/agent",
+      "title": "Agent",
+      "description": "This is a module that will handled the communication with the cloud, it talks with the cloud via gRPC, which uses proto buffers underneath.",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-board/authentication-server": {
+      "id": "djinn-board/authentication-server",
+      "title": "Authentication Server",
+      "description": "This is a OAuth 2.0 server, build in go, that handles the authentication of the users that wan't to control the board.",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-board/event-bus": {
+      "id": "djinn-board/event-bus",
+      "title": "Event Bus",
+      "description": "In the application all the comunication is going to be asynchrounous and is going to use an message queue to handle the request, the reason we are doing this is because is easy to scale the application using the asynchrounous nature of a publish-subscribe system.",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-board/gateway": {
+      "id": "djinn-board/gateway",
+      "title": "Gateway",
+      "description": "This is a service that is going to offer a graphql API to interact with the application from the outside world, is going to run in the port 5555 and applications can be built on top of the graphql.",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-board/overview": {
+      "id": "djinn-board/overview",
+      "title": "Overview",
+      "description": "This is the architecture for the application that is going to run inside the board,",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-board/persistance-layer": {
+      "id": "djinn-board/persistance-layer",
+      "title": "Persistance Layer",
+      "description": "This is the layer that is used to keep a persistant state of the system, is accesed by the Authentication Service, the Gateway and the platform.",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-board/platform": {
+      "id": "djinn-board/platform",
+      "title": "Platform",
+      "description": "This part of the architecture is going to handle the communication between the",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-board/web-client": {
+      "id": "djinn-board/web-client",
+      "title": "Web Client",
+      "description": "This is a web interface that is build in react and runs on top of the Djinn Gateway, it runs on port 80 and enables the users to configure and control the Djinn OS from a browser.",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-client/gateway": {
+      "id": "djinn-client/gateway",
+      "title": "Gateway",
+      "description": "The gateway clients are native applications (Android, iOS, macOS, Windows,",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-client/overview": {
+      "id": "djinn-client/overview",
+      "title": "Overview",
+      "description": "This is an application that is going to talk directly with the Djinn Gateway",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-client/web": {
+      "id": "djinn-client/web",
+      "title": "Web",
+      "description": "This is an application that is embbed in the environment that is running, this",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-cloud/community-edition": {
+      "id": "djinn-cloud/community-edition",
+      "title": "Community Edition",
+      "description": "This is totally open source and is target for a single tenancy installation, is going to be distributed by a docker image and use sqlite as a database.",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-cloud/enterprise-edition": {
+      "id": "djinn-cloud/enterprise-edition",
+      "title": "Enterprise Edition",
+      "description": "The enterprise edition is the managed service of the Djinn Cloud, it's build on top on Kubernetes and it supports multinancy.",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-cloud/overview": {
+      "id": "djinn-cloud/overview",
+      "title": "Overview",
+      "description": "Djinn is going to use the Open-core business model, which is the same that is used by:",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
-      "title": "Tutorial Intro",
-      "description": "Let's discover Docusaurus in less than 5 minutes.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/congratulations": {
-      "id": "tutorial-basics/congratulations",
-      "title": "Congratulations!",
-      "description": "You have just learned the basics of Docusaurus and made some changes to the initial template.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/create-a-blog-post": {
-      "id": "tutorial-basics/create-a-blog-post",
-      "title": "Create a Blog Post",
-      "description": "Docusaurus creates a page for each blog post, but also a blog index page, a tag system, an RSS feed...",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/create-a-document": {
-      "id": "tutorial-basics/create-a-document",
-      "title": "Create a Document",
-      "description": "Documents are groups of pages connected through:",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/create-a-page": {
-      "id": "tutorial-basics/create-a-page",
-      "title": "Create a Page",
-      "description": "Add Markdown or React files to src/pages to create a standalone page:",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/deploy-your-site": {
-      "id": "tutorial-basics/deploy-your-site",
-      "title": "Deploy your site",
-      "description": "Docusaurus is a static-site-generator (also called Jamstack).",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-basics/markdown-features": {
-      "id": "tutorial-basics/markdown-features",
-      "title": "Markdown Features",
-      "description": "Docusaurus supports Markdown and a few additional features.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/manage-docs-versions": {
-      "id": "tutorial-extras/manage-docs-versions",
-      "title": "Manage Docs Versions",
-      "description": "Docusaurus can manage multiple versions of your docs.",
-      "sidebar": "tutorialSidebar"
-    },
-    "tutorial-extras/translate-your-site": {
-      "id": "tutorial-extras/translate-your-site",
-      "title": "Translate your site",
-      "description": "Let's translate docs/intro.md to French.",
+      "title": "Introduction",
+      "description": "TODO Write the overall architecture",
       "sidebar": "tutorialSidebar"
     }
   }

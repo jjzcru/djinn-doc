@@ -1,0 +1,19 @@
+{
+  "unversionedId": "glosary",
+  "id": "glosary",
+  "title": "glosary",
+  "description": "",
+  "source": "@site/docs/glosary.md",
+  "sourceDirName": ".",
+  "slug": "/glosary",
+  "permalink": "/docs/glosary",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/glosary.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Translate your site",
+    "permalink": "/docs/tutorial-extras/translate-your-site"
+  }
+}
