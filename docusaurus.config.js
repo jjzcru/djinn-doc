@@ -40,7 +40,7 @@ const config = {
 				title: 'Djin',
 				logo: {
 					alt: 'Djinn Logo',
-					src: 'img/docusaurus.png',
+					src: 'img/logo.png',
 				},
 				items: [
 					{
@@ -123,7 +123,7 @@ const config = {
 					{
 						tagName: 'link',
 						rel: 'icon',
-						href: '/img/docusaurus.png',
+						href: '/img/logo.png',
 					},
 					{
 						tagName: 'link',
