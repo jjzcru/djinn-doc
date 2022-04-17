@@ -72,6 +72,20 @@
       },
       {
         "type": "category",
+        "label": "Djinn Cloud",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/docs/djinn-cloud/overview",
+            "docId": "djinn-cloud/overview"
+          }
+        ]
+      },
+      {
+        "type": "category",
         "label": "Tutorial - Basics",
         "collapsible": true,
         "collapsed": true,
@@ -183,6 +197,12 @@
       "id": "djinn-board/web-client",
       "title": "Web Client",
       "description": "This is a web interface that is build in react and runs on top of the Djinn Gateway, it runs on port 80 and enables the users to configure and control the Djinn OS from a browser.",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-cloud/overview": {
+      "id": "djinn-cloud/overview",
+      "title": "Overview",
+      "description": "Djinn is going to use the Open-core business model, which is the same that is used by:",
       "sidebar": "tutorialSidebar"
     },
     "intro": {

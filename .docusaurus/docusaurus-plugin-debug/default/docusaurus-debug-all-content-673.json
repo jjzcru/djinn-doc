@@ -42,8 +42,8 @@
                 "permalink": "/docs/djinn-board/web-client"
               },
               "next": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "title": "Overview",
+                "permalink": "/docs/djinn-cloud/overview"
               }
             },
             {
@@ -241,6 +241,34 @@
               }
             },
             {
+              "unversionedId": "djinn-cloud/overview",
+              "id": "djinn-cloud/overview",
+              "title": "Overview",
+              "description": "Djinn is going to use the Open-core business model, which is the same that is used by:",
+              "source": "@site/docs/djinn-cloud/overview.md",
+              "sourceDirName": "djinn-cloud",
+              "slug": "/djinn-cloud/overview",
+              "permalink": "/docs/djinn-cloud/overview",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-cloud/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "id": "overview",
+                "title": "Overview",
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Agent",
+                "permalink": "/docs/djinn-board/agent"
+              },
+              "next": {
+                "title": "Create a Page",
+                "permalink": "/docs/tutorial-basics/create-a-page"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
               "title": "Introduction",
@@ -358,8 +386,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Agent",
-                "permalink": "/docs/djinn-board/agent"
+                "title": "Overview",
+                "permalink": "/docs/djinn-cloud/overview"
               },
               "next": {
                 "title": "Create a Document",
@@ -510,6 +538,18 @@
                   {
                     "type": "doc",
                     "id": "djinn-board/agent"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Djinn Cloud",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "djinn-cloud/overview"
                   }
                 ]
               },

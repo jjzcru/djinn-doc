@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','116'),
+    component: ComponentCreator('/docs','890'),
     routes: [
       {
         path: '/docs/djinn-board/agent',
@@ -147,6 +147,12 @@ export default [
       {
         path: '/docs/djinn-board/web-client',
         component: ComponentCreator('/docs/djinn-board/web-client','165'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-cloud/overview',
+        component: ComponentCreator('/docs/djinn-cloud/overview','4dc'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
