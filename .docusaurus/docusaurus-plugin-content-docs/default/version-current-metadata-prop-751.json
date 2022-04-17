@@ -10,9 +10,29 @@
     "tutorialSidebar": [
       {
         "type": "link",
-        "label": "Tutorial Intro",
+        "label": "Introduction",
         "href": "/docs/intro",
         "docId": "intro"
+      },
+      {
+        "type": "category",
+        "label": "Djinn Board",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/docs/djinn-board/overview",
+            "docId": "djinn-board/overview"
+          },
+          {
+            "type": "link",
+            "label": "Platform",
+            "href": "/docs/djinn-board/platform",
+            "docId": "djinn-board/platform"
+          }
+        ]
       },
       {
         "type": "category",
@@ -81,9 +101,21 @@
     ]
   },
   "docs": {
+    "djinn-board/overview": {
+      "id": "djinn-board/overview",
+      "title": "Overview",
+      "description": "This is the architecture for the application that is going to run inside the board,",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-board/platform": {
+      "id": "djinn-board/platform",
+      "title": "Platform",
+      "description": "This part of the architecture is going to handle the communication between the",
+      "sidebar": "tutorialSidebar"
+    },
     "intro": {
       "id": "intro",
-      "title": "Tutorial Intro",
+      "title": "Introduction",
       "description": "Let's discover Docusaurus in less than 5 minutes.",
       "sidebar": "tutorialSidebar"
     },

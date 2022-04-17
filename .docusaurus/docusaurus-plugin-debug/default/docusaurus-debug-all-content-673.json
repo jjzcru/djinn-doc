@@ -19,9 +19,63 @@
           "contentPathLocalized": "/Users/jjzcru/Workspace/Djinn/djinn/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
+              "unversionedId": "djinn-board/overview",
+              "id": "djinn-board/overview",
+              "title": "Overview",
+              "description": "This is the architecture for the application that is going to run inside the board,",
+              "source": "@site/docs/djinn-board/overview.md",
+              "sourceDirName": "djinn-board",
+              "slug": "/djinn-board/overview",
+              "permalink": "/docs/djinn-board/overview",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/overview.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 1,
+              "frontMatter": {
+                "sidebar_position": 1
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Introduction",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Platform",
+                "permalink": "/docs/djinn-board/platform"
+              }
+            },
+            {
+              "unversionedId": "djinn-board/platform",
+              "id": "djinn-board/platform",
+              "title": "Platform",
+              "description": "This part of the architecture is going to handle the communication between the",
+              "source": "@site/docs/djinn-board/platform.md",
+              "sourceDirName": "djinn-board",
+              "slug": "/djinn-board/platform",
+              "permalink": "/docs/djinn-board/platform",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/platform.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "platform",
+                "title": "Platform",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/djinn-board/overview"
+              },
+              "next": {
+                "title": "Create a Page",
+                "permalink": "/docs/tutorial-basics/create-a-page"
+              }
+            },
+            {
               "unversionedId": "intro",
               "id": "intro",
-              "title": "Tutorial Intro",
+              "title": "Introduction",
               "description": "Let's discover Docusaurus in less than 5 minutes.",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
@@ -36,8 +90,8 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "title": "Overview",
+                "permalink": "/docs/djinn-board/overview"
               }
             },
             {
@@ -136,8 +190,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Tutorial Intro",
-                "permalink": "/docs/intro"
+                "title": "Platform",
+                "permalink": "/docs/djinn-board/platform"
               },
               "next": {
                 "title": "Create a Document",
@@ -253,6 +307,22 @@
               },
               {
                 "type": "category",
+                "label": "Djinn Board",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "djinn-board/overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-board/platform"
+                  }
+                ]
+              },
+              {
+                "type": "category",
                 "label": "Tutorial - Basics",
                 "collapsible": true,
                 "collapsed": true,
@@ -315,7 +385,6 @@
           "id": "welcome",
           "metadata": {
             "permalink": "/blog/welcome",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-26-welcome/index.md",
             "source": "@site/blog/2021-08-26-welcome/index.md",
             "title": "Welcome",
             "description": "Docusaurus blogging features are powered by the blog plugin.",
@@ -377,7 +446,6 @@
           "id": "mdx-blog-post",
           "metadata": {
             "permalink": "/blog/mdx-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2021-08-01-mdx-blog-post.mdx",
             "source": "@site/blog/2021-08-01-mdx-blog-post.mdx",
             "title": "MDX Blog Post",
             "description": "Blog posts support Docusaurus Markdown features, such as MDX.",
@@ -425,7 +493,6 @@
           "id": "long-blog-post",
           "metadata": {
             "permalink": "/blog/long-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-29-long-blog-post.md",
             "source": "@site/blog/2019-05-29-long-blog-post.md",
             "title": "Long Blog Post",
             "description": "This is the summary of a very long blog post,",
@@ -476,7 +543,6 @@
           "id": "first-blog-post",
           "metadata": {
             "permalink": "/blog/first-blog-post",
-            "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/blog/2019-05-28-first-blog-post.md",
             "source": "@site/blog/2019-05-28-first-blog-post.md",
             "title": "First Blog Post",
             "description": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque elementum dignissim ultricies. Fusce rhoncus ipsum tempor eros aliquam consequat. Lorem ipsum dolor sit amet",

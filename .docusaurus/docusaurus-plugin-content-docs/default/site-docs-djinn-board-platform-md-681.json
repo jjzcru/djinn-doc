@@ -1,0 +1,28 @@
+{
+  "unversionedId": "djinn-board/platform",
+  "id": "djinn-board/platform",
+  "title": "Platform",
+  "description": "This part of the architecture is going to handle the communication between the",
+  "source": "@site/docs/djinn-board/platform.md",
+  "sourceDirName": "djinn-board",
+  "slug": "/djinn-board/platform",
+  "permalink": "/docs/djinn-board/platform",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/platform.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "platform",
+    "title": "Platform",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/djinn-board/overview"
+  },
+  "next": {
+    "title": "Create a Page",
+    "permalink": "/docs/tutorial-basics/create-a-page"
+  }
+}

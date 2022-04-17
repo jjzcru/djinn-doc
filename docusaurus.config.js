@@ -19,15 +19,9 @@ const config = {
 		[
 			'classic',
 			/** @type {import('@docusaurus/preset-classic').Options} */
-			({
+			{
 				docs: {
 					sidebarPath: require.resolve('./sidebars.js'),
-					// Please change this to your repo.
-					editUrl:
-						'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
-				},
-				blog: {
-					showReadingTime: true,
 					// Please change this to your repo.
 					editUrl:
 						'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
@@ -35,7 +29,7 @@ const config = {
 				theme: {
 					customCss: require.resolve('./src/css/custom.css'),
 				},
-			}),
+			},
 		],
 	],
 
@@ -55,6 +49,12 @@ const config = {
 						position: 'left',
 						label: 'Architecture',
 					},
+					/*{
+						type: 'doc',
+						docId: 'glossary',
+						position: 'left',
+						label: 'Glossary',
+					},*/
 					// { to: '/blog', label: 'Blog', position: 'left' },
 					{
 						href: 'https://github.com/jjzcru/djinn',
@@ -67,11 +67,11 @@ const config = {
 				style: 'dark',
 				links: [
 					{
-						title: 'Docs',
+						title: 'Architecture',
 						items: [
 							{
-								label: 'Tutorial',
-								to: '/docs/intro',
+								label: 'Djinn Board',
+								to: '/docs/djinn-board/overview',
 							},
 						],
 					},
@@ -79,16 +79,12 @@ const config = {
 						title: 'Community',
 						items: [
 							{
-								label: 'Stack Overflow',
-								href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-							},
-							{
-								label: 'Discord',
-								href: 'https://discordapp.com/invite/docusaurus',
+								label: 'Github',
+								href: 'https://github.com/jjzcru/djinn',
 							},
 							{
 								label: 'Twitter',
-								href: 'https://twitter.com/docusaurus',
+								href: 'https://twitter.com/jjzcru',
 							},
 						],
 					},

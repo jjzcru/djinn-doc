@@ -1,0 +1,23 @@
+{
+  "unversionedId": "djinn-board/authentication-server",
+  "id": "djinn-board/authentication-server",
+  "title": "authentication-server",
+  "description": "",
+  "source": "@site/docs/djinn-board/authentication-server.md",
+  "sourceDirName": "djinn-board",
+  "slug": "/djinn-board/authentication-server",
+  "permalink": "/docs/djinn-board/authentication-server",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/authentication-server.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "agent",
+    "permalink": "/docs/djinn-board/agent"
+  },
+  "next": {
+    "title": "event-bus",
+    "permalink": "/docs/djinn-board/event-bus"
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "unversionedId": "djinn-board/event-bus",
+  "id": "djinn-board/event-bus",
+  "title": "event-bus",
+  "description": "",
+  "source": "@site/docs/djinn-board/event-bus.md",
+  "sourceDirName": "djinn-board",
+  "slug": "/djinn-board/event-bus",
+  "permalink": "/docs/djinn-board/event-bus",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/event-bus.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "authentication-server",
+    "permalink": "/docs/djinn-board/authentication-server"
+  },
+  "next": {
+    "title": "gateway",
+    "permalink": "/docs/djinn-board/gateway"
+  }
+}

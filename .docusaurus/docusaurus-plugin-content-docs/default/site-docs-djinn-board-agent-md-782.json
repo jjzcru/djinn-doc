@@ -1,0 +1,23 @@
+{
+  "unversionedId": "djinn-board/agent",
+  "id": "djinn-board/agent",
+  "title": "agent",
+  "description": "",
+  "source": "@site/docs/djinn-board/agent.md",
+  "sourceDirName": "djinn-board",
+  "slug": "/djinn-board/agent",
+  "permalink": "/docs/djinn-board/agent",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/agent.md",
+  "tags": [],
+  "version": "current",
+  "frontMatter": {},
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Glossary",
+    "permalink": "/docs/djinn-board/glossary"
+  },
+  "next": {
+    "title": "authentication-server",
+    "permalink": "/docs/djinn-board/authentication-server"
+  }
+}

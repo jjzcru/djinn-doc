@@ -11,6 +11,16 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "djinn-board/overview",
+              "path": "/docs/djinn-board/overview",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/platform",
+              "path": "/docs/djinn-board/platform",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
               "sidebar": "tutorialSidebar"

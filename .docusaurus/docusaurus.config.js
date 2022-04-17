@@ -21,10 +21,6 @@ export default {
           "sidebarPath": "/Users/jjzcru/Workspace/Djinn/djinn/sidebars.js",
           "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
         },
-        "blog": {
-          "showReadingTime": true,
-          "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/"
-        },
         "theme": {
           "customCss": "/Users/jjzcru/Workspace/Djinn/djinn/src/css/custom.css"
         }
@@ -57,11 +53,11 @@ export default {
       "style": "dark",
       "links": [
         {
-          "title": "Docs",
+          "title": "Architecture",
           "items": [
             {
-              "label": "Tutorial",
-              "to": "/docs/intro"
+              "label": "Djinn Board",
+              "to": "/docs/djinn-board/overview"
             }
           ]
         },
@@ -69,16 +65,12 @@ export default {
           "title": "Community",
           "items": [
             {
-              "label": "Stack Overflow",
-              "href": "https://stackoverflow.com/questions/tagged/docusaurus"
-            },
-            {
-              "label": "Discord",
-              "href": "https://discordapp.com/invite/docusaurus"
+              "label": "Github",
+              "href": "https://github.com/jjzcru/djinn"
             },
             {
               "label": "Twitter",
-              "href": "https://twitter.com/docusaurus"
+              "href": "https://twitter.com/jjzcru"
             }
           ]
         }
