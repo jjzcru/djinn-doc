@@ -100,8 +100,32 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','5ce'),
+    component: ComponentCreator('/docs','116'),
     routes: [
+      {
+        path: '/docs/djinn-board/agent',
+        component: ComponentCreator('/docs/djinn-board/agent','69b'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-board/authentication-server',
+        component: ComponentCreator('/docs/djinn-board/authentication-server','1f5'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-board/event-bus',
+        component: ComponentCreator('/docs/djinn-board/event-bus','f79'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-board/gateway',
+        component: ComponentCreator('/docs/djinn-board/gateway','983'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
       {
         path: '/docs/djinn-board/overview',
         component: ComponentCreator('/docs/djinn-board/overview','ac4'),
@@ -109,8 +133,20 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/djinn-board/persistance-layer',
+        component: ComponentCreator('/docs/djinn-board/persistance-layer','11a'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/djinn-board/platform',
         component: ComponentCreator('/docs/djinn-board/platform','11d'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-board/web-client',
+        component: ComponentCreator('/docs/djinn-board/web-client','165'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

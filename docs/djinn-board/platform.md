@@ -65,3 +65,13 @@ The reason for this naming convention is that it gives the maintainers the flexi
 
 
 > Go plugins only works on Unix based system like macOS or Linux, since we are already providing the hardware and the installation this is not going to be an issue since we are using Linux in the board.
+
+## Controller
+
+The controllers is a modules that handles the communication between the plugins and the rest of the system, once a plugin is installed is going to store the plugin metadata and configuration into the persistance layer.
+
+Each plugin is going to provide a resource definition for the:
+- The devices that it controls
+- The plugin itself
+
+Additionally to this resources the controller also works as a gatekeeper for other resources that exist within the board like control access and device grouping.

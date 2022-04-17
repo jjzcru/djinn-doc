@@ -1,8 +1,8 @@
 {
   "unversionedId": "djinn-board/gateway",
   "id": "djinn-board/gateway",
-  "title": "gateway",
-  "description": "",
+  "title": "Gateway",
+  "description": "This is a service that is going to offer a graphql API to interact with the application from the outside world, is going to run in the port 5555 and applications can be built on top of the graphql.",
   "source": "@site/docs/djinn-board/gateway.md",
   "sourceDirName": "djinn-board",
   "slug": "/djinn-board/gateway",
@@ -10,14 +10,19 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/gateway.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "gateway",
+    "title": "Gateway",
+    "sidebar_position": 5
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "event-bus",
+    "title": "Event Bus",
     "permalink": "/docs/djinn-board/event-bus"
   },
   "next": {
-    "title": "persistance-layer",
-    "permalink": "/docs/djinn-board/persistance-layer"
+    "title": "Authentication Server",
+    "permalink": "/docs/djinn-board/authentication-server"
   }
 }

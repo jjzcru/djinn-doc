@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Platform",
-    "permalink": "/docs/djinn-board/platform"
+    "title": "Agent",
+    "permalink": "/docs/djinn-board/agent"
   },
   "next": {
     "title": "Create a Document",

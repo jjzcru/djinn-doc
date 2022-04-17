@@ -32,7 +32,7 @@ export default {
       "title": "Djin",
       "logo": {
         "alt": "Djinn Logo",
-        "src": "img/logo.svg"
+        "src": "img/docusaurus.png"
       },
       "items": [
         {
@@ -75,7 +75,7 @@ export default {
           ]
         }
       ],
-      "copyright": "Copyright © 2022 Djinn, Fennex. Built with Docusaurus."
+      "copyright": "Djinn 🧞‍♂️. Built with Docusaurus."
     },
     "prism": {
       "theme": {

@@ -11,13 +11,43 @@
           "mainDocId": "intro",
           "docs": [
             {
+              "id": "djinn-board/agent",
+              "path": "/docs/djinn-board/agent",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/authentication-server",
+              "path": "/docs/djinn-board/authentication-server",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/event-bus",
+              "path": "/docs/djinn-board/event-bus",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/gateway",
+              "path": "/docs/djinn-board/gateway",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "djinn-board/overview",
               "path": "/docs/djinn-board/overview",
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "djinn-board/persistance-layer",
+              "path": "/docs/djinn-board/persistance-layer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "djinn-board/platform",
               "path": "/docs/djinn-board/platform",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/web-client",
+              "path": "/docs/djinn-board/web-client",
               "sidebar": "tutorialSidebar"
             },
             {
