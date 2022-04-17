@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Platform",
-    "permalink": "/docs/djinn-board/platform"
+    "title": "Persistance Layer",
+    "permalink": "/docs/djinn-board/persistance-layer"
   },
   "next": {
     "title": "Create a Document",

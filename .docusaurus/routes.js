@@ -100,11 +100,17 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','5ce'),
+    component: ComponentCreator('/docs','749'),
     routes: [
       {
         path: '/docs/djinn-board/overview',
         component: ComponentCreator('/docs/djinn-board/overview','ac4'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/djinn-board/persistance-layer',
+        component: ComponentCreator('/docs/djinn-board/persistance-layer','11a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

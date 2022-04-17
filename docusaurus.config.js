@@ -40,7 +40,7 @@ const config = {
 				title: 'Djin',
 				logo: {
 					alt: 'Djinn Logo',
-					src: 'img/logo.svg',
+					src: 'img/docusaurus.png',
 				},
 				items: [
 					{
@@ -102,7 +102,7 @@ const config = {
 						],
 					},*/
 				],
-				copyright: `Copyright © ${new Date().getFullYear()} Djinn, Fennex. Built with Docusaurus.`,
+				copyright: `Djinn 🧞‍♂️. Built with Docusaurus.`,
 			},
 			prism: {
 				theme: lightCodeTheme,

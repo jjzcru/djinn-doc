@@ -1,8 +1,8 @@
 {
   "unversionedId": "djinn-board/persistance-layer",
   "id": "djinn-board/persistance-layer",
-  "title": "persistance-layer",
-  "description": "",
+  "title": "Persistance Layer",
+  "description": "This is the layer that is used to keep a persistant state of the system, is accesed by the Authentication Service, the Gateway and the platform.",
   "source": "@site/docs/djinn-board/persistance-layer.md",
   "sourceDirName": "djinn-board",
   "slug": "/djinn-board/persistance-layer",
@@ -10,14 +10,19 @@
   "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/persistance-layer.md",
   "tags": [],
   "version": "current",
-  "frontMatter": {},
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "persistance-layer",
+    "title": "Persistance Layer",
+    "sidebar_position": 3
+  },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "gateway",
-    "permalink": "/docs/djinn-board/gateway"
+    "title": "Platform",
+    "permalink": "/docs/djinn-board/platform"
   },
   "next": {
-    "title": "web-client",
-    "permalink": "/docs/djinn-board/web-client"
+    "title": "Create a Page",
+    "permalink": "/docs/tutorial-basics/create-a-page"
   }
 }

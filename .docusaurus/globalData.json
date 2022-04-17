@@ -16,6 +16,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "djinn-board/persistance-layer",
+              "path": "/docs/djinn-board/persistance-layer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "djinn-board/platform",
               "path": "/docs/djinn-board/platform",
               "sidebar": "tutorialSidebar"

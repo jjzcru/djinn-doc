@@ -31,6 +31,12 @@
             "label": "Platform",
             "href": "/docs/djinn-board/platform",
             "docId": "djinn-board/platform"
+          },
+          {
+            "type": "link",
+            "label": "Persistance Layer",
+            "href": "/docs/djinn-board/persistance-layer",
+            "docId": "djinn-board/persistance-layer"
           }
         ]
       },
@@ -105,6 +111,12 @@
       "id": "djinn-board/overview",
       "title": "Overview",
       "description": "This is the architecture for the application that is going to run inside the board,",
+      "sidebar": "tutorialSidebar"
+    },
+    "djinn-board/persistance-layer": {
+      "id": "djinn-board/persistance-layer",
+      "title": "Persistance Layer",
+      "description": "This is the layer that is used to keep a persistant state of the system, is accesed by the Authentication Service, the Gateway and the platform.",
       "sidebar": "tutorialSidebar"
     },
     "djinn-board/platform": {

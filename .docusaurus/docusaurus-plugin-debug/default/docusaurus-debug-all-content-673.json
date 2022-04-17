@@ -45,6 +45,34 @@
               }
             },
             {
+              "unversionedId": "djinn-board/persistance-layer",
+              "id": "djinn-board/persistance-layer",
+              "title": "Persistance Layer",
+              "description": "This is the layer that is used to keep a persistant state of the system, is accesed by the Authentication Service, the Gateway and the platform.",
+              "source": "@site/docs/djinn-board/persistance-layer.md",
+              "sourceDirName": "djinn-board",
+              "slug": "/djinn-board/persistance-layer",
+              "permalink": "/docs/djinn-board/persistance-layer",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/persistance-layer.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "persistance-layer",
+                "title": "Persistance Layer",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Platform",
+                "permalink": "/docs/djinn-board/platform"
+              },
+              "next": {
+                "title": "Create a Page",
+                "permalink": "/docs/tutorial-basics/create-a-page"
+              }
+            },
+            {
               "unversionedId": "djinn-board/platform",
               "id": "djinn-board/platform",
               "title": "Platform",
@@ -68,8 +96,8 @@
                 "permalink": "/docs/djinn-board/overview"
               },
               "next": {
-                "title": "Create a Page",
-                "permalink": "/docs/tutorial-basics/create-a-page"
+                "title": "Persistance Layer",
+                "permalink": "/docs/djinn-board/persistance-layer"
               }
             },
             {
@@ -190,8 +218,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Platform",
-                "permalink": "/docs/djinn-board/platform"
+                "title": "Persistance Layer",
+                "permalink": "/docs/djinn-board/persistance-layer"
               },
               "next": {
                 "title": "Create a Document",
@@ -318,6 +346,10 @@
                   {
                     "type": "doc",
                     "id": "djinn-board/platform"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-board/persistance-layer"
                   }
                 ]
               },
