@@ -19,15 +19,15 @@
           "contentPathLocalized": "/Users/jjzcru/Workspace/Djinn/djinn/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "djinn-board/agent",
-              "id": "djinn-board/agent",
+              "unversionedId": "djinn-board/architecture/agent",
+              "id": "djinn-board/architecture/agent",
               "title": "Agent",
               "description": "This is a module that will handled the communication with the cloud, it talks with the cloud via gRPC, which uses proto buffers underneath.",
-              "source": "@site/docs/djinn-board/agent.md",
-              "sourceDirName": "djinn-board",
-              "slug": "/djinn-board/agent",
-              "permalink": "/docs/djinn-board/agent",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/agent.md",
+              "source": "@site/docs/djinn-board/architecture/agent.md",
+              "sourceDirName": "djinn-board/architecture",
+              "slug": "/djinn-board/architecture/agent",
+              "permalink": "/docs/djinn-board/architecture/agent",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/architecture/agent.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 8,
@@ -39,7 +39,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Web Client",
-                "permalink": "/docs/djinn-board/web-client"
+                "permalink": "/docs/djinn-board/architecture/web-client"
               },
               "next": {
                 "title": "Overview",
@@ -47,15 +47,15 @@
               }
             },
             {
-              "unversionedId": "djinn-board/authentication-server",
-              "id": "djinn-board/authentication-server",
+              "unversionedId": "djinn-board/architecture/authentication-server",
+              "id": "djinn-board/architecture/authentication-server",
               "title": "Authentication Server",
               "description": "This is a OAuth 2.0 server, build in go, that handles the authentication of the users that wan't to control the board.",
-              "source": "@site/docs/djinn-board/authentication-server.md",
-              "sourceDirName": "djinn-board",
-              "slug": "/djinn-board/authentication-server",
-              "permalink": "/docs/djinn-board/authentication-server",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/authentication-server.md",
+              "source": "@site/docs/djinn-board/architecture/authentication-server.md",
+              "sourceDirName": "djinn-board/architecture",
+              "slug": "/djinn-board/architecture/authentication-server",
+              "permalink": "/docs/djinn-board/architecture/authentication-server",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/architecture/authentication-server.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 6,
@@ -67,23 +67,23 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Gateway",
-                "permalink": "/docs/djinn-board/gateway"
+                "permalink": "/docs/djinn-board/architecture/gateway"
               },
               "next": {
                 "title": "Web Client",
-                "permalink": "/docs/djinn-board/web-client"
+                "permalink": "/docs/djinn-board/architecture/web-client"
               }
             },
             {
-              "unversionedId": "djinn-board/event-bus",
-              "id": "djinn-board/event-bus",
+              "unversionedId": "djinn-board/architecture/event-bus",
+              "id": "djinn-board/architecture/event-bus",
               "title": "Event Bus",
               "description": "In the application all the comunication is going to be asynchrounous and is going to use an message queue to handle the request, the reason we are doing this is because is easy to scale the application using the asynchrounous nature of a publish-subscribe system.",
-              "source": "@site/docs/djinn-board/event-bus.md",
-              "sourceDirName": "djinn-board",
-              "slug": "/djinn-board/event-bus",
-              "permalink": "/docs/djinn-board/event-bus",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/event-bus.md",
+              "source": "@site/docs/djinn-board/architecture/event-bus.md",
+              "sourceDirName": "djinn-board/architecture",
+              "slug": "/djinn-board/architecture/event-bus",
+              "permalink": "/docs/djinn-board/architecture/event-bus",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/architecture/event-bus.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 4,
@@ -95,23 +95,23 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Persistance Layer",
-                "permalink": "/docs/djinn-board/persistance-layer"
+                "permalink": "/docs/djinn-board/architecture/persistance-layer"
               },
               "next": {
                 "title": "Gateway",
-                "permalink": "/docs/djinn-board/gateway"
+                "permalink": "/docs/djinn-board/architecture/gateway"
               }
             },
             {
-              "unversionedId": "djinn-board/gateway",
-              "id": "djinn-board/gateway",
+              "unversionedId": "djinn-board/architecture/gateway",
+              "id": "djinn-board/architecture/gateway",
               "title": "Gateway",
               "description": "This is a service that is going to offer a graphql API to interact with the application from the outside world, is going to run in the port 5555 and applications can be built on top of the graphql.",
-              "source": "@site/docs/djinn-board/gateway.md",
-              "sourceDirName": "djinn-board",
-              "slug": "/djinn-board/gateway",
-              "permalink": "/docs/djinn-board/gateway",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/gateway.md",
+              "source": "@site/docs/djinn-board/architecture/gateway.md",
+              "sourceDirName": "djinn-board/architecture",
+              "slug": "/djinn-board/architecture/gateway",
+              "permalink": "/docs/djinn-board/architecture/gateway",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/architecture/gateway.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 5,
@@ -123,11 +123,121 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Event Bus",
-                "permalink": "/docs/djinn-board/event-bus"
+                "permalink": "/docs/djinn-board/architecture/event-bus"
               },
               "next": {
                 "title": "Authentication Server",
-                "permalink": "/docs/djinn-board/authentication-server"
+                "permalink": "/docs/djinn-board/architecture/authentication-server"
+              }
+            },
+            {
+              "unversionedId": "djinn-board/architecture/persistance-layer",
+              "id": "djinn-board/architecture/persistance-layer",
+              "title": "Persistance Layer",
+              "description": "This is the layer that is used to keep a persistant state of the system, is accesed by the Authentication Service, the Gateway and the platform.",
+              "source": "@site/docs/djinn-board/architecture/persistance-layer.md",
+              "sourceDirName": "djinn-board/architecture",
+              "slug": "/djinn-board/architecture/persistance-layer",
+              "permalink": "/docs/djinn-board/architecture/persistance-layer",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/architecture/persistance-layer.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "persistance-layer",
+                "title": "Persistance Layer",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Platform",
+                "permalink": "/docs/djinn-board/architecture/platform"
+              },
+              "next": {
+                "title": "Event Bus",
+                "permalink": "/docs/djinn-board/architecture/event-bus"
+              }
+            },
+            {
+              "unversionedId": "djinn-board/architecture/platform",
+              "id": "djinn-board/architecture/platform",
+              "title": "Platform",
+              "description": "This part of the architecture is going to handle the communication between the",
+              "source": "@site/docs/djinn-board/architecture/platform.md",
+              "sourceDirName": "djinn-board/architecture",
+              "slug": "/djinn-board/architecture/platform",
+              "permalink": "/docs/djinn-board/architecture/platform",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/architecture/platform.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "id": "platform",
+                "title": "Platform",
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Installation",
+                "permalink": "/docs/djinn-board/installation"
+              },
+              "next": {
+                "title": "Persistance Layer",
+                "permalink": "/docs/djinn-board/architecture/persistance-layer"
+              }
+            },
+            {
+              "unversionedId": "djinn-board/architecture/web-client",
+              "id": "djinn-board/architecture/web-client",
+              "title": "Web Client",
+              "description": "This is a web interface that is build in react and runs on top of the Djinn Gateway, it runs on port 80 and enables the users to configure and control the Djinn OS from a browser.",
+              "source": "@site/docs/djinn-board/architecture/web-client.md",
+              "sourceDirName": "djinn-board/architecture",
+              "slug": "/djinn-board/architecture/web-client",
+              "permalink": "/docs/djinn-board/architecture/web-client",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/architecture/web-client.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 7,
+              "frontMatter": {
+                "id": "web-client",
+                "title": "Web Client",
+                "sidebar_position": 7
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Authentication Server",
+                "permalink": "/docs/djinn-board/architecture/authentication-server"
+              },
+              "next": {
+                "title": "Agent",
+                "permalink": "/docs/djinn-board/architecture/agent"
+              }
+            },
+            {
+              "unversionedId": "djinn-board/installation",
+              "id": "djinn-board/installation",
+              "title": "Installation",
+              "description": "We already describe that the board is a raspberry pi 4 board which come with an integrated Wi-fi module, that we are going to use to create an access point to which a device is going to connect and then set the credentials required to connect to the user network and other installation requirements.",
+              "source": "@site/docs/djinn-board/installation.md",
+              "sourceDirName": "djinn-board",
+              "slug": "/djinn-board/installation",
+              "permalink": "/docs/djinn-board/installation",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/installation.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 2,
+              "frontMatter": {
+                "sidebar_position": 2
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Overview",
+                "permalink": "/docs/djinn-board/overview"
+              },
+              "next": {
+                "title": "Platform",
+                "permalink": "/docs/djinn-board/architecture/platform"
               }
             },
             {
@@ -152,92 +262,8 @@
                 "permalink": "/docs/intro"
               },
               "next": {
-                "title": "Platform",
-                "permalink": "/docs/djinn-board/platform"
-              }
-            },
-            {
-              "unversionedId": "djinn-board/persistance-layer",
-              "id": "djinn-board/persistance-layer",
-              "title": "Persistance Layer",
-              "description": "This is the layer that is used to keep a persistant state of the system, is accesed by the Authentication Service, the Gateway and the platform.",
-              "source": "@site/docs/djinn-board/persistance-layer.md",
-              "sourceDirName": "djinn-board",
-              "slug": "/djinn-board/persistance-layer",
-              "permalink": "/docs/djinn-board/persistance-layer",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/persistance-layer.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 3,
-              "frontMatter": {
-                "id": "persistance-layer",
-                "title": "Persistance Layer",
-                "sidebar_position": 3
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Platform",
-                "permalink": "/docs/djinn-board/platform"
-              },
-              "next": {
-                "title": "Event Bus",
-                "permalink": "/docs/djinn-board/event-bus"
-              }
-            },
-            {
-              "unversionedId": "djinn-board/platform",
-              "id": "djinn-board/platform",
-              "title": "Platform",
-              "description": "This part of the architecture is going to handle the communication between the",
-              "source": "@site/docs/djinn-board/platform.md",
-              "sourceDirName": "djinn-board",
-              "slug": "/djinn-board/platform",
-              "permalink": "/docs/djinn-board/platform",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/platform.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 2,
-              "frontMatter": {
-                "id": "platform",
-                "title": "Platform",
-                "sidebar_position": 2
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Overview",
-                "permalink": "/docs/djinn-board/overview"
-              },
-              "next": {
-                "title": "Persistance Layer",
-                "permalink": "/docs/djinn-board/persistance-layer"
-              }
-            },
-            {
-              "unversionedId": "djinn-board/web-client",
-              "id": "djinn-board/web-client",
-              "title": "Web Client",
-              "description": "This is a web interface that is build in react and runs on top of the Djinn Gateway, it runs on port 80 and enables the users to configure and control the Djinn OS from a browser.",
-              "source": "@site/docs/djinn-board/web-client.md",
-              "sourceDirName": "djinn-board",
-              "slug": "/djinn-board/web-client",
-              "permalink": "/docs/djinn-board/web-client",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/web-client.md",
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 7,
-              "frontMatter": {
-                "id": "web-client",
-                "title": "Web Client",
-                "sidebar_position": 7
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "Authentication Server",
-                "permalink": "/docs/djinn-board/authentication-server"
-              },
-              "next": {
-                "title": "Agent",
-                "permalink": "/docs/djinn-board/agent"
+                "title": "Installation",
+                "permalink": "/docs/djinn-board/installation"
               }
             },
             {
@@ -397,7 +423,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Agent",
-                "permalink": "/docs/djinn-board/agent"
+                "permalink": "/docs/djinn-board/architecture/agent"
               },
               "next": {
                 "title": "Community Edition",
@@ -445,31 +471,43 @@
                   },
                   {
                     "type": "doc",
-                    "id": "djinn-board/platform"
+                    "id": "djinn-board/installation"
                   },
                   {
-                    "type": "doc",
-                    "id": "djinn-board/persistance-layer"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "djinn-board/event-bus"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "djinn-board/gateway"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "djinn-board/authentication-server"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "djinn-board/web-client"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "djinn-board/agent"
+                    "type": "category",
+                    "label": "Architecture",
+                    "collapsible": true,
+                    "collapsed": true,
+                    "items": [
+                      {
+                        "type": "doc",
+                        "id": "djinn-board/architecture/platform"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "djinn-board/architecture/persistance-layer"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "djinn-board/architecture/event-bus"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "djinn-board/architecture/gateway"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "djinn-board/architecture/authentication-server"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "djinn-board/architecture/web-client"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "djinn-board/architecture/agent"
+                      }
+                    ]
                   }
                 ]
               },

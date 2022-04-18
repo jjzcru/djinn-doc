@@ -19,7 +19,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Agent",
-    "permalink": "/docs/djinn-board/agent"
+    "permalink": "/docs/djinn-board/architecture/agent"
   },
   "next": {
     "title": "Community Edition",

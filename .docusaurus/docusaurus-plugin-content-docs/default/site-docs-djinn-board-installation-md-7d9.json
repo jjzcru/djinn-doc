@@ -1,0 +1,26 @@
+{
+  "unversionedId": "djinn-board/installation",
+  "id": "djinn-board/installation",
+  "title": "Installation",
+  "description": "We already describe that the board is a raspberry pi 4 board which come with an integrated Wi-fi module, that we are going to use to create an access point to which a device is going to connect and then set the credentials required to connect to the user network and other installation requirements.",
+  "source": "@site/docs/djinn-board/installation.md",
+  "sourceDirName": "djinn-board",
+  "slug": "/djinn-board/installation",
+  "permalink": "/docs/djinn-board/installation",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/installation.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/djinn-board/overview"
+  },
+  "next": {
+    "title": "Platform",
+    "permalink": "/docs/djinn-board/architecture/platform"
+  }
+}

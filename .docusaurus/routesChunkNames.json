@@ -148,42 +148,46 @@
     "content": "content---markdown-page-393-028",
     "__routeContextModule": "__routeContextModule---markdown-pagea-80-077"
   },
-  "/docs-8cf": {
+  "/docs-813": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398",
     "__routeContextModule": "__routeContextModule---docs-9-bf-205"
   },
-  "/docs/djinn-board/agent-69b": {
+  "/docs/djinn-board/architecture/agent-d12": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-agent-782-88c"
+    "content": "content---docs-djinn-board-architecture-agentfd-1-ea8"
   },
-  "/docs/djinn-board/authentication-server-1f5": {
+  "/docs/djinn-board/architecture/authentication-server-092": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-authentication-server-942-5c6"
+    "content": "content---docs-djinn-board-architecture-authentication-servere-9-c-507"
   },
-  "/docs/djinn-board/event-bus-f79": {
+  "/docs/djinn-board/architecture/event-bus-5c4": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-event-bus-5-f-6-8f7"
+    "content": "content---docs-djinn-board-architecture-event-busbc-6-7bb"
   },
-  "/docs/djinn-board/gateway-983": {
+  "/docs/djinn-board/architecture/gateway-542": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-gatewayd-63-dba"
+    "content": "content---docs-djinn-board-architecture-gatewayd-25-507"
+  },
+  "/docs/djinn-board/architecture/persistance-layer-932": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-board-architecture-persistance-layer-802-319"
+  },
+  "/docs/djinn-board/architecture/platform-c61": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-board-architecture-platform-0-d-5-2c7"
+  },
+  "/docs/djinn-board/architecture/web-client-89f": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-board-architecture-web-client-2-b-6-34e"
+  },
+  "/docs/djinn-board/installation-451": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-board-installation-7-d-9-48e"
   },
   "/docs/djinn-board/overview-ac4": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-djinn-board-overview-1-f-4-d60"
-  },
-  "/docs/djinn-board/persistance-layer-11a": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-persistance-layer-559-717"
-  },
-  "/docs/djinn-board/platform-11d": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-platform-681-c6a"
-  },
-  "/docs/djinn-board/web-client-165": {
-    "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-web-client-47-b-fe9"
   },
   "/docs/djinn-client/gateway-fef": {
     "component": "component---theme-doc-item-178-a40",
