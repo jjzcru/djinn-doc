@@ -983,5 +983,6 @@
   },
   "docusaurus-plugin-debug": {},
   "docusaurus-theme-classic": {},
+  "docusaurus-plugin-image-zoom": {},
   "docusaurus-plugin-pwa": {}
 }
