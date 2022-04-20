@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','813'),
+    component: ComponentCreator('/docs','eac'),
     routes: [
       {
         path: '/docs/djinn-board/architecture/agent',
@@ -157,6 +157,12 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
+        path: '/docs/djinn-board/security-model',
+        component: ComponentCreator('/docs/djinn-board/security-model','f19'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
         path: '/docs/djinn-client/gateway',
         component: ComponentCreator('/docs/djinn-client/gateway','fef'),
         exact: true,
@@ -195,6 +201,12 @@ export default [
       {
         path: '/docs/intro',
         component: ComponentCreator('/docs/intro','aed'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/use-cases',
+        component: ComponentCreator('/docs/use-cases','00a'),
         exact: true,
         sidebar: "tutorialSidebar"
       }

@@ -56,6 +56,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "djinn-board/security-model",
+              "path": "/docs/djinn-board/security-model",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "djinn-client/gateway",
               "path": "/docs/djinn-client/gateway",
               "sidebar": "tutorialSidebar"
@@ -88,6 +93,11 @@
             {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "use-cases",
+              "path": "/docs/use-cases",
               "sidebar": "tutorialSidebar"
             }
           ],

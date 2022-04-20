@@ -22,7 +22,7 @@
     "permalink": "/docs/djinn-board/architecture/web-client"
   },
   "next": {
-    "title": "Overview",
-    "permalink": "/docs/djinn-cloud/overview"
+    "title": "Security Model",
+    "permalink": "/docs/djinn-board/security-model"
   }
 }

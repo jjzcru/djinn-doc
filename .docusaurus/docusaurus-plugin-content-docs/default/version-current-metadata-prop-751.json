@@ -81,6 +81,12 @@
                 "docId": "djinn-board/architecture/agent"
               }
             ]
+          },
+          {
+            "type": "link",
+            "label": "Security Model",
+            "href": "/docs/djinn-board/security-model",
+            "docId": "djinn-board/security-model"
           }
         ]
       },
@@ -135,6 +141,12 @@
             "docId": "djinn-client/gateway"
           }
         ]
+      },
+      {
+        "type": "link",
+        "label": "Use Cases",
+        "href": "/docs/use-cases",
+        "docId": "use-cases"
       }
     ]
   },
@@ -193,6 +205,12 @@
       "description": "This is the architecture for the application that is going to run inside the board,",
       "sidebar": "tutorialSidebar"
     },
+    "djinn-board/security-model": {
+      "id": "djinn-board/security-model",
+      "title": "Security Model",
+      "description": "TODO Security model",
+      "sidebar": "tutorialSidebar"
+    },
     "djinn-client/gateway": {
       "id": "djinn-client/gateway",
       "title": "Gateway",
@@ -233,6 +251,12 @@
       "id": "intro",
       "title": "Introduction",
       "description": "TODO Write the overall architecture",
+      "sidebar": "tutorialSidebar"
+    },
+    "use-cases": {
+      "id": "use-cases",
+      "title": "Use Cases",
+      "description": "This board is not target as a replacement of a home assistant like Google Assistant, Siri or Alexa, instead is taking a broader approach to be able to connect any type of devices and being able to control them from a centralized device, in network engineering this is called a Wireless Sensor Network (WSN).",
       "sidebar": "tutorialSidebar"
     }
   }

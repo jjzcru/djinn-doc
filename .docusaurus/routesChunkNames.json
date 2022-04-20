@@ -148,7 +148,7 @@
     "content": "content---markdown-page-393-028",
     "__routeContextModule": "__routeContextModule---markdown-pagea-80-077"
   },
-  "/docs-813": {
+  "/docs-eac": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398",
     "__routeContextModule": "__routeContextModule---docs-9-bf-205"
@@ -189,6 +189,10 @@
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-djinn-board-overview-1-f-4-d60"
   },
+  "/docs/djinn-board/security-model-f19": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-djinn-board-security-model-23-b-dae"
+  },
   "/docs/djinn-client/gateway-fef": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-djinn-client-gatewayd-50-db5"
@@ -216,6 +220,10 @@
   "/docs/intro-aed": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-intro-0-e-3-be1"
+  },
+  "/docs/use-cases-00a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-use-cases-401-d60"
   },
   "/-18b": {
     "component": "component---site-src-pages-index-jsc-4-f-f99",

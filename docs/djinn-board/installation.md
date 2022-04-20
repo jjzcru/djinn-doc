@@ -12,7 +12,7 @@ We are going to use debian as the base image, it will come with [dnsmasq](https:
 
 > When the user turn on the device it could connect a ethernet connection directly on the device or it could use the Wi-fi network, the difference in the setup is that the user could potentially skip the wi-fi credentials step if the board detect that there is an ethernet connection, otherwise is going to be required to set the wifi credentials.
 
-## Installation Wizard
+## Wizard
 Once the board has an stable network connection, the board is going to run an http server on port `80` for the display of a wizard, the host could be `djinn.local` if the host device support `mDNS` which is usually supported in Linux and macOS distribution, the user could also access the server by typing the `ip` assigned by the router.
 
 ### Hostname

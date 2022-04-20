@@ -20,5 +20,9 @@
   "previous": {
     "title": "Web",
     "permalink": "/docs/djinn-client/web"
+  },
+  "next": {
+    "title": "Use Cases",
+    "permalink": "/docs/use-cases"
   }
 }
