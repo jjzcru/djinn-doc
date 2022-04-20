@@ -1,0 +1,28 @@
+{
+  "unversionedId": "background",
+  "id": "background",
+  "title": "Background",
+  "description": "OCF",
+  "source": "@site/docs/background.md",
+  "sourceDirName": ".",
+  "slug": "/background",
+  "permalink": "/docs/background",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/background.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "background",
+    "title": "Background",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Use Case",
+    "permalink": "/docs/use-case"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/djinn-board/overview"
+  }
+}

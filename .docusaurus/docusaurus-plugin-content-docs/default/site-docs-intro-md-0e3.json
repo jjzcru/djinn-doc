@@ -2,7 +2,7 @@
   "unversionedId": "intro",
   "id": "intro",
   "title": "Introduction",
-  "description": "TODO Write the overall architecture",
+  "description": "Overview",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
@@ -16,7 +16,7 @@
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Overview",
-    "permalink": "/docs/djinn-board/overview"
+    "title": "Use Case",
+    "permalink": "/docs/use-case"
   }
 }

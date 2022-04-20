@@ -258,8 +258,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Introduction",
-                "permalink": "/docs/intro"
+                "title": "Reference Frameworks",
+                "permalink": "/docs/reference-frameworks"
               },
               "next": {
                 "title": "Installation",
@@ -291,7 +291,7 @@
               },
               "next": {
                 "title": "Overview",
-                "permalink": "/docs/djinn-cloud/overview"
+                "permalink": "/docs/djinn-client/overview"
               }
             },
             {
@@ -318,8 +318,8 @@
                 "permalink": "/docs/djinn-client/web"
               },
               "next": {
-                "title": "Use Cases",
-                "permalink": "/docs/use-cases"
+                "title": "Overview",
+                "permalink": "/docs/djinn-cloud/overview"
               }
             },
             {
@@ -342,8 +342,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Enterprise Edition",
-                "permalink": "/docs/djinn-cloud/enterprise-edition"
+                "title": "Security Model",
+                "permalink": "/docs/djinn-board/security-model"
               },
               "next": {
                 "title": "Web",
@@ -428,10 +428,6 @@
               "previous": {
                 "title": "Community Edition",
                 "permalink": "/docs/djinn-cloud/community-edition"
-              },
-              "next": {
-                "title": "Overview",
-                "permalink": "/docs/djinn-client/overview"
               }
             },
             {
@@ -454,8 +450,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Security Model",
-                "permalink": "/docs/djinn-board/security-model"
+                "title": "Gateway",
+                "permalink": "/docs/djinn-client/gateway"
               },
               "next": {
                 "title": "Community Edition",
@@ -466,7 +462,7 @@
               "unversionedId": "intro",
               "id": "intro",
               "title": "Introduction",
-              "description": "TODO Write the overall architecture",
+              "description": "Overview",
               "source": "@site/docs/intro.md",
               "sourceDirName": ".",
               "slug": "/intro",
@@ -480,32 +476,64 @@
               },
               "sidebar": "tutorialSidebar",
               "next": {
+                "title": "Use Case",
+                "permalink": "/docs/use-case"
+              }
+            },
+            {
+              "unversionedId": "reference-frameworks",
+              "id": "reference-frameworks",
+              "title": "Reference Frameworks",
+              "description": "OCF",
+              "source": "@site/docs/reference-frameworks.md",
+              "sourceDirName": ".",
+              "slug": "/reference-frameworks",
+              "permalink": "/docs/reference-frameworks",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/reference-frameworks.md",
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "reference-frameworks",
+                "title": "Reference Frameworks",
+                "sidebar_position": 3
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Use Case",
+                "permalink": "/docs/use-case"
+              },
+              "next": {
                 "title": "Overview",
                 "permalink": "/docs/djinn-board/overview"
               }
             },
             {
-              "unversionedId": "use-cases",
-              "id": "use-cases",
-              "title": "Use Cases",
+              "unversionedId": "use-case",
+              "id": "use-case",
+              "title": "Use Case",
               "description": "This board is not target as a replacement of a home assistant like Google Assistant, Siri or Alexa, instead is taking a broader approach to be able to connect any type of devices and being able to control them from a centralized device, in network engineering this is called a Wireless Sensor Network (WSN).",
               "source": "@site/docs/use-cases.md",
               "sourceDirName": ".",
-              "slug": "/use-cases",
-              "permalink": "/docs/use-cases",
+              "slug": "/use-case",
+              "permalink": "/docs/use-case",
               "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/use-cases.md",
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 2,
               "frontMatter": {
-                "id": "use-cases",
-                "title": "Use Cases",
-                "sidebar_position": 5
+                "id": "use-case",
+                "title": "Use Case",
+                "sidebar_position": 2
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Gateway",
-                "permalink": "/docs/djinn-client/gateway"
+                "title": "Introduction",
+                "permalink": "/docs/intro"
+              },
+              "next": {
+                "title": "Reference Frameworks",
+                "permalink": "/docs/reference-frameworks"
               }
             }
           ],
@@ -514,6 +542,14 @@
               {
                 "type": "doc",
                 "id": "intro"
+              },
+              {
+                "type": "doc",
+                "id": "use-case"
+              },
+              {
+                "type": "doc",
+                "id": "reference-frameworks"
               },
               {
                 "type": "category",
@@ -573,26 +609,6 @@
               },
               {
                 "type": "category",
-                "label": "Djinn Cloud",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "djinn-cloud/overview"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "djinn-cloud/community-edition"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "djinn-cloud/enterprise-edition"
-                  }
-                ]
-              },
-              {
-                "type": "category",
                 "label": "Djinn Client",
                 "collapsible": true,
                 "collapsed": true,
@@ -612,8 +628,24 @@
                 ]
               },
               {
-                "type": "doc",
-                "id": "use-cases"
+                "type": "category",
+                "label": "Djinn Cloud",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "djinn-cloud/overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-cloud/community-edition"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-cloud/enterprise-edition"
+                  }
+                ]
               }
             ]
           },

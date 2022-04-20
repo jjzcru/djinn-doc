@@ -16,8 +16,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Introduction",
-    "permalink": "/docs/intro"
+    "title": "Reference Frameworks",
+    "permalink": "/docs/reference-frameworks"
   },
   "next": {
     "title": "Installation",

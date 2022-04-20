@@ -15,6 +15,18 @@
         "docId": "intro"
       },
       {
+        "type": "link",
+        "label": "Use Case",
+        "href": "/docs/use-case",
+        "docId": "use-case"
+      },
+      {
+        "type": "link",
+        "label": "Reference Frameworks",
+        "href": "/docs/reference-frameworks",
+        "docId": "reference-frameworks"
+      },
+      {
         "type": "category",
         "label": "Djinn Board",
         "collapsible": true,
@@ -92,32 +104,6 @@
       },
       {
         "type": "category",
-        "label": "Djinn Cloud",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Overview",
-            "href": "/docs/djinn-cloud/overview",
-            "docId": "djinn-cloud/overview"
-          },
-          {
-            "type": "link",
-            "label": "Community Edition",
-            "href": "/docs/djinn-cloud/community-edition",
-            "docId": "djinn-cloud/community-edition"
-          },
-          {
-            "type": "link",
-            "label": "Enterprise Edition",
-            "href": "/docs/djinn-cloud/enterprise-edition",
-            "docId": "djinn-cloud/enterprise-edition"
-          }
-        ]
-      },
-      {
-        "type": "category",
         "label": "Djinn Client",
         "collapsible": true,
         "collapsed": true,
@@ -143,10 +129,30 @@
         ]
       },
       {
-        "type": "link",
-        "label": "Use Cases",
-        "href": "/docs/use-cases",
-        "docId": "use-cases"
+        "type": "category",
+        "label": "Djinn Cloud",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/docs/djinn-cloud/overview",
+            "docId": "djinn-cloud/overview"
+          },
+          {
+            "type": "link",
+            "label": "Community Edition",
+            "href": "/docs/djinn-cloud/community-edition",
+            "docId": "djinn-cloud/community-edition"
+          },
+          {
+            "type": "link",
+            "label": "Enterprise Edition",
+            "href": "/docs/djinn-cloud/enterprise-edition",
+            "docId": "djinn-cloud/enterprise-edition"
+          }
+        ]
       }
     ]
   },
@@ -250,12 +256,18 @@
     "intro": {
       "id": "intro",
       "title": "Introduction",
-      "description": "TODO Write the overall architecture",
+      "description": "Overview",
       "sidebar": "tutorialSidebar"
     },
-    "use-cases": {
-      "id": "use-cases",
-      "title": "Use Cases",
+    "reference-frameworks": {
+      "id": "reference-frameworks",
+      "title": "Reference Frameworks",
+      "description": "OCF",
+      "sidebar": "tutorialSidebar"
+    },
+    "use-case": {
+      "id": "use-case",
+      "title": "Use Case",
       "description": "This board is not target as a replacement of a home assistant like Google Assistant, Siri or Alexa, instead is taking a broader approach to be able to connect any type of devices and being able to control them from a centralized device, in network engineering this is called a Wireless Sensor Network (WSN).",
       "sidebar": "tutorialSidebar"
     }

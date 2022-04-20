@@ -96,8 +96,13 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "use-cases",
-              "path": "/docs/use-cases",
+              "id": "reference-frameworks",
+              "path": "/docs/reference-frameworks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "use-case",
+              "path": "/docs/use-case",
               "sidebar": "tutorialSidebar"
             }
           ],

@@ -1,0 +1,28 @@
+{
+  "unversionedId": "reference-frameworks",
+  "id": "reference-frameworks",
+  "title": "Reference Frameworks",
+  "description": "OCF",
+  "source": "@site/docs/frameworks.md",
+  "sourceDirName": ".",
+  "slug": "/reference-frameworks",
+  "permalink": "/docs/reference-frameworks",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/frameworks.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "reference-frameworks",
+    "title": "Reference Frameworks",
+    "sidebar_position": 3
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Use Case",
+    "permalink": "/docs/use-case"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/djinn-board/overview"
+  }
+}

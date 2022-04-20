@@ -1,10 +1,10 @@
 ---
-id: use-cases
-title: Use Cases
-sidebar_position: 5
+id: use-case
+title: Use Case
+sidebar_position: 2
 ---
 
-# Use Cases
+# Use Case
 
 This board is not target as a replacement of a home assistant like [Google Assistant](https://assistant.google.com), [Siri](https://www.apple.com/siri/) or [Alexa](https://developer.amazon.com/en-US/alexa), instead is taking a broader approach to be able to connect any type of devices and being able to control them from a centralized device, in network engineering this is called a [Wireless Sensor Network (WSN)](https://www.intechopen.com/chapters/38793).
 

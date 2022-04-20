@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','eac'),
+    component: ComponentCreator('/docs','f29'),
     routes: [
       {
         path: '/docs/djinn-board/architecture/agent',
@@ -205,8 +205,14 @@ export default [
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/use-cases',
-        component: ComponentCreator('/docs/use-cases','00a'),
+        path: '/docs/reference-frameworks',
+        component: ComponentCreator('/docs/reference-frameworks','05c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/use-case',
+        component: ComponentCreator('/docs/use-case','a4a'),
         exact: true,
         sidebar: "tutorialSidebar"
       }
