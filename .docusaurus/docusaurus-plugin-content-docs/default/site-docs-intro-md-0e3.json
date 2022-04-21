@@ -2,21 +2,22 @@
   "unversionedId": "intro",
   "id": "intro",
   "title": "Introduction",
-  "description": "Overview",
+  "description": "Djinn is a framework model that enables customers to add IoT to the framework platform, while also providing an access model and distributed access.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
   "permalink": "/docs/intro",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+  "editUrl": null,
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1
+    "sidebar_position": 1,
+    "custom_edit_url": null
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Use Case",
-    "permalink": "/docs/use-case"
+    "title": "C4",
+    "permalink": "/docs/c4"
   }
 }

@@ -20,5 +20,9 @@
   "previous": {
     "title": "Community Edition",
     "permalink": "/docs/djinn-cloud/community-edition"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/djinn-client/overview"
   }
 }

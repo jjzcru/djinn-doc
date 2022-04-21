@@ -16,6 +16,154 @@
       },
       {
         "type": "link",
+        "label": "C4",
+        "href": "/docs/c4",
+        "docId": "c4"
+      },
+      {
+        "type": "category",
+        "label": "Architecture",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/docs/architecture/overview",
+            "docId": "architecture/overview"
+          },
+          {
+            "type": "category",
+            "label": "Djinn Board",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Overview",
+                "href": "/docs/architecture/djinn-board/overview",
+                "docId": "architecture/djinn-board/overview"
+              },
+              {
+                "type": "link",
+                "label": "Installation",
+                "href": "/docs/architecture/djinn-board/installation",
+                "docId": "architecture/djinn-board/installation"
+              },
+              {
+                "type": "category",
+                "label": "Architecture",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "link",
+                    "label": "Platform",
+                    "href": "/docs/architecture/djinn-board/architecture/platform",
+                    "docId": "architecture/djinn-board/architecture/platform"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Persistance Layer",
+                    "href": "/docs/architecture/djinn-board/architecture/persistance-layer",
+                    "docId": "architecture/djinn-board/architecture/persistance-layer"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Event Bus",
+                    "href": "/docs/architecture/djinn-board/architecture/event-bus",
+                    "docId": "architecture/djinn-board/architecture/event-bus"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Gateway",
+                    "href": "/docs/architecture/djinn-board/architecture/gateway",
+                    "docId": "architecture/djinn-board/architecture/gateway"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Authentication Server",
+                    "href": "/docs/architecture/djinn-board/architecture/authentication-server",
+                    "docId": "architecture/djinn-board/architecture/authentication-server"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Web Client",
+                    "href": "/docs/architecture/djinn-board/architecture/web-client",
+                    "docId": "architecture/djinn-board/architecture/web-client"
+                  },
+                  {
+                    "type": "link",
+                    "label": "Agent",
+                    "href": "/docs/architecture/djinn-board/architecture/agent",
+                    "docId": "architecture/djinn-board/architecture/agent"
+                  }
+                ]
+              },
+              {
+                "type": "link",
+                "label": "Security Model",
+                "href": "/docs/architecture/djinn-board/security-model",
+                "docId": "architecture/djinn-board/security-model"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Djinn Cloud",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Overview",
+                "href": "/docs/architecture/djinn-cloud/overview",
+                "docId": "architecture/djinn-cloud/overview"
+              },
+              {
+                "type": "link",
+                "label": "Community Edition",
+                "href": "/docs/architecture/djinn-cloud/community-edition",
+                "docId": "architecture/djinn-cloud/community-edition"
+              },
+              {
+                "type": "link",
+                "label": "Enterprise Edition",
+                "href": "/docs/architecture/djinn-cloud/enterprise-edition",
+                "docId": "architecture/djinn-cloud/enterprise-edition"
+              }
+            ]
+          },
+          {
+            "type": "category",
+            "label": "Djinn Client",
+            "collapsible": true,
+            "collapsed": true,
+            "items": [
+              {
+                "type": "link",
+                "label": "Overview",
+                "href": "/docs/architecture/djinn-client/overview",
+                "docId": "architecture/djinn-client/overview"
+              },
+              {
+                "type": "link",
+                "label": "Web",
+                "href": "/docs/architecture/djinn-client/web",
+                "docId": "architecture/djinn-client/web"
+              },
+              {
+                "type": "link",
+                "label": "Gateway",
+                "href": "/docs/architecture/djinn-client/gateway",
+                "docId": "architecture/djinn-client/gateway"
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "type": "link",
         "label": "Use Case",
         "href": "/docs/use-case",
         "docId": "use-case"
@@ -25,238 +173,122 @@
         "label": "Reference Frameworks",
         "href": "/docs/reference-frameworks",
         "docId": "reference-frameworks"
-      },
-      {
-        "type": "category",
-        "label": "Djinn Board",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Overview",
-            "href": "/docs/djinn-board/overview",
-            "docId": "djinn-board/overview"
-          },
-          {
-            "type": "link",
-            "label": "Installation",
-            "href": "/docs/djinn-board/installation",
-            "docId": "djinn-board/installation"
-          },
-          {
-            "type": "category",
-            "label": "Architecture",
-            "collapsible": true,
-            "collapsed": true,
-            "items": [
-              {
-                "type": "link",
-                "label": "Platform",
-                "href": "/docs/djinn-board/architecture/platform",
-                "docId": "djinn-board/architecture/platform"
-              },
-              {
-                "type": "link",
-                "label": "Persistance Layer",
-                "href": "/docs/djinn-board/architecture/persistance-layer",
-                "docId": "djinn-board/architecture/persistance-layer"
-              },
-              {
-                "type": "link",
-                "label": "Event Bus",
-                "href": "/docs/djinn-board/architecture/event-bus",
-                "docId": "djinn-board/architecture/event-bus"
-              },
-              {
-                "type": "link",
-                "label": "Gateway",
-                "href": "/docs/djinn-board/architecture/gateway",
-                "docId": "djinn-board/architecture/gateway"
-              },
-              {
-                "type": "link",
-                "label": "Authentication Server",
-                "href": "/docs/djinn-board/architecture/authentication-server",
-                "docId": "djinn-board/architecture/authentication-server"
-              },
-              {
-                "type": "link",
-                "label": "Web Client",
-                "href": "/docs/djinn-board/architecture/web-client",
-                "docId": "djinn-board/architecture/web-client"
-              },
-              {
-                "type": "link",
-                "label": "Agent",
-                "href": "/docs/djinn-board/architecture/agent",
-                "docId": "djinn-board/architecture/agent"
-              }
-            ]
-          },
-          {
-            "type": "link",
-            "label": "Security Model",
-            "href": "/docs/djinn-board/security-model",
-            "docId": "djinn-board/security-model"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "Djinn Client",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Overview",
-            "href": "/docs/djinn-client/overview",
-            "docId": "djinn-client/overview"
-          },
-          {
-            "type": "link",
-            "label": "Web",
-            "href": "/docs/djinn-client/web",
-            "docId": "djinn-client/web"
-          },
-          {
-            "type": "link",
-            "label": "Gateway",
-            "href": "/docs/djinn-client/gateway",
-            "docId": "djinn-client/gateway"
-          }
-        ]
-      },
-      {
-        "type": "category",
-        "label": "Djinn Cloud",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Overview",
-            "href": "/docs/djinn-cloud/overview",
-            "docId": "djinn-cloud/overview"
-          },
-          {
-            "type": "link",
-            "label": "Community Edition",
-            "href": "/docs/djinn-cloud/community-edition",
-            "docId": "djinn-cloud/community-edition"
-          },
-          {
-            "type": "link",
-            "label": "Enterprise Edition",
-            "href": "/docs/djinn-cloud/enterprise-edition",
-            "docId": "djinn-cloud/enterprise-edition"
-          }
-        ]
       }
     ]
   },
   "docs": {
-    "djinn-board/architecture/agent": {
-      "id": "djinn-board/architecture/agent",
+    "architecture/djinn-board/architecture/agent": {
+      "id": "architecture/djinn-board/architecture/agent",
       "title": "Agent",
       "description": "This is a module that will handled the communication with the cloud, it talks with the cloud via gRPC, which uses proto buffers underneath.",
       "sidebar": "tutorialSidebar"
     },
-    "djinn-board/architecture/authentication-server": {
-      "id": "djinn-board/architecture/authentication-server",
+    "architecture/djinn-board/architecture/authentication-server": {
+      "id": "architecture/djinn-board/architecture/authentication-server",
       "title": "Authentication Server",
       "description": "This is a OAuth 2.0 server, build in go, that handles the authentication of the users that wan't to control the board.",
       "sidebar": "tutorialSidebar"
     },
-    "djinn-board/architecture/event-bus": {
-      "id": "djinn-board/architecture/event-bus",
+    "architecture/djinn-board/architecture/event-bus": {
+      "id": "architecture/djinn-board/architecture/event-bus",
       "title": "Event Bus",
       "description": "In the application all the comunication is going to be asynchrounous and is going to use an message queue to handle the request, the reason we are doing this is because is easy to scale the application using the asynchrounous nature of a publish-subscribe system.",
       "sidebar": "tutorialSidebar"
     },
-    "djinn-board/architecture/gateway": {
-      "id": "djinn-board/architecture/gateway",
+    "architecture/djinn-board/architecture/gateway": {
+      "id": "architecture/djinn-board/architecture/gateway",
       "title": "Gateway",
       "description": "This is a service that is going to offer a graphql API to interact with the application from the outside world, is going to run in the port 5555 and applications can be built on top of the graphql.",
       "sidebar": "tutorialSidebar"
     },
-    "djinn-board/architecture/persistance-layer": {
-      "id": "djinn-board/architecture/persistance-layer",
+    "architecture/djinn-board/architecture/persistance-layer": {
+      "id": "architecture/djinn-board/architecture/persistance-layer",
       "title": "Persistance Layer",
       "description": "This is the layer that is used to keep a persistant state of the system, is accesed by the Authentication Service, the Gateway and the platform.",
       "sidebar": "tutorialSidebar"
     },
-    "djinn-board/architecture/platform": {
-      "id": "djinn-board/architecture/platform",
+    "architecture/djinn-board/architecture/platform": {
+      "id": "architecture/djinn-board/architecture/platform",
       "title": "Platform",
       "description": "This part of the architecture is going to handle the communication between the",
       "sidebar": "tutorialSidebar"
     },
-    "djinn-board/architecture/web-client": {
-      "id": "djinn-board/architecture/web-client",
+    "architecture/djinn-board/architecture/web-client": {
+      "id": "architecture/djinn-board/architecture/web-client",
       "title": "Web Client",
       "description": "This is a web interface that is build in react and runs on top of the Djinn Gateway, it runs on port 80 and enables the users to configure and control the Djinn OS from a browser.",
       "sidebar": "tutorialSidebar"
     },
-    "djinn-board/installation": {
-      "id": "djinn-board/installation",
+    "architecture/djinn-board/installation": {
+      "id": "architecture/djinn-board/installation",
       "title": "Installation",
       "description": "We already describe that the board is a raspberry pi 4 board which come with an integrated Wi-fi module, that we are going to use to create an access point to which a device is going to connect and then set the credentials required to connect to the user network and other installation requirements.",
       "sidebar": "tutorialSidebar"
     },
-    "djinn-board/overview": {
-      "id": "djinn-board/overview",
+    "architecture/djinn-board/overview": {
+      "id": "architecture/djinn-board/overview",
       "title": "Overview",
       "description": "This is the architecture for the application that is going to run inside the board,",
       "sidebar": "tutorialSidebar"
     },
-    "djinn-board/security-model": {
-      "id": "djinn-board/security-model",
+    "architecture/djinn-board/security-model": {
+      "id": "architecture/djinn-board/security-model",
       "title": "Security Model",
       "description": "TODO Security model",
       "sidebar": "tutorialSidebar"
     },
-    "djinn-client/gateway": {
-      "id": "djinn-client/gateway",
+    "architecture/djinn-client/gateway": {
+      "id": "architecture/djinn-client/gateway",
       "title": "Gateway",
       "description": "The gateway clients are native applications (Android, iOS, macOS, Windows,",
       "sidebar": "tutorialSidebar"
     },
-    "djinn-client/overview": {
-      "id": "djinn-client/overview",
+    "architecture/djinn-client/overview": {
+      "id": "architecture/djinn-client/overview",
       "title": "Overview",
       "description": "This is an application that is going to talk directly with the Djinn Gateway",
       "sidebar": "tutorialSidebar"
     },
-    "djinn-client/web": {
-      "id": "djinn-client/web",
+    "architecture/djinn-client/web": {
+      "id": "architecture/djinn-client/web",
       "title": "Web",
       "description": "This is an application that is embbed in the environment that is running, this",
       "sidebar": "tutorialSidebar"
     },
-    "djinn-cloud/community-edition": {
-      "id": "djinn-cloud/community-edition",
+    "architecture/djinn-cloud/community-edition": {
+      "id": "architecture/djinn-cloud/community-edition",
       "title": "Community Edition",
       "description": "This is totally open source and is target for a single tenancy installation, is going to be distributed by a docker image and use sqlite as a database.",
       "sidebar": "tutorialSidebar"
     },
-    "djinn-cloud/enterprise-edition": {
-      "id": "djinn-cloud/enterprise-edition",
+    "architecture/djinn-cloud/enterprise-edition": {
+      "id": "architecture/djinn-cloud/enterprise-edition",
       "title": "Enterprise Edition",
       "description": "The enterprise edition is the managed service of the Djinn Cloud, it's build on top on Kubernetes and it supports multinancy.",
       "sidebar": "tutorialSidebar"
     },
-    "djinn-cloud/overview": {
-      "id": "djinn-cloud/overview",
+    "architecture/djinn-cloud/overview": {
+      "id": "architecture/djinn-cloud/overview",
       "title": "Overview",
       "description": "Djinn is going to use the Open-core business model, which is the same that is used by:",
+      "sidebar": "tutorialSidebar"
+    },
+    "architecture/overview": {
+      "id": "architecture/overview",
+      "title": "Overview",
+      "description": "Djinn Architecture",
+      "sidebar": "tutorialSidebar"
+    },
+    "c4": {
+      "id": "c4",
+      "title": "C4",
+      "description": "Djinn Board Architecture",
       "sidebar": "tutorialSidebar"
     },
     "intro": {
       "id": "intro",
       "title": "Introduction",
-      "description": "Overview",
+      "description": "Djinn is a framework model that enables customers to add IoT to the framework platform, while also providing an access model and distributed access.",
       "sidebar": "tutorialSidebar"
     },
     "reference-frameworks": {

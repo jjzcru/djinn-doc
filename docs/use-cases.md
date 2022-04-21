@@ -1,7 +1,7 @@
 ---
 id: use-case
 title: Use Case
-sidebar_position: 2
+sidebar_position: 4
 ---
 
 # Use Case

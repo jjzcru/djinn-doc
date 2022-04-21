@@ -1,0 +1,28 @@
+{
+  "unversionedId": "architecture/djinn-board/architecture/platform",
+  "id": "architecture/djinn-board/architecture/platform",
+  "title": "Platform",
+  "description": "This part of the architecture is going to handle the communication between the",
+  "source": "@site/docs/architecture/djinn-board/architecture/platform.md",
+  "sourceDirName": "architecture/djinn-board/architecture",
+  "slug": "/architecture/djinn-board/architecture/platform",
+  "permalink": "/docs/architecture/djinn-board/architecture/platform",
+  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/architecture/djinn-board/architecture/platform.md",
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "platform",
+    "title": "Platform",
+    "sidebar_position": 2
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/docs/architecture/djinn-board/installation"
+  },
+  "next": {
+    "title": "Persistance Layer",
+    "permalink": "/docs/architecture/djinn-board/architecture/persistance-layer"
+  }
+}

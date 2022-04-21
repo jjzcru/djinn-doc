@@ -148,74 +148,82 @@
     "content": "content---markdown-page-393-028",
     "__routeContextModule": "__routeContextModule---markdown-pagea-80-077"
   },
-  "/docs-f29": {
+  "/docs-80c": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398",
     "__routeContextModule": "__routeContextModule---docs-9-bf-205"
   },
-  "/docs/djinn-board/architecture/agent-d12": {
+  "/docs/architecture/djinn-board/architecture/agent-a06": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-architecture-agentfd-1-ea8"
+    "content": "content---docs-architecture-djinn-board-architecture-agent-408-327"
   },
-  "/docs/djinn-board/architecture/authentication-server-092": {
+  "/docs/architecture/djinn-board/architecture/authentication-server-145": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-architecture-authentication-servere-9-c-507"
+    "content": "content---docs-architecture-djinn-board-architecture-authentication-server-63-a-d57"
   },
-  "/docs/djinn-board/architecture/event-bus-5c4": {
+  "/docs/architecture/djinn-board/architecture/event-bus-d7e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-architecture-event-busbc-6-7bb"
+    "content": "content---docs-architecture-djinn-board-architecture-event-bus-081-514"
   },
-  "/docs/djinn-board/architecture/gateway-542": {
+  "/docs/architecture/djinn-board/architecture/gateway-d92": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-architecture-gatewayd-25-507"
+    "content": "content---docs-architecture-djinn-board-architecture-gatewayf-4-f-0c9"
   },
-  "/docs/djinn-board/architecture/persistance-layer-932": {
+  "/docs/architecture/djinn-board/architecture/persistance-layer-a19": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-architecture-persistance-layer-802-319"
+    "content": "content---docs-architecture-djinn-board-architecture-persistance-layerf-1-f-8c7"
   },
-  "/docs/djinn-board/architecture/platform-c61": {
+  "/docs/architecture/djinn-board/architecture/platform-193": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-architecture-platform-0-d-5-2c7"
+    "content": "content---docs-architecture-djinn-board-architecture-platform-094-c5c"
   },
-  "/docs/djinn-board/architecture/web-client-89f": {
+  "/docs/architecture/djinn-board/architecture/web-client-45f": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-architecture-web-client-2-b-6-34e"
+    "content": "content---docs-architecture-djinn-board-architecture-web-client-954-2df"
   },
-  "/docs/djinn-board/installation-451": {
+  "/docs/architecture/djinn-board/installation-134": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-installation-7-d-9-48e"
+    "content": "content---docs-architecture-djinn-board-installation-074-ea0"
   },
-  "/docs/djinn-board/overview-ac4": {
+  "/docs/architecture/djinn-board/overview-c24": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-overview-1-f-4-d60"
+    "content": "content---docs-architecture-djinn-board-overviewd-54-cab"
   },
-  "/docs/djinn-board/security-model-f19": {
+  "/docs/architecture/djinn-board/security-model-bb7": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-board-security-model-23-b-dae"
+    "content": "content---docs-architecture-djinn-board-security-modela-8-d-a97"
   },
-  "/docs/djinn-client/gateway-fef": {
+  "/docs/architecture/djinn-client/gateway-140": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-client-gatewayd-50-db5"
+    "content": "content---docs-architecture-djinn-client-gateway-8-f-3-bf4"
   },
-  "/docs/djinn-client/overview-c27": {
+  "/docs/architecture/djinn-client/overview-277": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-client-overview-27-e-5ce"
+    "content": "content---docs-architecture-djinn-client-overview-13-f-567"
   },
-  "/docs/djinn-client/web-f7a": {
+  "/docs/architecture/djinn-client/web-d01": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-client-web-285-530"
+    "content": "content---docs-architecture-djinn-client-web-3-ff-d8e"
   },
-  "/docs/djinn-cloud/community-edition-965": {
+  "/docs/architecture/djinn-cloud/community-edition-f65": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-cloud-community-editiona-26-942"
+    "content": "content---docs-architecture-djinn-cloud-community-edition-793-a8b"
   },
-  "/docs/djinn-cloud/enterprise-edition-c29": {
+  "/docs/architecture/djinn-cloud/enterprise-edition-e3e": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-cloud-enterprise-edition-1-dd-2c6"
+    "content": "content---docs-architecture-djinn-cloud-enterprise-edition-583-a01"
   },
-  "/docs/djinn-cloud/overview-4dc": {
+  "/docs/architecture/djinn-cloud/overview-355": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-djinn-cloud-overviewddb-571"
+    "content": "content---docs-architecture-djinn-cloud-overviewc-6-e-348"
+  },
+  "/docs/architecture/overview-20a": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-architecture-overview-0-b-1-a4c"
+  },
+  "/docs/c4-fde": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-c-4-af-9-207"
   },
   "/docs/intro-aed": {
     "component": "component---theme-doc-item-178-a40",
@@ -227,7 +235,7 @@
   },
   "/docs/use-case-a4a": {
     "component": "component---theme-doc-item-178-a40",
-    "content": "content---docs-use-cases-401-d60"
+    "content": "content---docs-use-case-401-700"
   },
   "/-18b": {
     "component": "component---site-src-pages-index-jsc-4-f-f99",
