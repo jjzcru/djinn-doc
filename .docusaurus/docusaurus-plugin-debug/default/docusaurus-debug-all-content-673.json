@@ -270,7 +270,7 @@
               "unversionedId": "architecture/djinn-board/security-model",
               "id": "architecture/djinn-board/security-model",
               "title": "Security Model",
-              "description": "TODO Security model",
+              "description": "The board is going to be exposed to the user network and because of this the board comes with a security model built-in, since security is one of the principles for Djinn we protect the data with Authorization and Access control, but the board provides security measures built-in like Secret Managmenement and data encryption (On Storage and on Transit).",
               "source": "@site/docs/architecture/djinn-board/security-model.md",
               "sourceDirName": "architecture/djinn-board",
               "slug": "/architecture/djinn-board/security-model",
