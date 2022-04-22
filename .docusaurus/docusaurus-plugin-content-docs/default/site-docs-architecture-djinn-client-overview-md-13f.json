@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Enterprise Edition",
-    "permalink": "/docs/architecture/djinn-cloud/enterprise-edition"
+    "title": "Security Model",
+    "permalink": "/docs/architecture/djinn-cloud/security-model"
   },
   "next": {
     "title": "Web",

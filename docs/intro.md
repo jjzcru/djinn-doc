@@ -20,7 +20,7 @@ This are four principles that serve as guidelines for developing the project:
 - Extensibility
 - Aesthetics
 
-### Simplicty
+### Simplicity
 
 > Simplicity is the ultimate sophistication
 >

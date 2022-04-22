@@ -1,5 +1,6 @@
 ---
 sidebar_position: 2
+custom_edit_url: null
 ---
 
 # Installation
@@ -24,9 +25,9 @@ Once it's succesfull is going to store the name and go to the next step.
 ### Plug-in
 Plug-ins are going to be hosted in a centralized repository which are going to be vetted, the wizard is going to display a list of the most popular plugins and also display the plugins that comes with the board.
 
-The user would also be able to upload their own plugins by drag and dropping a file with the extension `.plugin`.
+The user would also be able to upload their own plugins by drag and dropping a file with the extension `.lamp`.
 
-> The `.plugin` is just a zip file with some metadata and structure
+> The `.lamp` is just a zip file with some metadata and structure
 
 Plug-ins uploaded by the user in the wizard get checked to confirm that the structure is correct, if there is an issue with the structure of the files the board is going to reject the plugin and delete it from the board.
 

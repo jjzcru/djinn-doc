@@ -2,6 +2,7 @@
 id: security-model
 title: Security Model
 sidebar_position: 4
+custom_edit_url: null
 ---
 # Security model
 The board is going to be exposed to the user network and because of this the board comes with a security model built-in, since security is one of the principles for Djinn we protect the data with Authorization and Access control, but the board provides security measures built-in like [Secret Managmenement](https://www.cyberark.com/what-is/secrets-management/) and data encryption (On Storage and on Transit).

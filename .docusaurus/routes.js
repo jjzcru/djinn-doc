@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','80c'),
+    component: ComponentCreator('/docs','355'),
     routes: [
       {
         path: '/docs/architecture/djinn-board/architecture/agent',
@@ -195,6 +195,12 @@ export default [
       {
         path: '/docs/architecture/djinn-cloud/overview',
         component: ComponentCreator('/docs/architecture/djinn-cloud/overview','355'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/architecture/djinn-cloud/security-model',
+        component: ComponentCreator('/docs/architecture/djinn-cloud/security-model','7c9'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

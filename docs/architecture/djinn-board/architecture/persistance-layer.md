@@ -2,11 +2,14 @@
 id: persistance-layer
 title: Persistance Layer
 sidebar_position: 3
+custom_edit_url: null
 ---
 
 # Persistance Layer
 
 This is the layer that is used to keep a persistant state of the system, is accesed by the Authentication Service, the Gateway and the platform.
+
+![Persistance Layer Diagram](/img/diagram/persistance_layer.png)
 
 ## Database
 

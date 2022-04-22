@@ -91,6 +91,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "architecture/djinn-cloud/security-model",
+              "path": "/docs/architecture/djinn-cloud/security-model",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "architecture/overview",
               "path": "/docs/architecture/overview",
               "sidebar": "tutorialSidebar"

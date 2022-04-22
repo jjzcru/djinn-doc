@@ -2,6 +2,7 @@
 id: platform
 title: Platform
 sidebar_position: 2
+custom_edit_url: null
 ---
 
 # Platform
@@ -10,6 +11,8 @@ This part of the architecture is going to handle the communication between the
 devices and the board, it handle everything that is related to the hardware 
 that is attach to the board, handles plugin integration and also expose a 
 resource definition for the devices and plug-in.
+
+![Platform Diagram](/img/diagram/platform_diagram.png)
 
 ## Hardware
 The board is comes with a wifi and bluetooth chip, we are going to attach a 
@@ -30,8 +33,7 @@ board is going to use the [Dongle Protocol Analyzer, Zigbee Packet Sniffer](http
 
 ### Wi-fi
 
-This modules handles the integration with wi-fi devices, the raspberry pi 4 
-comes with a wi-fi module in the board. 
+This modules handles the integration with wi-fi devices, the raspberry pi 4 comes with a wi-fi module in the board. 
 
 ### Bluetooth
 
@@ -42,10 +44,222 @@ This modules handles the integration with bluetooth devices, the raspberry pi
 
 This is the hearth and sould of the platform, this are [Go Plugins](https://eli.thegreenplace.net/2021/plugins-in-go/), this are dynamic libraries that get run dinamically at run time.
 
-The plugins in Djinn consist on a `.plugin` file which is a zip file that includes the following files:
-- **plugin.so**: Which is the plugin file that we are going to use.
-- **config.yml**: Which is configuration file that stores the properties that the plugin required to run, for example `mqtt` addresses.
-- **info.yml**: Which is a file that describe the information of the plugin.
+The plugins in Djinn consist on a `.lamp` file which is a zip file that includes the following files:
+- `plugin.so`
+- `config.yml`
+- `info.yml`
+
+### Plugin Entry point
+All the plugins must to implement the `Plugin` interface, but they are free to implement this however they want
+
+```go 
+type Plugin interface {
+    OnBeforeInstall() err
+    OnInstall() err
+    OnAfterInstall() err 
+    OnBeforeRun() err 
+    OnRun() err 
+    OnAfterRun() err 
+    OnDiscover() (string, err) 
+    OnSubscribe(id string, event chan<- string) err
+    SendCommand(id string, command string, payload string) (string, err) 
+    GetState(id string) (string, err)
+    Register(id string, payload string) (string, err)
+}
+```
+
+The file `plugin.so` is the entry point for the plugin, which the [Controller](#controller) is going to use to call the different lifecycle methods for running the application and the [Gateway](/docs/architecture/djinn-board/architecture/gateway) is going to call when installing and validating.
+
+The `payload` and the return in `GetState` are `json` strings.
+
+```go title="plugin.so"
+package main
+
+function OnBeforeInstall() err {
+    // Lifecycle method that get's run when the plugin is going to be installed
+}
+
+func OnInstall() err {
+    // Lifecycle method when the application is installing
+}
+
+func OnAfterInstall() err {
+    // Lifecycle method that get's executed after install (Clean up)
+}
+
+func OnBeforeRun() err {
+    // Lifecycle Method that get's executed before the application runs
+}
+
+func OnRun() err {
+    // Method that get's execute when the plugin runs
+}
+
+fun OnAfterRun() err {
+    // Lifecycle methods that get's executed after the application finish running
+}
+
+func OnDiscover() (string, err) {
+    // Method to trigger a discovery of devices
+}
+
+func SendCommand(id string, command string, payload string) (string, err) {
+    // Sends a command to a particular device by it's id
+}
+
+func OnSubscribe(id string, event chan<- string) err {
+    // Register for a device changes using a golang channel
+}
+
+func GetState(id string) (string, err) {
+    // Request the state of a device
+}
+
+func Register(id string, payload string) (string, err) {
+    // Register a new device to the board
+}
+
+
+```
+
+### Configuration file
+The file `config.yml` stores the properties that the plugin required to run, for example `mqtt` addresses. 
+
+When the user is installing a plugin, Djinn uses this file to request display a page where the user can enter the information that the plugin requires, at this point the plugin lives in a temporary path.
+
+Once the information is sent and is validated by a subroutine in the plugin, then the plugin source file gets move to a permanent path and the plugin metadata get's stored in the database.
+
+Each property in the configuration file describe what type of input is required and the interface use this metadata to provide an appropiate input.
+
+In the configuration file the section `device_type` describe the different type of devices that the plugin is able to control, their commands and the values required and what are the values of the state and the format.
+
+```yaml title="config.yml"
+# Configurations required to run the plugin
+config:
+    mqqt:
+        type: string
+        title: MQTT
+        description: >
+            MQTT address
+        required: true
+        regex: mqtt:\/\/(.)+
+    api_key:
+        type: string
+        required: true
+        title: "Api Key"
+        description: >
+            Phillips Developer Api key
+        length: 45
+    discovery_interval:
+        type: number
+        required: false
+        range: true
+        min_range: 1000
+        max_range: 5000
+device_type:
+    # ID of the device type
+    bulb:
+        # Display name of the device in the platform
+        name: "Bulbs"
+        # List of all the commands that are supported by this device type
+        commands:
+            - TURN_ON
+            - TURN_OFF
+            - SET_INTENSITY
+        # Object that describe how the state of the device is represented
+        state:
+            ligth:
+                type: boolean
+            intensity:
+                type: number
+                format: int
+                range: true
+                min_range: 0
+                max_range: 100
+        # Properties required for each command
+        command_payload:
+            TURN_ON:
+                light: 
+                    type: boolean
+                    value: true
+            TURN_OFF:
+                light: 
+                    type: boolean
+                    value: false
+            SET_INTENSITY:
+                intensity:
+                    type: number
+                    format: int
+    rgb_bulb:
+        name: "RGB Bulbs"
+        commands:
+            - TURN_ON
+            - TURN_OFF
+            - SET_INTENSITY
+            - SET_COLOR
+        state:
+            ligth:
+                type: boolean
+            intensity:
+                type: number
+                format: int
+                range: true
+                min_range: 0
+                max_range: 100
+            color:
+                type: string
+                format: hex
+        command_payload:
+            TURN_ON:
+                light: 
+                    required: true
+                    type: boolean
+                    value: true
+            TURN_OFF:
+                light: 
+                    type: boolean
+                    value: false
+            SET_INTENSITY:
+                intensity:
+                    type: number
+                    format: int
+            SET_COLOR:
+                color:
+                    required: true
+                    type: string
+                    format: hex
+            
+
+```
+
+### Information file
+
+The file `info.yml` is a file that describe the information of the plugin and the developer, this information is displayed to the user when it's intalling the plugin so they know the origin and how to contact them to report bugs.
+ 
+```yaml title="info.yml"
+# Define the version of the plugin
+version: 2.1
+# Plugin Display name
+name: Phillips Hue
+# Name of the package (usibg Reverse Domain Name Notation)
+package: com.phillips.hue.bulbs
+# Short description of the plugin
+abstract: Phillips hue bulbs simple control plugin
+# Long Description of the plugin
+description: >
+    Plugin that controls all the bulbs on phillips hue ecosystem
+# URL for the repository of the plugin
+repository: https://github.com/djinn/hue
+# Plugin website
+website: https://bulbs.hue.phillips.com/support 
+# Contact email
+email: support@hue.phillips.com
+# License
+license: ISC
+# Plugin authors
+authors:
+    - John Doe <jdoe@phillips.com>
+```
 
 All the plugins are stored in a volume that is in the operating system that is also shared as a volume in `k3s` in the path `/home/djinn/plugins/`. 
 

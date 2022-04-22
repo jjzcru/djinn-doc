@@ -2,16 +2,17 @@
 id: gateway
 title: Gateway
 sidebar_position: 5
+custom_edit_url: null
 ---
 
 # Gateway
 
 This is a service that is going to offer a graphql API to interact with the application from the outside world, is going to run in the port `5555` and applications can be built on top of the graphql.
 
-The reason why it's a graphql endpoints instead of REST is because graphql offers biderectional communication and that way the applications build on top of the gateway can receive updates on real time when a device changes state.
+The reason why it's a GraphQL endpoints instead of REST is because graphql offers biderectional communication and that way the applications build on top of the gateway can receive updates on real time when a device changes state.
 
-In this layer there is also a cross-over with the Protocol Plug-In, and the reason for this is because the plugins needs to be installed and verify first, before they are formally installed in the system, when installing a plugin is going to be stores in a temporary directory and is going to be officially in the system once it's intalled propertly
+In this layer there is also a cross-over with the [Protocol Plug-In](/docs/architecture/djinn-board/architecture/platform#protocol-plug-in), and the reason for this is because the plugins needs to be installed and verify first, before they are formally installed in the system, when installing a plugin is going to be stores in a temporary directory and is going to be officially in the system once it's intalled propertly
 
-The gateway is going to use the Authentication Server to validate the access to the application and also is going to talk with the Resource Server to validate that the user has access to the particular functionality that the user is requesting.
+The gateway is going to use the [Authentication Server](/docs/architecture/djinn-board/architecture/authentication-server) to validate the access to the application and also is going to talk with the Resource Server to validate that the user has access to the particular functionality that the user is requesting.
 
 Once the user is authenticate, the Gateway Server is going to validate that the user has access to the particular resource, if it doesn't have access to perform the action the gateway is going to throw an error.
