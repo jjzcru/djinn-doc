@@ -56,8 +56,20 @@ export default {
           "title": "Architecture",
           "items": [
             {
+              "label": "Djinn",
+              "to": "/docs/architecture/overview"
+            },
+            {
               "label": "Djinn Board",
-              "to": "/docs/djinn-board/overview"
+              "to": "/docs/architecture/djinn-board/overview"
+            },
+            {
+              "label": "Djinn Cloud",
+              "to": "/docs/architecture/djinn-cloud/overview"
+            },
+            {
+              "label": "Djinn Client",
+              "to": "/docs/architecture/djinn-client/overview"
             }
           ]
         },
