@@ -48,8 +48,12 @@ IIC is an architecture that is complex and has a different types of sensors, act
 
 ## OPC-UA
 
-Open Platform Communications-Unified Architecture, OPC-UA,
+Open Platform Communications-Unified Architecture, OPC-UA, is an architecture based on Microsoft [OLE](https://docs.microsoft.com/en-us/cpp/mfc/ole-background?view=msvc-170) technology is an architecture that is target Industrial cases, it's based in a server-client architecture that is tightly integrated to be able to work, instead of building on top of heterogenous open protocols this architecture relies on the fact that both the server and the client are compliant with the architecture.
+
+Djinn's usage of encryption on transit using gRPC is inspired by the `Secure channel layer` concept that is described in OPC-UA.
 
 ## DDS
 
-Data Distribution Service, DDS,
+Data Distribution Service, DDS, this is not an IoT framework per-se, is a connectivity framework for process control, they focus on using RPC and topics for the delivery of messages and use a data-centric publish-subscribe (DCPS) approach for the efficient and robust delivery of information.
+
+This approach is used by Djinn by the use of the message queue layer and the decision to use endpoints that support bidirectional communication, gRPC uses the concept of streaming to keep receiving notifications and updates from the devices, and the board can control the message by using a pipe-and-filter architecture, which is build using a combination of the Authentication Layer for access control. The backend used by the website uses a [GraphQL](https://graphql.org/) endpoint that supports [Subscriptions](https://graphql.org/blog/subscriptions-in-graphql-and-relay/) which get implemented as web sockets in the browser.
