@@ -40,31 +40,47 @@ This modules handles the integration with wi-fi devices, the raspberry pi 4 come
 This modules handles the integration with bluetooth devices, the raspberry pi 
 4 comes with a bluetooth module in the board.
 
-## Protocol Plug-In
-
-This is the hearth and sould of the platform, this are [Go Plugins](https://eli.thegreenplace.net/2021/plugins-in-go/), this are dynamic libraries that get run dinamically at run time.
+## Plug-In
+This are the hearth and soul of the platform, they are like apps in a phone and are what adds functionality to the board, this are [Go Plugins](https://eli.thegreenplace.net/2021/plugins-in-go/), which are dynamic libraries that run dynamically in the main system.
 
 The plugins in Djinn consist on a `.lamp` file which is a zip file that includes the following files:
 - `plugin.so`
 - `config.yml`
 - `info.yml`
 
-### Plugin Entry point
-All the plugins must to implement the `Plugin` interface, but they are free to implement this however they want
+### Plug-in Entry point
+All the plugins must to implement the `Plugin` interface, but they are free to implement this however they want.
+
+> This design uses the [Lifecycle Pattern](https://www.gridshore.nl/2008/08/09/the-life-cycle-pattern/) to describe a common language between the plugins and the controller, and between the plugin and the gateway.
 
 ```go 
 type Plugin interface {
+    // Lifecycle Methods
+    // Installation Methods: Used by the Gateway when installing the plugin
     OnBeforeInstall() err
     OnInstall() err
     OnAfterInstall() err 
+
+    // Execution Methods: Used by the Controller when running the plugin
     OnBeforeRun() err 
     OnRun() err 
     OnAfterRun() err 
-    OnDiscover() (string, err) 
-    OnSubscribe(id string, event chan<- string) err
-    SendCommand(id string, command string, payload string) (string, err) 
-    GetState(id string) (string, err)
+    
+    // Event Methods
+    OnDiscover(id string, details string)
+    OnChange(id string, details string)
+    OnError(id string, details string)
+    OnConfigurationChange()
+
+    // Request Methods
+    // Methods that are manually triggered by the user request
+    Configuration(payload string) err
+    Restart() err
+    Subscribe(id string, event chan<- string) err
+    Command(id string, command string, payload string) (string, err) 
+    State(id string) (string, err)
     Register(id string, payload string) (string, err)
+    Discover() (string, err)
 }
 ```
 
@@ -99,24 +115,49 @@ fun OnAfterRun() err {
     // Lifecycle methods that get's executed after the application finish running
 }
 
-func OnDiscover() (string, err) {
-    // Method to trigger a discovery of devices
+func OnDiscover(id string, details string) {
+    // Listener that get triggered when a new device is discovered
 }
 
-func SendCommand(id string, command string, payload string) (string, err) {
+func OnChange(id string, details string) {
+    // Listener that get triggered when a device change its state
+}
+
+func OnError(id string, err error) {
+    // Listener that gets triggered when an error happened to a device
+}
+
+func OnConfigurationChange() {
+    // Listener that gets triggered when the configuration file get's updated
+}
+
+func Configuration(payload string) err {
+    // Method that change the existing configuration file
+}
+
+func Restart() err {
+    // Method that restart the plugin
+}
+
+func Subscribe(id string, event chan<- string) err {
+    // Method that creates a subscription for a device
+}
+
+func Command(id string, command string, payload string) (string, err) {
     // Sends a command to a particular device by it's id
 }
 
-func OnSubscribe(id string, event chan<- string) err {
-    // Register for a device changes using a golang channel
-}
 
-func GetState(id string) (string, err) {
+func State(id string) (string, err) {
     // Request the state of a device
 }
 
 func Register(id string, payload string) (string, err) {
     // Register a new device to the board
+}
+
+func Discover() (string, err) {
+    // Method that manually triggers a discovery
 }
 
 
