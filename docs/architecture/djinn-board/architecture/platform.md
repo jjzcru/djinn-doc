@@ -91,77 +91,80 @@ The `payload` and the return in `GetState` are `json` strings.
 ```go title="plugin.so"
 package main
 
-function OnBeforeInstall() err {
+type plugin struct 
+
+func (p plugin) OnBeforeInstall() err {
     // Lifecycle method that get's run when the plugin is going to be installed
 }
 
-func OnInstall() err {
+func (p plugin) OnInstall() err {
     // Lifecycle method when the application is installing
 }
 
-func OnAfterInstall() err {
+func (p plugin) OnAfterInstall() err {
     // Lifecycle method that get's executed after install (Clean up)
 }
 
-func OnBeforeRun() err {
+func (p plugin) OnBeforeRun() err {
     // Lifecycle Method that get's executed before the application runs
 }
 
-func OnRun() err {
+func (p plugin) OnRun() err {
     // Method that get's execute when the plugin runs
 }
 
-fun OnAfterRun() err {
+func (p plugin) OnAfterRun() err {
     // Lifecycle methods that get's executed after the application finish running
 }
 
-func OnDiscover(id string, details string) {
+func (p plugin) OnDiscover(id string, details string) {
     // Listener that get triggered when a new device is discovered
 }
 
-func OnChange(id string, details string) {
+func (p plugin) OnChange(id string, details string) {
     // Listener that get triggered when a device change its state
 }
 
-func OnError(id string, err error) {
+func (p plugin) OnError(id string, err error) {
     // Listener that gets triggered when an error happened to a device
 }
 
-func OnConfigurationChange() {
+func (p plugin) OnConfigurationChange() {
     // Listener that gets triggered when the configuration file get's updated
 }
 
-func Configuration(payload string) err {
+func (p plugin) Configuration(payload string) err {
     // Method that change the existing configuration file
 }
 
-func Restart() err {
+func (p plugin) Restart() err {
     // Method that restart the plugin
 }
 
-func Subscribe(id string, event chan<- string) err {
+func (p plugin) Subscribe(id string, event chan<- string) err {
     // Method that creates a subscription for a device
 }
 
-func Command(id string, command string, payload string) (string, err) {
+func (p plugin) Command(id string, command string, payload string) (string, err) {
     // Sends a command to a particular device by it's id
 }
 
-
-func State(id string) (string, err) {
+func (p plugin) State(id string) (string, err) {
     // Request the state of a device
 }
 
-func Register(id string, payload string) (string, err) {
+func (p plugin) Register(id string, payload string) (string, err) {
     // Register a new device to the board
 }
 
-func Discover() (string, err) {
+func (p plugin) Discover() (string, err) {
     // Method that manually triggers a discovery
 }
 
-
+var Plugin plugin
 ```
+
+> [Go Plugin Example](https://github.com/vladimirvivien/go-plugin-example/blob/master/README.md) explains how the controller and the gateway would load a plugin at runtime
 
 ### Configuration file
 The file `config.yml` stores the properties that the plugin required to run, for example `mqtt` addresses. 
