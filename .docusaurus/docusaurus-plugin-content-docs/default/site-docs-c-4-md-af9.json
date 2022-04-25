@@ -1,17 +1,19 @@
 {
-  "unversionedId": "c4",
-  "id": "c4",
-  "title": "C4",
+  "unversionedId": "high-level-view",
+  "id": "high-level-view",
+  "title": "10,000 foot view",
   "description": "Djinn Board Architecture",
   "source": "@site/docs/c4.md",
   "sourceDirName": ".",
-  "slug": "/c4",
-  "permalink": "/docs/c4",
+  "slug": "/high-level-view",
+  "permalink": "/docs/high-level-view",
   "editUrl": null,
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
   "frontMatter": {
+    "id": "high-level-view",
+    "title": "10,000 foot view",
     "sidebar_position": 2,
     "custom_edit_url": null
   },
@@ -21,7 +23,7 @@
     "permalink": "/docs/intro"
   },
   "next": {
-    "title": "Overview",
-    "permalink": "/docs/architecture/overview"
+    "title": "Architecture",
+    "permalink": "/docs/architecture"
   }
 }

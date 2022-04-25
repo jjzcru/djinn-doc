@@ -20,5 +20,9 @@
   "previous": {
     "title": "Web",
     "permalink": "/docs/djinn-client/web"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/djinn-cloud/overview"
   }
 }

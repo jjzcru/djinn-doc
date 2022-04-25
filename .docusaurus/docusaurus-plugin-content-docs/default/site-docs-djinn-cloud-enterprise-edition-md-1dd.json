@@ -2,19 +2,20 @@
   "unversionedId": "djinn-cloud/enterprise-edition",
   "id": "djinn-cloud/enterprise-edition",
   "title": "Enterprise Edition",
-  "description": "The enterprise edition is the managed service of the Djinn Cloud, it's build on top on Kubernetes and it supports multinancy.",
+  "description": "This is the SaaS offering, propertary, where users are able to sign up and create their own cloud of homes, this is build on top of a full fledge kubernetes cluster that supports multinancy by creating a new Namespace for each customer.",
   "source": "@site/docs/djinn-cloud/enterprise-edition.md",
   "sourceDirName": "djinn-cloud",
   "slug": "/djinn-cloud/enterprise-edition",
   "permalink": "/docs/djinn-cloud/enterprise-edition",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-cloud/enterprise-edition.md",
+  "editUrl": null,
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
   "frontMatter": {
     "id": "enterprise-edition",
     "title": "Enterprise Edition",
-    "sidebar_position": 3
+    "sidebar_position": 3,
+    "custom_edit_url": null
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -22,7 +23,7 @@
     "permalink": "/docs/djinn-cloud/community-edition"
   },
   "next": {
-    "title": "Overview",
-    "permalink": "/docs/djinn-client/overview"
+    "title": "Security Model",
+    "permalink": "/docs/djinn-cloud/security-model"
   }
 }

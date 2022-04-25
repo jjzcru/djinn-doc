@@ -7,20 +7,23 @@
   "sourceDirName": ".",
   "slug": "/architecture",
   "permalink": "/docs/architecture",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/architecture.md",
+  "editUrl": null,
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
   "frontMatter": {
-    "sidebar_position": 3
+    "id": "architecture",
+    "title": "Architecture",
+    "sidebar_position": 3,
+    "custom_edit_url": null
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "overview",
-    "permalink": "/docs/architecture/overview"
+    "title": "10,000 foot view",
+    "permalink": "/docs/high-level-view"
   },
   "next": {
-    "title": "Reference Frameworks",
-    "permalink": "/docs/reference-frameworks"
+    "title": "Overview",
+    "permalink": "/docs/djinn-board/overview"
   }
 }

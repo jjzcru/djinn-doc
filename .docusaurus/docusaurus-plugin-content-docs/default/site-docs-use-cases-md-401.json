@@ -10,17 +10,17 @@
   "editUrl": null,
   "tags": [],
   "version": "current",
-  "sidebarPosition": 4,
+  "sidebarPosition": 6,
   "frontMatter": {
     "id": "use-case",
     "title": "Use Case",
-    "sidebar_position": 4,
+    "sidebar_position": 6,
     "custom_edit_url": null
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Gateway",
-    "permalink": "/docs/architecture/djinn-client/gateway"
+    "title": "Security Model",
+    "permalink": "/docs/djinn-cloud/security-model"
   },
   "next": {
     "title": "Reference Frameworks",

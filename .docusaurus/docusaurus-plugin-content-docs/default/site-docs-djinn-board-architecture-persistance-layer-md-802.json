@@ -7,14 +7,15 @@
   "sourceDirName": "djinn-board/architecture",
   "slug": "/djinn-board/architecture/persistance-layer",
   "permalink": "/docs/djinn-board/architecture/persistance-layer",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/architecture/persistance-layer.md",
+  "editUrl": null,
   "tags": [],
   "version": "current",
   "sidebarPosition": 3,
   "frontMatter": {
     "id": "persistance-layer",
     "title": "Persistance Layer",
-    "sidebar_position": 3
+    "sidebar_position": 3,
+    "custom_edit_url": null
   },
   "sidebar": "tutorialSidebar",
   "previous": {

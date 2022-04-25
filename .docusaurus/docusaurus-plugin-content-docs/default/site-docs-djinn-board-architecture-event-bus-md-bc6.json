@@ -7,14 +7,15 @@
   "sourceDirName": "djinn-board/architecture",
   "slug": "/djinn-board/architecture/event-bus",
   "permalink": "/docs/djinn-board/architecture/event-bus",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/architecture/event-bus.md",
+  "editUrl": null,
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
   "frontMatter": {
     "id": "event-bus",
     "title": "Event Bus",
-    "sidebar_position": 4
+    "sidebar_position": 4,
+    "custom_edit_url": null
   },
   "sidebar": "tutorialSidebar",
   "previous": {

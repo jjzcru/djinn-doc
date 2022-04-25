@@ -11,98 +11,98 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "architecture/djinn-board/architecture/agent",
-              "path": "/docs/architecture/djinn-board/architecture/agent",
+              "id": "architecture",
+              "path": "/docs/architecture",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/djinn-board/architecture/authentication-server",
-              "path": "/docs/architecture/djinn-board/architecture/authentication-server",
+              "id": "djinn-board/architecture/agent",
+              "path": "/docs/djinn-board/architecture/agent",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/djinn-board/architecture/event-bus",
-              "path": "/docs/architecture/djinn-board/architecture/event-bus",
+              "id": "djinn-board/architecture/authentication-server",
+              "path": "/docs/djinn-board/architecture/authentication-server",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/djinn-board/architecture/gateway",
-              "path": "/docs/architecture/djinn-board/architecture/gateway",
+              "id": "djinn-board/architecture/event-bus",
+              "path": "/docs/djinn-board/architecture/event-bus",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/djinn-board/architecture/persistance-layer",
-              "path": "/docs/architecture/djinn-board/architecture/persistance-layer",
+              "id": "djinn-board/architecture/gateway",
+              "path": "/docs/djinn-board/architecture/gateway",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/djinn-board/architecture/platform",
-              "path": "/docs/architecture/djinn-board/architecture/platform",
+              "id": "djinn-board/architecture/persistance-layer",
+              "path": "/docs/djinn-board/architecture/persistance-layer",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/djinn-board/architecture/web-client",
-              "path": "/docs/architecture/djinn-board/architecture/web-client",
+              "id": "djinn-board/architecture/platform",
+              "path": "/docs/djinn-board/architecture/platform",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/djinn-board/installation",
-              "path": "/docs/architecture/djinn-board/installation",
+              "id": "djinn-board/architecture/web-client",
+              "path": "/docs/djinn-board/architecture/web-client",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/djinn-board/overview",
-              "path": "/docs/architecture/djinn-board/overview",
+              "id": "djinn-board/installation",
+              "path": "/docs/djinn-board/installation",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/djinn-board/security-model",
-              "path": "/docs/architecture/djinn-board/security-model",
+              "id": "djinn-board/overview",
+              "path": "/docs/djinn-board/overview",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/djinn-client/gateway",
-              "path": "/docs/architecture/djinn-client/gateway",
+              "id": "djinn-board/security-model",
+              "path": "/docs/djinn-board/security-model",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/djinn-client/overview",
-              "path": "/docs/architecture/djinn-client/overview",
+              "id": "djinn-client/gateway",
+              "path": "/docs/djinn-client/gateway",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/djinn-client/web",
-              "path": "/docs/architecture/djinn-client/web",
+              "id": "djinn-client/overview",
+              "path": "/docs/djinn-client/overview",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/djinn-cloud/community-edition",
-              "path": "/docs/architecture/djinn-cloud/community-edition",
+              "id": "djinn-client/web",
+              "path": "/docs/djinn-client/web",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/djinn-cloud/enterprise-edition",
-              "path": "/docs/architecture/djinn-cloud/enterprise-edition",
+              "id": "djinn-cloud/community-edition",
+              "path": "/docs/djinn-cloud/community-edition",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/djinn-cloud/overview",
-              "path": "/docs/architecture/djinn-cloud/overview",
+              "id": "djinn-cloud/enterprise-edition",
+              "path": "/docs/djinn-cloud/enterprise-edition",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/djinn-cloud/security-model",
-              "path": "/docs/architecture/djinn-cloud/security-model",
+              "id": "djinn-cloud/overview",
+              "path": "/docs/djinn-cloud/overview",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "architecture/overview",
-              "path": "/docs/architecture/overview",
+              "id": "djinn-cloud/security-model",
+              "path": "/docs/djinn-cloud/security-model",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "c4",
-              "path": "/docs/c4",
+              "id": "high-level-view",
+              "path": "/docs/high-level-view",
               "sidebar": "tutorialSidebar"
             },
             {

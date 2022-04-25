@@ -4,6 +4,41 @@ import ComponentCreator from '@docusaurus/ComponentCreator';
 
 export default [
   {
+    path: '/__docusaurus/debug',
+    component: ComponentCreator('/__docusaurus/debug','266'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/config',
+    component: ComponentCreator('/__docusaurus/debug/config','51f'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/content',
+    component: ComponentCreator('/__docusaurus/debug/content','e5c'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/globalData',
+    component: ComponentCreator('/__docusaurus/debug/globalData','0b6'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/metadata',
+    component: ComponentCreator('/__docusaurus/debug/metadata','b01'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/registry',
+    component: ComponentCreator('/__docusaurus/debug/registry','241'),
+    exact: true
+  },
+  {
+    path: '/__docusaurus/debug/routes',
+    component: ComponentCreator('/__docusaurus/debug/routes','ece'),
+    exact: true
+  },
+  {
     path: '/blog',
     component: ComponentCreator('/blog','100'),
     exact: true
@@ -65,119 +100,119 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','355'),
+    component: ComponentCreator('/docs','eec'),
     routes: [
       {
-        path: '/docs/architecture/djinn-board/architecture/agent',
-        component: ComponentCreator('/docs/architecture/djinn-board/architecture/agent','a06'),
+        path: '/docs/architecture',
+        component: ComponentCreator('/docs/architecture','228'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/djinn-board/architecture/authentication-server',
-        component: ComponentCreator('/docs/architecture/djinn-board/architecture/authentication-server','145'),
+        path: '/docs/djinn-board/architecture/agent',
+        component: ComponentCreator('/docs/djinn-board/architecture/agent','d12'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/djinn-board/architecture/event-bus',
-        component: ComponentCreator('/docs/architecture/djinn-board/architecture/event-bus','d7e'),
+        path: '/docs/djinn-board/architecture/authentication-server',
+        component: ComponentCreator('/docs/djinn-board/architecture/authentication-server','092'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/djinn-board/architecture/gateway',
-        component: ComponentCreator('/docs/architecture/djinn-board/architecture/gateway','d92'),
+        path: '/docs/djinn-board/architecture/event-bus',
+        component: ComponentCreator('/docs/djinn-board/architecture/event-bus','5c4'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/djinn-board/architecture/persistance-layer',
-        component: ComponentCreator('/docs/architecture/djinn-board/architecture/persistance-layer','a19'),
+        path: '/docs/djinn-board/architecture/gateway',
+        component: ComponentCreator('/docs/djinn-board/architecture/gateway','542'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/djinn-board/architecture/platform',
-        component: ComponentCreator('/docs/architecture/djinn-board/architecture/platform','193'),
+        path: '/docs/djinn-board/architecture/persistance-layer',
+        component: ComponentCreator('/docs/djinn-board/architecture/persistance-layer','932'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/djinn-board/architecture/web-client',
-        component: ComponentCreator('/docs/architecture/djinn-board/architecture/web-client','45f'),
+        path: '/docs/djinn-board/architecture/platform',
+        component: ComponentCreator('/docs/djinn-board/architecture/platform','c61'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/djinn-board/installation',
-        component: ComponentCreator('/docs/architecture/djinn-board/installation','134'),
+        path: '/docs/djinn-board/architecture/web-client',
+        component: ComponentCreator('/docs/djinn-board/architecture/web-client','89f'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/djinn-board/overview',
-        component: ComponentCreator('/docs/architecture/djinn-board/overview','c24'),
+        path: '/docs/djinn-board/installation',
+        component: ComponentCreator('/docs/djinn-board/installation','451'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/djinn-board/security-model',
-        component: ComponentCreator('/docs/architecture/djinn-board/security-model','bb7'),
+        path: '/docs/djinn-board/overview',
+        component: ComponentCreator('/docs/djinn-board/overview','ac4'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/djinn-client/gateway',
-        component: ComponentCreator('/docs/architecture/djinn-client/gateway','140'),
+        path: '/docs/djinn-board/security-model',
+        component: ComponentCreator('/docs/djinn-board/security-model','f19'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/djinn-client/overview',
-        component: ComponentCreator('/docs/architecture/djinn-client/overview','277'),
+        path: '/docs/djinn-client/gateway',
+        component: ComponentCreator('/docs/djinn-client/gateway','fef'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/djinn-client/web',
-        component: ComponentCreator('/docs/architecture/djinn-client/web','d01'),
+        path: '/docs/djinn-client/overview',
+        component: ComponentCreator('/docs/djinn-client/overview','c27'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/djinn-cloud/community-edition',
-        component: ComponentCreator('/docs/architecture/djinn-cloud/community-edition','f65'),
+        path: '/docs/djinn-client/web',
+        component: ComponentCreator('/docs/djinn-client/web','f7a'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/djinn-cloud/enterprise-edition',
-        component: ComponentCreator('/docs/architecture/djinn-cloud/enterprise-edition','e3e'),
+        path: '/docs/djinn-cloud/community-edition',
+        component: ComponentCreator('/docs/djinn-cloud/community-edition','965'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/djinn-cloud/overview',
-        component: ComponentCreator('/docs/architecture/djinn-cloud/overview','355'),
+        path: '/docs/djinn-cloud/enterprise-edition',
+        component: ComponentCreator('/docs/djinn-cloud/enterprise-edition','c29'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/djinn-cloud/security-model',
-        component: ComponentCreator('/docs/architecture/djinn-cloud/security-model','7c9'),
+        path: '/docs/djinn-cloud/overview',
+        component: ComponentCreator('/docs/djinn-cloud/overview','4dc'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/architecture/overview',
-        component: ComponentCreator('/docs/architecture/overview','20a'),
+        path: '/docs/djinn-cloud/security-model',
+        component: ComponentCreator('/docs/djinn-cloud/security-model','e1c'),
         exact: true,
         sidebar: "tutorialSidebar"
       },
       {
-        path: '/docs/c4',
-        component: ComponentCreator('/docs/c4','fde'),
+        path: '/docs/high-level-view',
+        component: ComponentCreator('/docs/high-level-view','ba6'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

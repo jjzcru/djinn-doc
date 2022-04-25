@@ -2,19 +2,20 @@
   "unversionedId": "djinn-board/security-model",
   "id": "djinn-board/security-model",
   "title": "Security Model",
-  "description": "TODO Security model",
+  "description": "The board is going to be exposed to the user network and because of this the board comes with a security model built-in, since security is one of the principles for Djinn we protect the data with Authorization and Access control, but the board provides security measures built-in like Secret Managmenement and data encryption (On Storage and on Transit).",
   "source": "@site/docs/djinn-board/security-model.md",
   "sourceDirName": "djinn-board",
   "slug": "/djinn-board/security-model",
   "permalink": "/docs/djinn-board/security-model",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/security-model.md",
+  "editUrl": null,
   "tags": [],
   "version": "current",
   "sidebarPosition": 4,
   "frontMatter": {
     "id": "security-model",
     "title": "Security Model",
-    "sidebar_position": 4
+    "sidebar_position": 4,
+    "custom_edit_url": null
   },
   "sidebar": "tutorialSidebar",
   "previous": {
@@ -23,6 +24,6 @@
   },
   "next": {
     "title": "Overview",
-    "permalink": "/docs/djinn-cloud/overview"
+    "permalink": "/docs/djinn-client/overview"
   }
 }

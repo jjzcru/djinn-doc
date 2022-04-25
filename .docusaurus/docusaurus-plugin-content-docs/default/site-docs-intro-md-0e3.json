@@ -12,12 +12,14 @@
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
+    "id": "intro",
+    "title": "Introduction",
     "sidebar_position": 1,
     "custom_edit_url": null
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "C4",
-    "permalink": "/docs/c4"
+    "title": "10,000 foot view",
+    "permalink": "/docs/high-level-view"
   }
 }

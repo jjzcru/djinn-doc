@@ -2,19 +2,20 @@
   "unversionedId": "djinn-board/architecture/agent",
   "id": "djinn-board/architecture/agent",
   "title": "Agent",
-  "description": "This is a module that will handled the communication with the cloud, it talks with the cloud via gRPC, which uses proto buffers underneath.",
+  "description": "Agent Diagram",
   "source": "@site/docs/djinn-board/architecture/agent.md",
   "sourceDirName": "djinn-board/architecture",
   "slug": "/djinn-board/architecture/agent",
   "permalink": "/docs/djinn-board/architecture/agent",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-board/architecture/agent.md",
+  "editUrl": null,
   "tags": [],
   "version": "current",
   "sidebarPosition": 8,
   "frontMatter": {
     "id": "agent",
     "title": "Agent",
-    "sidebar_position": 8
+    "sidebar_position": 8,
+    "custom_edit_url": null
   },
   "sidebar": "tutorialSidebar",
   "previous": {

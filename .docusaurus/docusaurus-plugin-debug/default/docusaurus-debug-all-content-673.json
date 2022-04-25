@@ -19,14 +19,43 @@
           "contentPathLocalized": "/Users/jjzcru/Workspace/Djinn/djinn/i18n/en/docusaurus-plugin-content-docs/current",
           "docs": [
             {
-              "unversionedId": "architecture/djinn-board/architecture/agent",
-              "id": "architecture/djinn-board/architecture/agent",
+              "unversionedId": "architecture",
+              "id": "architecture",
+              "title": "Architecture",
+              "description": "Djinn Architecture",
+              "source": "@site/docs/architecture.md",
+              "sourceDirName": ".",
+              "slug": "/architecture",
+              "permalink": "/docs/architecture",
+              "editUrl": null,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 3,
+              "frontMatter": {
+                "id": "architecture",
+                "title": "Architecture",
+                "sidebar_position": 3,
+                "custom_edit_url": null
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "10,000 foot view",
+                "permalink": "/docs/high-level-view"
+              },
+              "next": {
+                "title": "Overview",
+                "permalink": "/docs/djinn-board/overview"
+              }
+            },
+            {
+              "unversionedId": "djinn-board/architecture/agent",
+              "id": "djinn-board/architecture/agent",
               "title": "Agent",
               "description": "Agent Diagram",
-              "source": "@site/docs/architecture/djinn-board/architecture/agent.md",
-              "sourceDirName": "architecture/djinn-board/architecture",
-              "slug": "/architecture/djinn-board/architecture/agent",
-              "permalink": "/docs/architecture/djinn-board/architecture/agent",
+              "source": "@site/docs/djinn-board/architecture/agent.md",
+              "sourceDirName": "djinn-board/architecture",
+              "slug": "/djinn-board/architecture/agent",
+              "permalink": "/docs/djinn-board/architecture/agent",
               "editUrl": null,
               "tags": [],
               "version": "current",
@@ -40,22 +69,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Web Client",
-                "permalink": "/docs/architecture/djinn-board/architecture/web-client"
+                "permalink": "/docs/djinn-board/architecture/web-client"
               },
               "next": {
                 "title": "Security Model",
-                "permalink": "/docs/architecture/djinn-board/security-model"
+                "permalink": "/docs/djinn-board/security-model"
               }
             },
             {
-              "unversionedId": "architecture/djinn-board/architecture/authentication-server",
-              "id": "architecture/djinn-board/architecture/authentication-server",
+              "unversionedId": "djinn-board/architecture/authentication-server",
+              "id": "djinn-board/architecture/authentication-server",
               "title": "Authentication Server",
               "description": "This is a OAuth 2.0 server, build in go, that handles the authentication of the users that wan't to control the board.",
-              "source": "@site/docs/architecture/djinn-board/architecture/authentication-server.md",
-              "sourceDirName": "architecture/djinn-board/architecture",
-              "slug": "/architecture/djinn-board/architecture/authentication-server",
-              "permalink": "/docs/architecture/djinn-board/architecture/authentication-server",
+              "source": "@site/docs/djinn-board/architecture/authentication-server.md",
+              "sourceDirName": "djinn-board/architecture",
+              "slug": "/djinn-board/architecture/authentication-server",
+              "permalink": "/docs/djinn-board/architecture/authentication-server",
               "editUrl": null,
               "tags": [],
               "version": "current",
@@ -69,22 +98,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Gateway",
-                "permalink": "/docs/architecture/djinn-board/architecture/gateway"
+                "permalink": "/docs/djinn-board/architecture/gateway"
               },
               "next": {
                 "title": "Web Client",
-                "permalink": "/docs/architecture/djinn-board/architecture/web-client"
+                "permalink": "/docs/djinn-board/architecture/web-client"
               }
             },
             {
-              "unversionedId": "architecture/djinn-board/architecture/event-bus",
-              "id": "architecture/djinn-board/architecture/event-bus",
+              "unversionedId": "djinn-board/architecture/event-bus",
+              "id": "djinn-board/architecture/event-bus",
               "title": "Event Bus",
               "description": "In the application all the comunication is going to be asynchrounous and is going to use an message queue to handle the request, the reason we are doing this is because is easy to scale the application using the asynchrounous nature of a publish-subscribe system.",
-              "source": "@site/docs/architecture/djinn-board/architecture/event-bus.md",
-              "sourceDirName": "architecture/djinn-board/architecture",
-              "slug": "/architecture/djinn-board/architecture/event-bus",
-              "permalink": "/docs/architecture/djinn-board/architecture/event-bus",
+              "source": "@site/docs/djinn-board/architecture/event-bus.md",
+              "sourceDirName": "djinn-board/architecture",
+              "slug": "/djinn-board/architecture/event-bus",
+              "permalink": "/docs/djinn-board/architecture/event-bus",
               "editUrl": null,
               "tags": [],
               "version": "current",
@@ -98,22 +127,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Persistance Layer",
-                "permalink": "/docs/architecture/djinn-board/architecture/persistance-layer"
+                "permalink": "/docs/djinn-board/architecture/persistance-layer"
               },
               "next": {
                 "title": "Gateway",
-                "permalink": "/docs/architecture/djinn-board/architecture/gateway"
+                "permalink": "/docs/djinn-board/architecture/gateway"
               }
             },
             {
-              "unversionedId": "architecture/djinn-board/architecture/gateway",
-              "id": "architecture/djinn-board/architecture/gateway",
+              "unversionedId": "djinn-board/architecture/gateway",
+              "id": "djinn-board/architecture/gateway",
               "title": "Gateway",
               "description": "This is a service that is going to offer a graphql API to interact with the application from the outside world, is going to run in the port 5555 and applications can be built on top of the graphql.",
-              "source": "@site/docs/architecture/djinn-board/architecture/gateway.md",
-              "sourceDirName": "architecture/djinn-board/architecture",
-              "slug": "/architecture/djinn-board/architecture/gateway",
-              "permalink": "/docs/architecture/djinn-board/architecture/gateway",
+              "source": "@site/docs/djinn-board/architecture/gateway.md",
+              "sourceDirName": "djinn-board/architecture",
+              "slug": "/djinn-board/architecture/gateway",
+              "permalink": "/docs/djinn-board/architecture/gateway",
               "editUrl": null,
               "tags": [],
               "version": "current",
@@ -127,22 +156,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Event Bus",
-                "permalink": "/docs/architecture/djinn-board/architecture/event-bus"
+                "permalink": "/docs/djinn-board/architecture/event-bus"
               },
               "next": {
                 "title": "Authentication Server",
-                "permalink": "/docs/architecture/djinn-board/architecture/authentication-server"
+                "permalink": "/docs/djinn-board/architecture/authentication-server"
               }
             },
             {
-              "unversionedId": "architecture/djinn-board/architecture/persistance-layer",
-              "id": "architecture/djinn-board/architecture/persistance-layer",
+              "unversionedId": "djinn-board/architecture/persistance-layer",
+              "id": "djinn-board/architecture/persistance-layer",
               "title": "Persistance Layer",
               "description": "This is the layer that is used to keep a persistant state of the system, is accesed by the Authentication Service, the Gateway and the platform.",
-              "source": "@site/docs/architecture/djinn-board/architecture/persistance-layer.md",
-              "sourceDirName": "architecture/djinn-board/architecture",
-              "slug": "/architecture/djinn-board/architecture/persistance-layer",
-              "permalink": "/docs/architecture/djinn-board/architecture/persistance-layer",
+              "source": "@site/docs/djinn-board/architecture/persistance-layer.md",
+              "sourceDirName": "djinn-board/architecture",
+              "slug": "/djinn-board/architecture/persistance-layer",
+              "permalink": "/docs/djinn-board/architecture/persistance-layer",
               "editUrl": null,
               "tags": [],
               "version": "current",
@@ -156,22 +185,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Platform",
-                "permalink": "/docs/architecture/djinn-board/architecture/platform"
+                "permalink": "/docs/djinn-board/architecture/platform"
               },
               "next": {
                 "title": "Event Bus",
-                "permalink": "/docs/architecture/djinn-board/architecture/event-bus"
+                "permalink": "/docs/djinn-board/architecture/event-bus"
               }
             },
             {
-              "unversionedId": "architecture/djinn-board/architecture/platform",
-              "id": "architecture/djinn-board/architecture/platform",
+              "unversionedId": "djinn-board/architecture/platform",
+              "id": "djinn-board/architecture/platform",
               "title": "Platform",
               "description": "This part of the architecture is going to handle the communication between the",
-              "source": "@site/docs/architecture/djinn-board/architecture/platform.md",
-              "sourceDirName": "architecture/djinn-board/architecture",
-              "slug": "/architecture/djinn-board/architecture/platform",
-              "permalink": "/docs/architecture/djinn-board/architecture/platform",
+              "source": "@site/docs/djinn-board/architecture/platform.md",
+              "sourceDirName": "djinn-board/architecture",
+              "slug": "/djinn-board/architecture/platform",
+              "permalink": "/docs/djinn-board/architecture/platform",
               "editUrl": null,
               "tags": [],
               "version": "current",
@@ -185,22 +214,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Installation",
-                "permalink": "/docs/architecture/djinn-board/installation"
+                "permalink": "/docs/djinn-board/installation"
               },
               "next": {
                 "title": "Persistance Layer",
-                "permalink": "/docs/architecture/djinn-board/architecture/persistance-layer"
+                "permalink": "/docs/djinn-board/architecture/persistance-layer"
               }
             },
             {
-              "unversionedId": "architecture/djinn-board/architecture/web-client",
-              "id": "architecture/djinn-board/architecture/web-client",
+              "unversionedId": "djinn-board/architecture/web-client",
+              "id": "djinn-board/architecture/web-client",
               "title": "Web Client",
               "description": "This is a web interface that is build in react and runs on top of the Djinn Gateway, it runs on port 80 and port 443 and enables the users to configure and control the Djinn OS from a browser.",
-              "source": "@site/docs/architecture/djinn-board/architecture/web-client.md",
-              "sourceDirName": "architecture/djinn-board/architecture",
-              "slug": "/architecture/djinn-board/architecture/web-client",
-              "permalink": "/docs/architecture/djinn-board/architecture/web-client",
+              "source": "@site/docs/djinn-board/architecture/web-client.md",
+              "sourceDirName": "djinn-board/architecture",
+              "slug": "/djinn-board/architecture/web-client",
+              "permalink": "/docs/djinn-board/architecture/web-client",
               "editUrl": null,
               "tags": [],
               "version": "current",
@@ -214,22 +243,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Authentication Server",
-                "permalink": "/docs/architecture/djinn-board/architecture/authentication-server"
+                "permalink": "/docs/djinn-board/architecture/authentication-server"
               },
               "next": {
                 "title": "Agent",
-                "permalink": "/docs/architecture/djinn-board/architecture/agent"
+                "permalink": "/docs/djinn-board/architecture/agent"
               }
             },
             {
-              "unversionedId": "architecture/djinn-board/installation",
-              "id": "architecture/djinn-board/installation",
+              "unversionedId": "djinn-board/installation",
+              "id": "djinn-board/installation",
               "title": "Installation",
               "description": "We already describe that the board is a raspberry pi 4 board which come with an integrated Wi-fi module, that we are going to use to create an access point to which a device is going to connect and then set the credentials required to connect to the user network and other installation requirements.",
-              "source": "@site/docs/architecture/djinn-board/installation.md",
-              "sourceDirName": "architecture/djinn-board",
-              "slug": "/architecture/djinn-board/installation",
-              "permalink": "/docs/architecture/djinn-board/installation",
+              "source": "@site/docs/djinn-board/installation.md",
+              "sourceDirName": "djinn-board",
+              "slug": "/djinn-board/installation",
+              "permalink": "/docs/djinn-board/installation",
               "editUrl": null,
               "tags": [],
               "version": "current",
@@ -241,22 +270,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Overview",
-                "permalink": "/docs/architecture/djinn-board/overview"
+                "permalink": "/docs/djinn-board/overview"
               },
               "next": {
                 "title": "Platform",
-                "permalink": "/docs/architecture/djinn-board/architecture/platform"
+                "permalink": "/docs/djinn-board/architecture/platform"
               }
             },
             {
-              "unversionedId": "architecture/djinn-board/overview",
-              "id": "architecture/djinn-board/overview",
+              "unversionedId": "djinn-board/overview",
+              "id": "djinn-board/overview",
               "title": "Overview",
               "description": "This is the architecture for the application that is going to run inside the board,",
-              "source": "@site/docs/architecture/djinn-board/overview.md",
-              "sourceDirName": "architecture/djinn-board",
-              "slug": "/architecture/djinn-board/overview",
-              "permalink": "/docs/architecture/djinn-board/overview",
+              "source": "@site/docs/djinn-board/overview.md",
+              "sourceDirName": "djinn-board",
+              "slug": "/djinn-board/overview",
+              "permalink": "/docs/djinn-board/overview",
               "editUrl": null,
               "tags": [],
               "version": "current",
@@ -267,23 +296,23 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Overview",
-                "permalink": "/docs/architecture/overview"
+                "title": "Architecture",
+                "permalink": "/docs/architecture"
               },
               "next": {
                 "title": "Installation",
-                "permalink": "/docs/architecture/djinn-board/installation"
+                "permalink": "/docs/djinn-board/installation"
               }
             },
             {
-              "unversionedId": "architecture/djinn-board/security-model",
-              "id": "architecture/djinn-board/security-model",
+              "unversionedId": "djinn-board/security-model",
+              "id": "djinn-board/security-model",
               "title": "Security Model",
               "description": "The board is going to be exposed to the user network and because of this the board comes with a security model built-in, since security is one of the principles for Djinn we protect the data with Authorization and Access control, but the board provides security measures built-in like Secret Managmenement and data encryption (On Storage and on Transit).",
-              "source": "@site/docs/architecture/djinn-board/security-model.md",
-              "sourceDirName": "architecture/djinn-board",
-              "slug": "/architecture/djinn-board/security-model",
-              "permalink": "/docs/architecture/djinn-board/security-model",
+              "source": "@site/docs/djinn-board/security-model.md",
+              "sourceDirName": "djinn-board",
+              "slug": "/djinn-board/security-model",
+              "permalink": "/docs/djinn-board/security-model",
               "editUrl": null,
               "tags": [],
               "version": "current",
@@ -297,23 +326,23 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Agent",
-                "permalink": "/docs/architecture/djinn-board/architecture/agent"
+                "permalink": "/docs/djinn-board/architecture/agent"
               },
               "next": {
                 "title": "Overview",
-                "permalink": "/docs/architecture/djinn-cloud/overview"
+                "permalink": "/docs/djinn-client/overview"
               }
             },
             {
-              "unversionedId": "architecture/djinn-client/gateway",
-              "id": "architecture/djinn-client/gateway",
+              "unversionedId": "djinn-client/gateway",
+              "id": "djinn-client/gateway",
               "title": "Gateway",
               "description": "The gateway clients are native applications (Android, iOS, macOS, Windows,",
-              "source": "@site/docs/architecture/djinn-client/gateway.md",
-              "sourceDirName": "architecture/djinn-client",
-              "slug": "/architecture/djinn-client/gateway",
-              "permalink": "/docs/architecture/djinn-client/gateway",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/architecture/djinn-client/gateway.md",
+              "source": "@site/docs/djinn-client/gateway.md",
+              "sourceDirName": "djinn-client",
+              "slug": "/djinn-client/gateway",
+              "permalink": "/docs/djinn-client/gateway",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-client/gateway.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 3,
@@ -325,23 +354,23 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Web",
-                "permalink": "/docs/architecture/djinn-client/web"
+                "permalink": "/docs/djinn-client/web"
               },
               "next": {
-                "title": "Use Case",
-                "permalink": "/docs/use-case"
+                "title": "Overview",
+                "permalink": "/docs/djinn-cloud/overview"
               }
             },
             {
-              "unversionedId": "architecture/djinn-client/overview",
-              "id": "architecture/djinn-client/overview",
+              "unversionedId": "djinn-client/overview",
+              "id": "djinn-client/overview",
               "title": "Overview",
               "description": "This is an application that is going to talk directly with the Djinn Gateway",
-              "source": "@site/docs/architecture/djinn-client/overview.md",
-              "sourceDirName": "architecture/djinn-client",
-              "slug": "/architecture/djinn-client/overview",
-              "permalink": "/docs/architecture/djinn-client/overview",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/architecture/djinn-client/overview.md",
+              "source": "@site/docs/djinn-client/overview.md",
+              "sourceDirName": "djinn-client",
+              "slug": "/djinn-client/overview",
+              "permalink": "/docs/djinn-client/overview",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-client/overview.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -353,23 +382,23 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Security Model",
-                "permalink": "/docs/architecture/djinn-cloud/security-model"
+                "permalink": "/docs/djinn-board/security-model"
               },
               "next": {
                 "title": "Web",
-                "permalink": "/docs/architecture/djinn-client/web"
+                "permalink": "/docs/djinn-client/web"
               }
             },
             {
-              "unversionedId": "architecture/djinn-client/web",
-              "id": "architecture/djinn-client/web",
+              "unversionedId": "djinn-client/web",
+              "id": "djinn-client/web",
               "title": "Web",
               "description": "This is an application that is embbed in the environment that is running, this",
-              "source": "@site/docs/architecture/djinn-client/web.md",
-              "sourceDirName": "architecture/djinn-client",
-              "slug": "/architecture/djinn-client/web",
-              "permalink": "/docs/architecture/djinn-client/web",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/architecture/djinn-client/web.md",
+              "source": "@site/docs/djinn-client/web.md",
+              "sourceDirName": "djinn-client",
+              "slug": "/djinn-client/web",
+              "permalink": "/docs/djinn-client/web",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-client/web.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
@@ -381,22 +410,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Overview",
-                "permalink": "/docs/architecture/djinn-client/overview"
+                "permalink": "/docs/djinn-client/overview"
               },
               "next": {
                 "title": "Gateway",
-                "permalink": "/docs/architecture/djinn-client/gateway"
+                "permalink": "/docs/djinn-client/gateway"
               }
             },
             {
-              "unversionedId": "architecture/djinn-cloud/community-edition",
-              "id": "architecture/djinn-cloud/community-edition",
+              "unversionedId": "djinn-cloud/community-edition",
+              "id": "djinn-cloud/community-edition",
               "title": "Community Edition",
               "description": "This edition is open source and self hosted, the user are able to install the application in any server that they want.",
-              "source": "@site/docs/architecture/djinn-cloud/community-edition.md",
-              "sourceDirName": "architecture/djinn-cloud",
-              "slug": "/architecture/djinn-cloud/community-edition",
-              "permalink": "/docs/architecture/djinn-cloud/community-edition",
+              "source": "@site/docs/djinn-cloud/community-edition.md",
+              "sourceDirName": "djinn-cloud",
+              "slug": "/djinn-cloud/community-edition",
+              "permalink": "/docs/djinn-cloud/community-edition",
               "editUrl": null,
               "tags": [],
               "version": "current",
@@ -410,22 +439,22 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Overview",
-                "permalink": "/docs/architecture/djinn-cloud/overview"
+                "permalink": "/docs/djinn-cloud/overview"
               },
               "next": {
                 "title": "Enterprise Edition",
-                "permalink": "/docs/architecture/djinn-cloud/enterprise-edition"
+                "permalink": "/docs/djinn-cloud/enterprise-edition"
               }
             },
             {
-              "unversionedId": "architecture/djinn-cloud/enterprise-edition",
-              "id": "architecture/djinn-cloud/enterprise-edition",
+              "unversionedId": "djinn-cloud/enterprise-edition",
+              "id": "djinn-cloud/enterprise-edition",
               "title": "Enterprise Edition",
               "description": "This is the SaaS offering, propertary, where users are able to sign up and create their own cloud of homes, this is build on top of a full fledge kubernetes cluster that supports multinancy by creating a new Namespace for each customer.",
-              "source": "@site/docs/architecture/djinn-cloud/enterprise-edition.md",
-              "sourceDirName": "architecture/djinn-cloud",
-              "slug": "/architecture/djinn-cloud/enterprise-edition",
-              "permalink": "/docs/architecture/djinn-cloud/enterprise-edition",
+              "source": "@site/docs/djinn-cloud/enterprise-edition.md",
+              "sourceDirName": "djinn-cloud",
+              "slug": "/djinn-cloud/enterprise-edition",
+              "permalink": "/docs/djinn-cloud/enterprise-edition",
               "editUrl": null,
               "tags": [],
               "version": "current",
@@ -439,23 +468,23 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Community Edition",
-                "permalink": "/docs/architecture/djinn-cloud/community-edition"
+                "permalink": "/docs/djinn-cloud/community-edition"
               },
               "next": {
                 "title": "Security Model",
-                "permalink": "/docs/architecture/djinn-cloud/security-model"
+                "permalink": "/docs/djinn-cloud/security-model"
               }
             },
             {
-              "unversionedId": "architecture/djinn-cloud/overview",
-              "id": "architecture/djinn-cloud/overview",
+              "unversionedId": "djinn-cloud/overview",
+              "id": "djinn-cloud/overview",
               "title": "Overview",
               "description": "Djinn is going to use the Open-core business model, which is the same that is used by:",
-              "source": "@site/docs/architecture/djinn-cloud/overview.md",
-              "sourceDirName": "architecture/djinn-cloud",
-              "slug": "/architecture/djinn-cloud/overview",
-              "permalink": "/docs/architecture/djinn-cloud/overview",
-              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/architecture/djinn-cloud/overview.md",
+              "source": "@site/docs/djinn-cloud/overview.md",
+              "sourceDirName": "djinn-cloud",
+              "slug": "/djinn-cloud/overview",
+              "permalink": "/docs/djinn-cloud/overview",
+              "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-cloud/overview.md",
               "tags": [],
               "version": "current",
               "sidebarPosition": 1,
@@ -466,23 +495,23 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Security Model",
-                "permalink": "/docs/architecture/djinn-board/security-model"
+                "title": "Gateway",
+                "permalink": "/docs/djinn-client/gateway"
               },
               "next": {
                 "title": "Community Edition",
-                "permalink": "/docs/architecture/djinn-cloud/community-edition"
+                "permalink": "/docs/djinn-cloud/community-edition"
               }
             },
             {
-              "unversionedId": "architecture/djinn-cloud/security-model",
-              "id": "architecture/djinn-cloud/security-model",
+              "unversionedId": "djinn-cloud/security-model",
+              "id": "djinn-cloud/security-model",
               "title": "Security Model",
               "description": "The cloud, as it's name state, is going to be publically available, and is more prone to attacks than the board that lives in a private network.",
-              "source": "@site/docs/architecture/djinn-cloud/security-model.md",
-              "sourceDirName": "architecture/djinn-cloud",
-              "slug": "/architecture/djinn-cloud/security-model",
-              "permalink": "/docs/architecture/djinn-cloud/security-model",
+              "source": "@site/docs/djinn-cloud/security-model.md",
+              "sourceDirName": "djinn-cloud",
+              "slug": "/djinn-cloud/security-model",
+              "permalink": "/docs/djinn-cloud/security-model",
               "editUrl": null,
               "tags": [],
               "version": "current",
@@ -496,56 +525,29 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Enterprise Edition",
-                "permalink": "/docs/architecture/djinn-cloud/enterprise-edition"
+                "permalink": "/docs/djinn-cloud/enterprise-edition"
               },
               "next": {
-                "title": "Overview",
-                "permalink": "/docs/architecture/djinn-client/overview"
+                "title": "Use Case",
+                "permalink": "/docs/use-case"
               }
             },
             {
-              "unversionedId": "architecture/overview",
-              "id": "architecture/overview",
-              "title": "Overview",
-              "description": "Djinn Architecture",
-              "source": "@site/docs/architecture/overview.md",
-              "sourceDirName": "architecture",
-              "slug": "/architecture/overview",
-              "permalink": "/docs/architecture/overview",
-              "editUrl": null,
-              "tags": [],
-              "version": "current",
-              "sidebarPosition": 1,
-              "frontMatter": {
-                "id": "overview",
-                "title": "Overview",
-                "sidebar_position": 1,
-                "custom_edit_url": null
-              },
-              "sidebar": "tutorialSidebar",
-              "previous": {
-                "title": "C4",
-                "permalink": "/docs/c4"
-              },
-              "next": {
-                "title": "Overview",
-                "permalink": "/docs/architecture/djinn-board/overview"
-              }
-            },
-            {
-              "unversionedId": "c4",
-              "id": "c4",
-              "title": "C4",
+              "unversionedId": "high-level-view",
+              "id": "high-level-view",
+              "title": "10,000 foot view",
               "description": "Djinn Board Architecture",
               "source": "@site/docs/c4.md",
               "sourceDirName": ".",
-              "slug": "/c4",
-              "permalink": "/docs/c4",
+              "slug": "/high-level-view",
+              "permalink": "/docs/high-level-view",
               "editUrl": null,
               "tags": [],
               "version": "current",
               "sidebarPosition": 2,
               "frontMatter": {
+                "id": "high-level-view",
+                "title": "10,000 foot view",
                 "sidebar_position": 2,
                 "custom_edit_url": null
               },
@@ -555,8 +557,8 @@
                 "permalink": "/docs/intro"
               },
               "next": {
-                "title": "Overview",
-                "permalink": "/docs/architecture/overview"
+                "title": "Architecture",
+                "permalink": "/docs/architecture"
               }
             },
             {
@@ -573,13 +575,15 @@
               "version": "current",
               "sidebarPosition": 1,
               "frontMatter": {
+                "id": "intro",
+                "title": "Introduction",
                 "sidebar_position": 1,
                 "custom_edit_url": null
               },
               "sidebar": "tutorialSidebar",
               "next": {
-                "title": "C4",
-                "permalink": "/docs/c4"
+                "title": "10,000 foot view",
+                "permalink": "/docs/high-level-view"
               }
             },
             {
@@ -594,11 +598,11 @@
               "editUrl": null,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 5,
+              "sidebarPosition": 7,
               "frontMatter": {
                 "id": "reference-frameworks",
                 "title": "Reference Frameworks",
-                "sidebar_position": 5,
+                "sidebar_position": 7,
                 "custom_edit_url": null
               },
               "sidebar": "tutorialSidebar",
@@ -619,17 +623,17 @@
               "editUrl": null,
               "tags": [],
               "version": "current",
-              "sidebarPosition": 4,
+              "sidebarPosition": 6,
               "frontMatter": {
                 "id": "use-case",
                 "title": "Use Case",
-                "sidebar_position": 4,
+                "sidebar_position": 6,
                 "custom_edit_url": null
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Gateway",
-                "permalink": "/docs/architecture/djinn-client/gateway"
+                "title": "Security Model",
+                "permalink": "/docs/djinn-cloud/security-model"
               },
               "next": {
                 "title": "Reference Frameworks",
@@ -645,117 +649,109 @@
               },
               {
                 "type": "doc",
-                "id": "c4"
+                "id": "high-level-view"
+              },
+              {
+                "type": "doc",
+                "id": "architecture"
               },
               {
                 "type": "category",
-                "label": "Architecture",
+                "label": "Djinn Board",
                 "collapsible": true,
                 "collapsed": true,
                 "items": [
                   {
                     "type": "doc",
-                    "id": "architecture/overview"
+                    "id": "djinn-board/overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-board/installation"
                   },
                   {
                     "type": "category",
-                    "label": "Djinn Board",
+                    "label": "Architecture",
                     "collapsible": true,
                     "collapsed": true,
                     "items": [
                       {
                         "type": "doc",
-                        "id": "architecture/djinn-board/overview"
+                        "id": "djinn-board/architecture/platform"
                       },
                       {
                         "type": "doc",
-                        "id": "architecture/djinn-board/installation"
-                      },
-                      {
-                        "type": "category",
-                        "label": "Architecture",
-                        "collapsible": true,
-                        "collapsed": true,
-                        "items": [
-                          {
-                            "type": "doc",
-                            "id": "architecture/djinn-board/architecture/platform"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "architecture/djinn-board/architecture/persistance-layer"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "architecture/djinn-board/architecture/event-bus"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "architecture/djinn-board/architecture/gateway"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "architecture/djinn-board/architecture/authentication-server"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "architecture/djinn-board/architecture/web-client"
-                          },
-                          {
-                            "type": "doc",
-                            "id": "architecture/djinn-board/architecture/agent"
-                          }
-                        ]
+                        "id": "djinn-board/architecture/persistance-layer"
                       },
                       {
                         "type": "doc",
-                        "id": "architecture/djinn-board/security-model"
+                        "id": "djinn-board/architecture/event-bus"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "djinn-board/architecture/gateway"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "djinn-board/architecture/authentication-server"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "djinn-board/architecture/web-client"
+                      },
+                      {
+                        "type": "doc",
+                        "id": "djinn-board/architecture/agent"
                       }
                     ]
                   },
                   {
-                    "type": "category",
-                    "label": "Djinn Cloud",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "architecture/djinn-cloud/overview"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "architecture/djinn-cloud/community-edition"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "architecture/djinn-cloud/enterprise-edition"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "architecture/djinn-cloud/security-model"
-                      }
-                    ]
+                    "type": "doc",
+                    "id": "djinn-board/security-model"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Djinn Client",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "djinn-client/overview"
                   },
                   {
-                    "type": "category",
-                    "label": "Djinn Client",
-                    "collapsible": true,
-                    "collapsed": true,
-                    "items": [
-                      {
-                        "type": "doc",
-                        "id": "architecture/djinn-client/overview"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "architecture/djinn-client/web"
-                      },
-                      {
-                        "type": "doc",
-                        "id": "architecture/djinn-client/gateway"
-                      }
-                    ]
+                    "type": "doc",
+                    "id": "djinn-client/web"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-client/gateway"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Djinn Cloud",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "djinn-cloud/overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-cloud/community-edition"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-cloud/enterprise-edition"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-cloud/security-model"
                   }
                 ]
               },

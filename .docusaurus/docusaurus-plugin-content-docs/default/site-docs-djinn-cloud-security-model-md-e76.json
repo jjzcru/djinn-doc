@@ -1,0 +1,29 @@
+{
+  "unversionedId": "djinn-cloud/security-model",
+  "id": "djinn-cloud/security-model",
+  "title": "Security Model",
+  "description": "The cloud, as it's name state, is going to be publically available, and is more prone to attacks than the board that lives in a private network.",
+  "source": "@site/docs/djinn-cloud/security-model.md",
+  "sourceDirName": "djinn-cloud",
+  "slug": "/djinn-cloud/security-model",
+  "permalink": "/docs/djinn-cloud/security-model",
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "security-model",
+    "title": "Security Model",
+    "sidebar_position": 4,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Enterprise Edition",
+    "permalink": "/docs/djinn-cloud/enterprise-edition"
+  },
+  "next": {
+    "title": "Use Case",
+    "permalink": "/docs/use-case"
+  }
+}
