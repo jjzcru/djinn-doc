@@ -57,19 +57,19 @@ export default {
           "items": [
             {
               "label": "Djinn",
-              "to": "/docs/architecture/overview"
+              "to": "/docs/architecture"
             },
             {
               "label": "Djinn Board",
-              "to": "/docs/architecture/djinn-board/overview"
+              "to": "/docs/djinn-board/overview"
             },
             {
               "label": "Djinn Cloud",
-              "to": "/docs/architecture/djinn-cloud/overview"
+              "to": "/docs/djinn-cloud/overview"
             },
             {
               "label": "Djinn Client",
-              "to": "/docs/architecture/djinn-client/overview"
+              "to": "/docs/djinn-client/overview"
             }
           ]
         },
