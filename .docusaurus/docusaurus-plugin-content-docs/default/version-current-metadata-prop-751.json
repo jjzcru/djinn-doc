@@ -177,6 +177,12 @@
         "label": "Resource Model",
         "href": "/docs/resource-model",
         "docId": "resource-model"
+      },
+      {
+        "type": "link",
+        "label": "Relational Model",
+        "href": "/docs/relational-model",
+        "docId": "relational-model"
       }
     ]
   },
@@ -305,6 +311,12 @@
       "id": "reference-frameworks",
       "title": "Reference Frameworks",
       "description": "The architecture for Djinn 🧞‍♂️, is built using other frameworks as a reference, all of these frameworks provide a framework for the entire infrastructure but their implementation is not feasible unless a tight integration is done, and right now there is a plethora of devices, each using different protocols which are fragmented the market making it more difficult to provide a solution for each device, for this reason, the application chooses the most popular communication protocols and take inspiration on how different frameworks handle different problems.",
+      "sidebar": "tutorialSidebar"
+    },
+    "relational-model": {
+      "id": "relational-model",
+      "title": "Relational Model",
+      "description": "This is the relation model that describe how the resources are stored in the Database",
       "sidebar": "tutorialSidebar"
     },
     "resource-model": {

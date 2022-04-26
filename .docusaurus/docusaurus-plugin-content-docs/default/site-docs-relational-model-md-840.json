@@ -1,0 +1,25 @@
+{
+  "unversionedId": "relational-model",
+  "id": "relational-model",
+  "title": "Relational Model",
+  "description": "This is the relation model that describe how the resources are stored in the Database",
+  "source": "@site/docs/relational-model.md",
+  "sourceDirName": ".",
+  "slug": "/relational-model",
+  "permalink": "/docs/relational-model",
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 10,
+  "frontMatter": {
+    "id": "relational-model",
+    "title": "Relational Model",
+    "sidebar_position": 10,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Resource Model",
+    "permalink": "/docs/resource-model"
+  }
+}

@@ -116,6 +116,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "relational-model",
+              "path": "/docs/relational-model",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "resource-model",
               "path": "/docs/resource-model",
               "sidebar": "tutorialSidebar"

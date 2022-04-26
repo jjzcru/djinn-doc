@@ -20,7 +20,7 @@ Resource model that describe the information of the plugin once it's installed
 
 | Properties    | Description                                                             |
 | ------------- | ----------------------------------------------------------------------- |
-| `id`          | Unique identifier (UUID) set by the platform                            |
+| `id`          | Unique identifier set by the platform                                   |
 | `package`     | Unique identifier for the plugin that uses reverse domain name notation |
 | `version`     | Version of the plugin                                                   |
 | `name`        | Human readable name of the plugin                                       |
@@ -32,9 +32,9 @@ Resource model that describe the information of the plugin once it's installed
 | `license`     | License of the project                                                  |
 | `authors`     | Array of the authors of the plugin                                      |
 
-```json title="/plugins/1fba78c5-4ad9-452f-868f-1f41b64db5f9"
+```json title="/plugins/1"
 {
-  "id": "1fba78c5-4ad9-452f-868f-1f41b64db5f9",
+  "id": 1,
   "package": "com.phillips.hue.bulbs",
   "version": "2.1.0",
   "name": "Phillips Hue",
@@ -66,9 +66,9 @@ Resource that describe the type of devices that are supported by the platform, t
 | `properties` | Key value property that describe what are the attributes that expose the state of the device             |
 | `commands`   | Key value property that describes the commands that are available and the commands that they can request |
 
-```json title="/types/1fba78c5-4ad9-452f-868f-1f41b64db5f9"
+```json title="/types/1"
 {
-  "id": "1fba78c5-4ad9-452f-868f-1f41b64db5f9",
+  "id": 1,
   "name": "RGB Bulb",
   "type": "rgb_bulb",
   "properties": {
@@ -121,16 +121,18 @@ Resource that describe the type of devices that are supported by the platform, t
 
 Resource model for a device
 
-| Properties | Description                                      |
-| ---------- | ------------------------------------------------ |
-| `id`       | Unique identifier for the device in the platform |
-| `name`     | Human readable device name                       |
-| `type`     | Identifier for the device type                   |
-| `state`    | Current state of the device                      |
+| Properties | Description                                          |
+| ---------- | ---------------------------------------------------- |
+| `id`       | Unique identifier for the device in the platform     |
+| `device`   | Identifier of the device, come from the manufacturer |
+| `name`     | Human readable device name                           |
+| `type`     | Identifier for the device type                       |
+| `state`    | Current state of the device                          |
 
-```json title="/devices/1fba78c5-4ad9-452f-868f-1f41b64db5f9"
+```json title="/devices/1"
 {
-  "id": "1fba78c5-4ad9-452f-868f-1f41b64db5f9",
+  "id": 1,
+  "device": "1fba78c5-4ad9-452f-868f-1f41b64db5f9",
   "name": "Name",
   "type": "1fba78c5-4ad9-452f-868f-1f41b64db5f6",
   "state": {
