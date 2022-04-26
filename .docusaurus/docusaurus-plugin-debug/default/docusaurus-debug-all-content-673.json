@@ -308,7 +308,7 @@
               "unversionedId": "djinn-board/security-model",
               "id": "djinn-board/security-model",
               "title": "Security Model",
-              "description": "The board is going to be exposed to the user network and because of this the board comes with a security model built-in, since security is one of the principles for Djinn we protect the data with Authorization and Access control, but the board provides security measures built-in like Secret Managmenement and data encryption (On Storage and on Transit).",
+              "description": "The board is going to be exposed to the user network and because of this the board comes with a security model built-in, since security is one of the principles for Djinn we protect the data with Authorization and access control.",
               "source": "@site/docs/djinn-board/security-model.md",
               "sourceDirName": "djinn-board",
               "slug": "/djinn-board/security-model",
@@ -330,7 +330,7 @@
               },
               "next": {
                 "title": "Overview",
-                "permalink": "/docs/djinn-client/overview"
+                "permalink": "/docs/djinn-cloud/overview"
               }
             },
             {
@@ -357,8 +357,8 @@
                 "permalink": "/docs/djinn-client/web"
               },
               "next": {
-                "title": "Overview",
-                "permalink": "/docs/djinn-cloud/overview"
+                "title": "Use Case",
+                "permalink": "/docs/use-case"
               }
             },
             {
@@ -382,7 +382,7 @@
               "sidebar": "tutorialSidebar",
               "previous": {
                 "title": "Security Model",
-                "permalink": "/docs/djinn-board/security-model"
+                "permalink": "/docs/djinn-cloud/security-model"
               },
               "next": {
                 "title": "Web",
@@ -495,8 +495,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Gateway",
-                "permalink": "/docs/djinn-client/gateway"
+                "title": "Security Model",
+                "permalink": "/docs/djinn-board/security-model"
               },
               "next": {
                 "title": "Community Edition",
@@ -528,8 +528,8 @@
                 "permalink": "/docs/djinn-cloud/enterprise-edition"
               },
               "next": {
-                "title": "Use Case",
-                "permalink": "/docs/use-case"
+                "title": "Overview",
+                "permalink": "/docs/djinn-client/overview"
               }
             },
             {
@@ -632,8 +632,8 @@
               },
               "sidebar": "tutorialSidebar",
               "previous": {
-                "title": "Security Model",
-                "permalink": "/docs/djinn-cloud/security-model"
+                "title": "Gateway",
+                "permalink": "/docs/djinn-client/gateway"
               },
               "next": {
                 "title": "Reference Frameworks",
@@ -713,26 +713,6 @@
               },
               {
                 "type": "category",
-                "label": "Djinn Client",
-                "collapsible": true,
-                "collapsed": true,
-                "items": [
-                  {
-                    "type": "doc",
-                    "id": "djinn-client/overview"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "djinn-client/web"
-                  },
-                  {
-                    "type": "doc",
-                    "id": "djinn-client/gateway"
-                  }
-                ]
-              },
-              {
-                "type": "category",
                 "label": "Djinn Cloud",
                 "collapsible": true,
                 "collapsed": true,
@@ -752,6 +732,26 @@
                   {
                     "type": "doc",
                     "id": "djinn-cloud/security-model"
+                  }
+                ]
+              },
+              {
+                "type": "category",
+                "label": "Djinn Client",
+                "collapsible": true,
+                "collapsed": true,
+                "items": [
+                  {
+                    "type": "doc",
+                    "id": "djinn-client/overview"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-client/web"
+                  },
+                  {
+                    "type": "doc",
+                    "id": "djinn-client/gateway"
                   }
                 ]
               },

@@ -19,7 +19,7 @@
   "sidebar": "tutorialSidebar",
   "previous": {
     "title": "Security Model",
-    "permalink": "/docs/djinn-board/security-model"
+    "permalink": "/docs/djinn-cloud/security-model"
   },
   "next": {
     "title": "Web",

@@ -104,32 +104,6 @@
       },
       {
         "type": "category",
-        "label": "Djinn Client",
-        "collapsible": true,
-        "collapsed": true,
-        "items": [
-          {
-            "type": "link",
-            "label": "Overview",
-            "href": "/docs/djinn-client/overview",
-            "docId": "djinn-client/overview"
-          },
-          {
-            "type": "link",
-            "label": "Web",
-            "href": "/docs/djinn-client/web",
-            "docId": "djinn-client/web"
-          },
-          {
-            "type": "link",
-            "label": "Gateway",
-            "href": "/docs/djinn-client/gateway",
-            "docId": "djinn-client/gateway"
-          }
-        ]
-      },
-      {
-        "type": "category",
         "label": "Djinn Cloud",
         "collapsible": true,
         "collapsed": true,
@@ -157,6 +131,32 @@
             "label": "Security Model",
             "href": "/docs/djinn-cloud/security-model",
             "docId": "djinn-cloud/security-model"
+          }
+        ]
+      },
+      {
+        "type": "category",
+        "label": "Djinn Client",
+        "collapsible": true,
+        "collapsed": true,
+        "items": [
+          {
+            "type": "link",
+            "label": "Overview",
+            "href": "/docs/djinn-client/overview",
+            "docId": "djinn-client/overview"
+          },
+          {
+            "type": "link",
+            "label": "Web",
+            "href": "/docs/djinn-client/web",
+            "docId": "djinn-client/web"
+          },
+          {
+            "type": "link",
+            "label": "Gateway",
+            "href": "/docs/djinn-client/gateway",
+            "docId": "djinn-client/gateway"
           }
         ]
       },
@@ -238,7 +238,7 @@
     "djinn-board/security-model": {
       "id": "djinn-board/security-model",
       "title": "Security Model",
-      "description": "The board is going to be exposed to the user network and because of this the board comes with a security model built-in, since security is one of the principles for Djinn we protect the data with Authorization and Access control, but the board provides security measures built-in like Secret Managmenement and data encryption (On Storage and on Transit).",
+      "description": "The board is going to be exposed to the user network and because of this the board comes with a security model built-in, since security is one of the principles for Djinn we protect the data with Authorization and access control.",
       "sidebar": "tutorialSidebar"
     },
     "djinn-client/gateway": {

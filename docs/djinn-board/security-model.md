@@ -4,24 +4,69 @@ title: Security Model
 sidebar_position: 4
 custom_edit_url: null
 ---
-# Security model
-The board is going to be exposed to the user network and because of this the board comes with a security model built-in, since security is one of the principles for Djinn we protect the data with Authorization and Access control, but the board provides security measures built-in like [Secret Managmenement](https://www.cyberark.com/what-is/secrets-management/) and data encryption (On Storage and on Transit).
 
-## Surface Area
-The board exposes only the required port and nothing else, this is to reduce the surface area for an attack, the board can read and send signals to the IoT devices, but these devices can't control the functionalities of the board.
+# Security model
+
+The board is going to be exposed to the user network and because of this the board comes with a security model built-in, since security is one of the principles for Djinn we protect the data with Authorization and access control.
+
+In the board we are going to treat sensitive information as [Secrets](https://www.cyberark.com/what-is/secrets-management/), k3s supports this concept and is going to encrypt that information and limit the access only to the services that really requires them.
+
+## Principle of Least Privilege
+
+[POLP](https://digitalguardian.com/blog/what-principle-least-privilege-polp-best-practice-information-security-and-compliance#:~:text=The%20principle%20of%20least%20privilege%20is%20the%20idea%20that%20at,necessary%20to%20perform%20its%20functio.) is going to be the guiding method that is going to be used to build the security the model, this principles states that we only provide enough access to performed the job that is required.
+
+## Limit the area of attack
+
+The board is only going to export two ports, `80` and `443`.
+
+_Why this ports?_
+
+One of the principle is [Simplicity](/docs/intro#simplicity), we want to make it easy for the user to use the application without the need to install something and everyone has a device that has a browser, we are going to use [HTTPS](https://en.wikipedia.org/wiki/HTTPS) as the only communication protocol and `HTTPS` run on port `443`.
+
+_What about the port 80?_
+
+Port `80` is use for `HTTP` which is insecure, we are going to exposed it but not use it, the user could accidentally type port `80` and the board is going to automatically redirect to port `443`.
+
+_If you are exposing multiple service, how do you expose them in a single port?_
+
+For this reason we are going to handle this services with DNS, the board has an internal DNS server that knows how to handle this requests, so the services would look like this:
+
+| Service               | URL                         |
+| --------------------- | --------------------------- |
+| Authentication Server | `https://oauth.djinn.local` |
+| Web Client            | `https://app.djinn.local`   |
+| Gateway               | `https://api.djinn.local`   |
+
+Using DNS for naming resolution is not only more secure since we are only exposing a single port, but it also makes the url easier to read.
 
 ## Isolation
-The application use k3s to control the infrastructure inside the board, it only exposes the volumes required to store configuration files and the services talk to each other by the service discovery that is provided by k3s, each module is its own container and they are isolated from each other.
 
-At the plugin level, each plugin have a section that is only controlled by them, so plugins are isolated from each other, the plugins can only receive commands and provide a resource definition to the platform, which prevents plugins to control the board or try to access other components.
+For the architecture we are not just following POLP but we are also following the [Single Responsability Principle (SRP)](https://en.wikipedia.org/wiki/Single-responsibility_principle), which establish:
+
+> Every module, class or function in a computer program should have responsibility over a single part of that program's functionality, and it should encapsulate that part.
+
+There are multiple levels of isolation used in the architecture:
+
+| Type              | Description                                                                                                                                               |
+| ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| Plugin Isolation  | In the board each module is independent of each other, they only know about their own code and the hardware that they have at their disposal              |
+| Process Isolation | Each of the modules that appear in the architecture diagram (which are in green square) are separated process which are controlled and coordinated by k3s |
+| Module Isolation  | Every module that exist in the architecture only fulfills a single role (SRP), which limits the control that the module has in the architecture           |
+| Storage Isolation | The filesystem is shared in some sections but at the same time is isolated in other, k3s enable us to enforce filesystem access by the process            |
+
+_Why do we need isolation?_
+
+From a security perspective, if each one of the pieces is isolated from each other and one of them is compromised, this limit the attack to only one module and it doesn't affect the other modules.
 
 ## Encryption
+
 After the board is installed and rebooting for the first time, it generates a unique encryption key that is stored as a secret in k3s, this encryption key is hidden and is not accessible from the outside world, and is only accessible by the modules that k3s instantiate.
 
 This encryption key is going to be used to encrypt and decrypt all the data that is stored in the database.
 
 ## Secure endpoints
-All the exposed endpoints are required to use SSL, the gateway and the agent both use gRPC, which supports SSL/TLS for authentication, and the web client which exposes a GraphQL version as well run an HTTPS server, where the certificate is generated by the board. 
+
+All the exposed endpoints are required to use SSL, the gateway and the agent both use gRPC, which supports SSL/TLS for authentication, and the web client which exposes a GraphQL version as well run an HTTPS server, where the certificate is generated by the board.
 
 > [How to use HTTPS for local development](https://web.dev/how-to-use-local-https/) describes how this can be achieved.
 

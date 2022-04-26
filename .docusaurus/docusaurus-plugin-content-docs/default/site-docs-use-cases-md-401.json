@@ -19,8 +19,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Security Model",
-    "permalink": "/docs/djinn-cloud/security-model"
+    "title": "Gateway",
+    "permalink": "/docs/djinn-client/gateway"
   },
   "next": {
     "title": "Reference Frameworks",
