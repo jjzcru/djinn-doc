@@ -2,7 +2,7 @@
   "unversionedId": "use-case",
   "id": "use-case",
   "title": "Use Case",
-  "description": "This board is not target as a replacement of a home assistant like Google Assistant, Siri or Alexa, instead is taking a broader approach to be able to connect any type of devices and being able to control them from a centralized device, in network engineering this is called a Wireless Sensor Network (WSN).",
+  "description": "This board is not targeted as a replacement for a home assistant like Google Assistant, Siri or Alexa, instead is taking a broader approach to be able to connect any type of devices and being able to control them from a centralized device, in network engineering this is called a Wireless Sensor Network (WSN).",
   "source": "@site/docs/use-cases.md",
   "sourceDirName": ".",
   "slug": "/use-case",

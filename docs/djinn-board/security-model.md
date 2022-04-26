@@ -7,29 +7,29 @@ custom_edit_url: null
 
 # Security model
 
-The board is going to be exposed to the user network and because of this the board comes with a security model built-in, since security is one of the principles for Djinn we protect the data with Authorization and access control.
+The board is going to be exposed to the user network and because of this, the board comes with a security model built-in, since security is one of the principles for Djinn we protect the data with Authorization and access control.
 
-In the board we are going to treat sensitive information as [Secrets](https://www.cyberark.com/what-is/secrets-management/), k3s supports this concept and is going to encrypt that information and limit the access only to the services that really requires them.
+On the board, we are going to treat sensitive information as [Secrets](https://www.cyberark.com/what-is/secrets-management/), k3s supports this concept and is going to encrypt that information and limit the access only to the services that really require them.
 
 ## Principle of Least Privilege
 
-[POLP](https://digitalguardian.com/blog/what-principle-least-privilege-polp-best-practice-information-security-and-compliance#:~:text=The%20principle%20of%20least%20privilege%20is%20the%20idea%20that%20at,necessary%20to%20perform%20its%20functio.) is going to be the guiding method that is going to be used to build the security the model, this principles states that we only provide enough access to performed the job that is required.
+[POLP](https://digitalguardian.com/blog/what-principle-least-privilege-polp-best-practice-information-security-and-compliance) is going to be the guiding method that is going to be used to build the security of the model, this principle states that we only provide enough access to performed the job that is required.
 
 ## Limit the area of attack
 
 The board is only going to export two ports, `80` and `443`.
 
-_Why this ports?_
+_Why these ports?_
 
-One of the principle is [Simplicity](/docs/intro#simplicity), we want to make it easy for the user to use the application without the need to install something and everyone has a device that has a browser, we are going to use [HTTPS](https://en.wikipedia.org/wiki/HTTPS) as the only communication protocol and `HTTPS` run on port `443`.
+One of the principles is [Simplicity](/docs/intro#simplicity), we want to make it easy for the user to use the application without the need to install something and everyone has a device that has a browser, we are going to use [HTTPS](https://en.wikipedia.org/wiki/HTTPS) as the only communication protocol and `HTTPS` run on port `443`.
 
 _What about the port 80?_
 
-Port `80` is use for `HTTP` which is insecure, we are going to exposed it but not use it, the user could accidentally type port `80` and the board is going to automatically redirect to port `443`.
+Port `80` is used for `HTTP` which is insecure, we are going to expose it but not use it, the user could accidentally type port `80` and the board is going to automatically redirect to port `443`.
 
-_If you are exposing multiple service, how do you expose them in a single port?_
+_If you are exposing multiple services, how do you expose them in a single port?_
 
-For this reason we are going to handle this services with DNS, the board has an internal DNS server that knows how to handle this requests, so the services would look like this:
+For this reason, we are going to handle these services with DNS, the board has an internal DNS server that knows how to handle these requests, so the services would look like this:
 
 | Service               | URL                         |
 | --------------------- | --------------------------- |
@@ -37,26 +37,25 @@ For this reason we are going to handle this services with DNS, the board has an 
 | Web Client            | `https://app.djinn.local`   |
 | Gateway               | `https://api.djinn.local`   |
 
-Using DNS for naming resolution is not only more secure since we are only exposing a single port, but it also makes the url easier to read.
+Using DNS for naming resolution is not only more secure since we are only exposing a single port, but it also makes the URL easier to read.
 
 ## Isolation
 
-For the architecture we are not just following POLP but we are also following the [Single Responsability Principle (SRP)](https://en.wikipedia.org/wiki/Single-responsibility_principle), which establish:
+For the architecture, we are not just following POLP but we are also following the [Single Responsibility Principle (SRP)](https://en.wikipedia.org/wiki/Single-responsibility_principle), which establishes:
 
-> Every module, class or function in a computer program should have responsibility over a single part of that program's functionality, and it should encapsulate that part.
+> Every module, class, or function in a computer program should have responsibility for a single part of that program's functionality, and it should encapsulate that part.
 
 There are multiple levels of isolation used in the architecture:
-
-| Type              | Description                                                                                                                                               |
+| Type | Description |
 | ----------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Plugin Isolation  | In the board each module is independent of each other, they only know about their own code and the hardware that they have at their disposal              |
-| Process Isolation | Each of the modules that appear in the architecture diagram (which are in green square) are separated process which are controlled and coordinated by k3s |
-| Module Isolation  | Every module that exist in the architecture only fulfills a single role (SRP), which limits the control that the module has in the architecture           |
-| Storage Isolation | The filesystem is shared in some sections but at the same time is isolated in other, k3s enable us to enforce filesystem access by the process            |
+| Plugin Isolation | In the board each module is independent of each other, they only know about their own code and the hardware that they have at their disposal |
+| Process Isolation | On the board each module is independent of the other, they only know about their own code and the hardware that they have at their disposal |
+| Module Isolation | Every module that exists in the architecture only fulfills a single role (SRP), which limits the control that the module has in the architecture |
+| Storage Isolation | The filesystem is shared in some sections but at the same time is isolated in others, k3s enable us to enforce filesystem access by the process |
 
 _Why do we need isolation?_
 
-From a security perspective, if each one of the pieces is isolated from each other and one of them is compromised, this limit the attack to only one module and it doesn't affect the other modules.
+From a security perspective, if each one of the pieces is isolated from each other and one of them is compromised, this limits the attack to only one module and it doesn't affect the other modules.
 
 ## Encryption
 

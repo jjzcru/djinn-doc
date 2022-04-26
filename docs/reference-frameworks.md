@@ -7,7 +7,7 @@ custom_edit_url: null
 
 # Reference Frameworks
 
-The architecture for Djinn 🧞‍♂️, is built using other frameworks as a reference, all of these frameworks provide a framework for the entire infrastructure but their implementation is not feasible unless a tight integration is done, and right now there is a plethora of devices, each using different protocols which are fragmented the market making it more difficult to provide a solution for each device, for this reason, the application chooses the most popular communication protocols and take inspiration on how different frameworks handle different problems.
+The architecture for Djinn 🧞‍♂️, is built using other frameworks as a reference, all of these frameworks provide a framework for the entire infrastructure but their implementation is not feasible unless a tight integration is done, and right now there are a plethora of devices, each using different protocols which are fragmented the market making it more difficult to provide a solution for each device, for this reason, the application chooses the most popular communication protocols and take inspiration on how different frameworks handle different problems.
 
 ## OCF Core Specification
 
@@ -35,7 +35,7 @@ This is layered that has different modules for services that could be required b
 
 This layer handles the configuration of the network.
 
-Djinn takes the approach of CSL by abstracting the services as resources which is the job of the Platform Module, the difference is that in OneM2M the authorization, authentication and device management is centralized in CSL, in Djinn is distributed between the Authentication Server, the Agent and the gateway.
+Djinn takes the approach of CSL by abstracting the services as resources which is the job of the Platform Module, the difference is that in OneM2M the authorization, authentication, and device management are centralized in CSL, in Djinn are distributed between the Authentication Server, the Agent, and the gateway.
 
 ## IIC Architecture
 
@@ -45,7 +45,7 @@ The concept that we use from this model is the separation that they have between
 
 Meanwhile, IIC offers other features like device management, data aggregation, data transformation, analytics, rules, and controls, which are functionalities that are outside of the scope of the current architecture model.
 
-IIC is an architecture that is complex and has a different types of sensors, actuators, controllers, and gateway, this complexity, although justified, is against the principle of simplicity that the project tries to follow.
+IIC is an architecture that is complex and has different types of sensors, actuators, controllers, and gateway, this complexity, although justified, is against the principle of simplicity that the project tries to follow.
 
 ## OPC-UA
 

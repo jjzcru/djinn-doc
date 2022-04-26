@@ -11,7 +11,7 @@ This is the relation model that describe how the resources are stored in the [Da
 
 ![Diagram](/img/relational_model_diagram.png)
 
-This is the `.sql` that is used to create the sqlite database
+This is the `.sql` that is used to create the SQLite database.
 
 ```sql title="djinn.sql"
 /*

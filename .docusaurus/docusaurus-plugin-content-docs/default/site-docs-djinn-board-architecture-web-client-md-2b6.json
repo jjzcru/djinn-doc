@@ -2,7 +2,7 @@
   "unversionedId": "djinn-board/architecture/web-client",
   "id": "djinn-board/architecture/web-client",
   "title": "Web Client",
-  "description": "This is a web interface that is build in react and runs on top of the Djinn Gateway, it runs on port 80 and port 443 and enables the users to configure and control the Djinn OS from a browser.",
+  "description": "This is a web interface that is built in react and runs on top of the Djinn Gateway, it runs on port 80 and port 443 and enables the users to configure and control the Djinn OS from a browser.",
   "source": "@site/docs/djinn-board/architecture/web-client.md",
   "sourceDirName": "djinn-board/architecture",
   "slug": "/djinn-board/architecture/web-client",

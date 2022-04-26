@@ -2,7 +2,7 @@
   "unversionedId": "djinn-board/architecture/persistance-layer",
   "id": "djinn-board/architecture/persistance-layer",
   "title": "Persistance Layer",
-  "description": "This is the layer that is used to keep a persistant state of the system, is accesed by the Authentication Service, the Gateway and the platform.",
+  "description": "This is the layer that is used to keep a persistent state of the system and is accessed by the Authentication Service, the Gateway, and the platform.",
   "source": "@site/docs/djinn-board/architecture/persistance-layer.md",
   "sourceDirName": "djinn-board/architecture",
   "slug": "/djinn-board/architecture/persistance-layer",

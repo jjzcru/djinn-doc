@@ -2,7 +2,7 @@
   "unversionedId": "djinn-cloud/enterprise-edition",
   "id": "djinn-cloud/enterprise-edition",
   "title": "Enterprise Edition",
-  "description": "This is the SaaS offering, propertary, where users are able to sign up and create their own cloud of homes, this is build on top of a full fledge kubernetes cluster that supports multinancy by creating a new Namespace for each customer.",
+  "description": "This is the SaaS offering, property, where users are able to sign up and create their own cloud of homes, this is built on top of a full-fledge Kubernetes cluster that supports multi-tenancy by creating a new Namespace for each customer.",
   "source": "@site/docs/djinn-cloud/enterprise-edition.md",
   "sourceDirName": "djinn-cloud",
   "slug": "/djinn-cloud/enterprise-edition",
