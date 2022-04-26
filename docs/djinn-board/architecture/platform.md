@@ -80,7 +80,7 @@ type Plugin interface {
 }
 ```
 
-The file `plugin.so` is the entry point for the plugin, which the [Controller](#controller) is going to use to call the different lifecycle methods for running the application and the [Gateway](/docs/architecture/djinn-board/architecture/gateway) is going to call when installing and validating.
+The file `plugin.so` is the entry point for the plugin, which the [Controller](#controller) is going to use to call the different lifecycle methods for running the application and the [Gateway](/docs/djinn-board/architecture/gateway) is going to call when installing and validating.
 
 The `payload` and the return in `GetState` are `json` strings.
 
