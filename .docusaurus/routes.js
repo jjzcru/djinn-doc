@@ -100,7 +100,7 @@ export default [
   },
   {
     path: '/docs',
-    component: ComponentCreator('/docs','eec'),
+    component: ComponentCreator('/docs','a67'),
     routes: [
       {
         path: '/docs/architecture',
@@ -225,6 +225,12 @@ export default [
       {
         path: '/docs/reference-frameworks',
         component: ComponentCreator('/docs/reference-frameworks','05c'),
+        exact: true,
+        sidebar: "tutorialSidebar"
+      },
+      {
+        path: '/docs/resource-model',
+        component: ComponentCreator('/docs/resource-model','8f4'),
         exact: true,
         sidebar: "tutorialSidebar"
       },

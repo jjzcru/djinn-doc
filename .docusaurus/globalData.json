@@ -116,6 +116,11 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "resource-model",
+              "path": "/docs/resource-model",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "use-case",
               "path": "/docs/use-case",
               "sidebar": "tutorialSidebar"

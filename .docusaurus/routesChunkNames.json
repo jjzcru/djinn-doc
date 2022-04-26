@@ -148,7 +148,7 @@
     "content": "content---markdown-page-393-028",
     "__routeContextModule": "__routeContextModule---markdown-pagea-80-077"
   },
-  "/docs-eec": {
+  "/docs-a67": {
     "component": "component---theme-doc-page-1-be-9be",
     "versionMetadata": "versionMetadata---docs-935-398",
     "__routeContextModule": "__routeContextModule---docs-9-bf-205"
@@ -236,6 +236,10 @@
   "/docs/reference-frameworks-05c": {
     "component": "component---theme-doc-item-178-a40",
     "content": "content---docs-reference-frameworks-7-b-1-2a4"
+  },
+  "/docs/resource-model-8f4": {
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-resource-model-322-a63"
   },
   "/docs/use-case-a4a": {
     "component": "component---theme-doc-item-178-a40",

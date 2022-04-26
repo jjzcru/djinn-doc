@@ -609,6 +609,35 @@
               "previous": {
                 "title": "Use Case",
                 "permalink": "/docs/use-case"
+              },
+              "next": {
+                "title": "Resource Model",
+                "permalink": "/docs/resource-model"
+              }
+            },
+            {
+              "unversionedId": "resource-model",
+              "id": "resource-model",
+              "title": "Resource Model",
+              "description": "A resource model is a unified way to describe the resources that the platform is able to handle, at this point in time the resources are:",
+              "source": "@site/docs/resource-model.md",
+              "sourceDirName": ".",
+              "slug": "/resource-model",
+              "permalink": "/docs/resource-model",
+              "editUrl": null,
+              "tags": [],
+              "version": "current",
+              "sidebarPosition": 9,
+              "frontMatter": {
+                "id": "resource-model",
+                "title": "Resource Model",
+                "sidebar_position": 9,
+                "custom_edit_url": null
+              },
+              "sidebar": "tutorialSidebar",
+              "previous": {
+                "title": "Reference Frameworks",
+                "permalink": "/docs/reference-frameworks"
               }
             },
             {
@@ -762,6 +791,10 @@
               {
                 "type": "doc",
                 "id": "reference-frameworks"
+              },
+              {
+                "type": "doc",
+                "id": "resource-model"
               }
             ]
           },
