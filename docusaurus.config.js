@@ -70,8 +70,20 @@ const config = {
 						title: 'Architecture',
 						items: [
 							{
+								label: 'Djinn',
+								to: '/docs/architecture',
+							},
+							{
 								label: 'Djinn Board',
 								to: '/docs/djinn-board/overview',
+							},
+							{
+								label: 'Djinn Cloud',
+								to: '/docs/djinn-cloud/overview',
+							},
+							{
+								label: 'Djinn Client',
+								to: '/docs/djinn-client/overview',
 							},
 						],
 					},
@@ -108,8 +120,19 @@ const config = {
 				theme: lightCodeTheme,
 				darkTheme: darkCodeTheme,
 			},
+			zoom: {
+				selector: '.markdown :not(em) > img',
+				config: {
+					// options you can specify via https://github.com/francoischalifour/medium-zoom#usage
+					background: {
+						light: 'rgb(255, 255, 255)',
+						dark: 'rgb(50, 50, 50)',
+					},
+				},
+			},
 		}),
 	plugins: [
+		require.resolve('docusaurus-plugin-image-zoom'),
 		[
 			'@docusaurus/plugin-pwa',
 			{

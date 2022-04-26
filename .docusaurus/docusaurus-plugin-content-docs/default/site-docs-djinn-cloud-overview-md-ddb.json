@@ -18,8 +18,8 @@
   },
   "sidebar": "tutorialSidebar",
   "previous": {
-    "title": "Agent",
-    "permalink": "/docs/djinn-board/agent"
+    "title": "Security Model",
+    "permalink": "/docs/djinn-board/security-model"
   },
   "next": {
     "title": "Community Edition",

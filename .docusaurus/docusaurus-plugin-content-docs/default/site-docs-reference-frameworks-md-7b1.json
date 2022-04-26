@@ -1,0 +1,29 @@
+{
+  "unversionedId": "reference-frameworks",
+  "id": "reference-frameworks",
+  "title": "Reference Frameworks",
+  "description": "The architecture for Djinn 🧞‍♂️, is built using other frameworks as a reference, all of these frameworks provide a framework for the entire infrastructure but their implementation is not feasible unless a tight integration is done, and right now there are a plethora of devices, each using different protocols which are fragmented the market making it more difficult to provide a solution for each device, for this reason, the application chooses the most popular communication protocols and take inspiration on how different frameworks handle different problems.",
+  "source": "@site/docs/reference-frameworks.md",
+  "sourceDirName": ".",
+  "slug": "/reference-frameworks",
+  "permalink": "/docs/reference-frameworks",
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 7,
+  "frontMatter": {
+    "id": "reference-frameworks",
+    "title": "Reference Frameworks",
+    "sidebar_position": 7,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Use Case",
+    "permalink": "/docs/use-case"
+  },
+  "next": {
+    "title": "Resource Model",
+    "permalink": "/docs/resource-model"
+  }
+}

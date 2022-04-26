@@ -2,7 +2,7 @@
   "unversionedId": "djinn-client/gateway",
   "id": "djinn-client/gateway",
   "title": "Gateway",
-  "description": "The gateway clients are native applications (Android, iOS, macOS, Windows,",
+  "description": "The gateway clients are native applications (Android, iOS, macOS, Windows, Linux) that can talk via the gRPC, there is no restriction on how this builds as long as they comply with the gRPC standard.",
   "source": "@site/docs/djinn-client/gateway.md",
   "sourceDirName": "djinn-client",
   "slug": "/djinn-client/gateway",
@@ -20,5 +20,9 @@
   "previous": {
     "title": "Web",
     "permalink": "/docs/djinn-client/web"
+  },
+  "next": {
+    "title": "Use Case",
+    "permalink": "/docs/use-case"
   }
 }

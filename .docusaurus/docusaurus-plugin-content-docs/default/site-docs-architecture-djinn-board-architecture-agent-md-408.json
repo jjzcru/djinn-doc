@@ -1,0 +1,29 @@
+{
+  "unversionedId": "architecture/djinn-board/architecture/agent",
+  "id": "architecture/djinn-board/architecture/agent",
+  "title": "Agent",
+  "description": "Agent Diagram",
+  "source": "@site/docs/architecture/djinn-board/architecture/agent.md",
+  "sourceDirName": "architecture/djinn-board/architecture",
+  "slug": "/architecture/djinn-board/architecture/agent",
+  "permalink": "/docs/architecture/djinn-board/architecture/agent",
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 8,
+  "frontMatter": {
+    "id": "agent",
+    "title": "Agent",
+    "sidebar_position": 8,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Web Client",
+    "permalink": "/docs/architecture/djinn-board/architecture/web-client"
+  },
+  "next": {
+    "title": "Security Model",
+    "permalink": "/docs/architecture/djinn-board/security-model"
+  }
+}

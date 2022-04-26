@@ -2,21 +2,24 @@
   "unversionedId": "intro",
   "id": "intro",
   "title": "Introduction",
-  "description": "TODO Write the overall architecture",
+  "description": "Djinn is a framework model that enables customers to add IoT to the framework platform, while also providing an access model and distributed access.",
   "source": "@site/docs/intro.md",
   "sourceDirName": ".",
   "slug": "/intro",
   "permalink": "/docs/intro",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/intro.md",
+  "editUrl": null,
   "tags": [],
   "version": "current",
   "sidebarPosition": 1,
   "frontMatter": {
-    "sidebar_position": 1
+    "id": "intro",
+    "title": "Introduction",
+    "sidebar_position": 1,
+    "custom_edit_url": null
   },
   "sidebar": "tutorialSidebar",
   "next": {
-    "title": "Overview",
-    "permalink": "/docs/djinn-board/overview"
+    "title": "10,000 foot view",
+    "permalink": "/docs/high-level-view"
   }
 }

@@ -2,19 +2,20 @@
   "unversionedId": "djinn-cloud/community-edition",
   "id": "djinn-cloud/community-edition",
   "title": "Community Edition",
-  "description": "This is totally open source and is target for a single tenancy installation, is going to be distributed by a docker image and use sqlite as a database.",
+  "description": "This edition is open source and self-hosted, the user is able to install the application on any server that they want.",
   "source": "@site/docs/djinn-cloud/community-edition.md",
   "sourceDirName": "djinn-cloud",
   "slug": "/djinn-cloud/community-edition",
   "permalink": "/docs/djinn-cloud/community-edition",
-  "editUrl": "https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/docs/djinn-cloud/community-edition.md",
+  "editUrl": null,
   "tags": [],
   "version": "current",
   "sidebarPosition": 2,
   "frontMatter": {
     "id": "community-edition",
     "title": "Community Edition",
-    "sidebar_position": 2
+    "sidebar_position": 2,
+    "custom_edit_url": null
   },
   "sidebar": "tutorialSidebar",
   "previous": {

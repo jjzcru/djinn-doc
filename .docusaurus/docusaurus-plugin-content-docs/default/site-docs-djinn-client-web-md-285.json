@@ -2,7 +2,7 @@
   "unversionedId": "djinn-client/web",
   "id": "djinn-client/web",
   "title": "Web",
-  "description": "This is an application that is embbed in the environment that is running, this",
+  "description": "This is an application that is embedded in the environment that is running, this can be either on the board or in the cloud.",
   "source": "@site/docs/djinn-client/web.md",
   "sourceDirName": "djinn-client",
   "slug": "/djinn-client/web",

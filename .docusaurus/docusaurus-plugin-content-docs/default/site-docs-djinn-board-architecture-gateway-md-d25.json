@@ -1,0 +1,29 @@
+{
+  "unversionedId": "djinn-board/architecture/gateway",
+  "id": "djinn-board/architecture/gateway",
+  "title": "Gateway",
+  "description": "This is a service that is going to offer a GraphQL API to interact with the application from the outside world, is going to run in the port 5555 and applications can be built on top of the GraphQL.",
+  "source": "@site/docs/djinn-board/architecture/gateway.md",
+  "sourceDirName": "djinn-board/architecture",
+  "slug": "/djinn-board/architecture/gateway",
+  "permalink": "/docs/djinn-board/architecture/gateway",
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 5,
+  "frontMatter": {
+    "id": "gateway",
+    "title": "Gateway",
+    "sidebar_position": 5,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Event Bus",
+    "permalink": "/docs/djinn-board/architecture/event-bus"
+  },
+  "next": {
+    "title": "Authentication Server",
+    "permalink": "/docs/djinn-board/architecture/authentication-server"
+  }
+}

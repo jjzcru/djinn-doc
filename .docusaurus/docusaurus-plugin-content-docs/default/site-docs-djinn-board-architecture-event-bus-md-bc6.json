@@ -1,0 +1,29 @@
+{
+  "unversionedId": "djinn-board/architecture/event-bus",
+  "id": "djinn-board/architecture/event-bus",
+  "title": "Event Bus",
+  "description": "In the application all the communication is going to be asynchronous and is going to use a message queue to handle the request, the reason we are doing this is that is easy to scale the application using the asynchronous nature of a publish-subscribe system.",
+  "source": "@site/docs/djinn-board/architecture/event-bus.md",
+  "sourceDirName": "djinn-board/architecture",
+  "slug": "/djinn-board/architecture/event-bus",
+  "permalink": "/docs/djinn-board/architecture/event-bus",
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "event-bus",
+    "title": "Event Bus",
+    "sidebar_position": 4,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Persistance Layer",
+    "permalink": "/docs/djinn-board/architecture/persistance-layer"
+  },
+  "next": {
+    "title": "Gateway",
+    "permalink": "/docs/djinn-board/architecture/gateway"
+  }
+}

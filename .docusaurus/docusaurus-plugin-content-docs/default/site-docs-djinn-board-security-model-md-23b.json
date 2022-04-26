@@ -1,0 +1,29 @@
+{
+  "unversionedId": "djinn-board/security-model",
+  "id": "djinn-board/security-model",
+  "title": "Security Model",
+  "description": "The board is going to be exposed to the user network and because of this, the board comes with a security model built-in, since security is one of the principles for Djinn we protect the data with Authorization and access control.",
+  "source": "@site/docs/djinn-board/security-model.md",
+  "sourceDirName": "djinn-board",
+  "slug": "/djinn-board/security-model",
+  "permalink": "/docs/djinn-board/security-model",
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 4,
+  "frontMatter": {
+    "id": "security-model",
+    "title": "Security Model",
+    "sidebar_position": 4,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Agent",
+    "permalink": "/docs/djinn-board/architecture/agent"
+  },
+  "next": {
+    "title": "Overview",
+    "permalink": "/docs/djinn-cloud/overview"
+  }
+}

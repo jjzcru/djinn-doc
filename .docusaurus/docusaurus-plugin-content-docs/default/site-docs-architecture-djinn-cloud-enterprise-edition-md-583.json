@@ -1,0 +1,29 @@
+{
+  "unversionedId": "architecture/djinn-cloud/enterprise-edition",
+  "id": "architecture/djinn-cloud/enterprise-edition",
+  "title": "Enterprise Edition",
+  "description": "This is the SaaS offering, propertary, where users are able to sign up and create their own cloud of homes, this is build on top of a full fledge kubernetes cluster that supports multinancy by creating a new Namespace for each customer.",
+  "source": "@site/docs/architecture/djinn-cloud/enterprise-edition.md",
+  "sourceDirName": "architecture/djinn-cloud",
+  "slug": "/architecture/djinn-cloud/enterprise-edition",
+  "permalink": "/docs/architecture/djinn-cloud/enterprise-edition",
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "enterprise-edition",
+    "title": "Enterprise Edition",
+    "sidebar_position": 3,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Community Edition",
+    "permalink": "/docs/architecture/djinn-cloud/community-edition"
+  },
+  "next": {
+    "title": "Security Model",
+    "permalink": "/docs/architecture/djinn-cloud/security-model"
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "unversionedId": "architecture/djinn-cloud/community-edition",
+  "id": "architecture/djinn-cloud/community-edition",
+  "title": "Community Edition",
+  "description": "This edition is open source and self hosted, the user are able to install the application in any server that they want.",
+  "source": "@site/docs/architecture/djinn-cloud/community-edition.md",
+  "sourceDirName": "architecture/djinn-cloud",
+  "slug": "/architecture/djinn-cloud/community-edition",
+  "permalink": "/docs/architecture/djinn-cloud/community-edition",
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "community-edition",
+    "title": "Community Edition",
+    "sidebar_position": 2,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Overview",
+    "permalink": "/docs/architecture/djinn-cloud/overview"
+  },
+  "next": {
+    "title": "Enterprise Edition",
+    "permalink": "/docs/architecture/djinn-cloud/enterprise-edition"
+  }
+}

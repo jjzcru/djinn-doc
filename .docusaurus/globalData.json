@@ -11,23 +11,48 @@
           "mainDocId": "intro",
           "docs": [
             {
-              "id": "djinn-board/agent",
-              "path": "/docs/djinn-board/agent",
+              "id": "architecture",
+              "path": "/docs/architecture",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "djinn-board/authentication-server",
-              "path": "/docs/djinn-board/authentication-server",
+              "id": "djinn-board/architecture/agent",
+              "path": "/docs/djinn-board/architecture/agent",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "djinn-board/event-bus",
-              "path": "/docs/djinn-board/event-bus",
+              "id": "djinn-board/architecture/authentication-server",
+              "path": "/docs/djinn-board/architecture/authentication-server",
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "djinn-board/gateway",
-              "path": "/docs/djinn-board/gateway",
+              "id": "djinn-board/architecture/event-bus",
+              "path": "/docs/djinn-board/architecture/event-bus",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/architecture/gateway",
+              "path": "/docs/djinn-board/architecture/gateway",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/architecture/persistance-layer",
+              "path": "/docs/djinn-board/architecture/persistance-layer",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/architecture/platform",
+              "path": "/docs/djinn-board/architecture/platform",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/architecture/web-client",
+              "path": "/docs/djinn-board/architecture/web-client",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "djinn-board/installation",
+              "path": "/docs/djinn-board/installation",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -36,18 +61,8 @@
               "sidebar": "tutorialSidebar"
             },
             {
-              "id": "djinn-board/persistance-layer",
-              "path": "/docs/djinn-board/persistance-layer",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "djinn-board/platform",
-              "path": "/docs/djinn-board/platform",
-              "sidebar": "tutorialSidebar"
-            },
-            {
-              "id": "djinn-board/web-client",
-              "path": "/docs/djinn-board/web-client",
+              "id": "djinn-board/security-model",
+              "path": "/docs/djinn-board/security-model",
               "sidebar": "tutorialSidebar"
             },
             {
@@ -81,8 +96,38 @@
               "sidebar": "tutorialSidebar"
             },
             {
+              "id": "djinn-cloud/security-model",
+              "path": "/docs/djinn-cloud/security-model",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "high-level-view",
+              "path": "/docs/high-level-view",
+              "sidebar": "tutorialSidebar"
+            },
+            {
               "id": "intro",
               "path": "/docs/intro",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "reference-frameworks",
+              "path": "/docs/reference-frameworks",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "relational-model",
+              "path": "/docs/relational-model",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "resource-model",
+              "path": "/docs/resource-model",
+              "sidebar": "tutorialSidebar"
+            },
+            {
+              "id": "use-case",
+              "path": "/docs/use-case",
               "sidebar": "tutorialSidebar"
             }
           ],

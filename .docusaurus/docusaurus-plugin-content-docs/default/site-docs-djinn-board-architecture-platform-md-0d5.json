@@ -1,0 +1,29 @@
+{
+  "unversionedId": "djinn-board/architecture/platform",
+  "id": "djinn-board/architecture/platform",
+  "title": "Platform",
+  "description": "This part of the architecture is going to handle the communication between the devices and the board, it handle everything that is related to the hardware that is attach to the board, handles plugin integration and also expose a resource definition for the devices and plug-in.",
+  "source": "@site/docs/djinn-board/architecture/platform.md",
+  "sourceDirName": "djinn-board/architecture",
+  "slug": "/djinn-board/architecture/platform",
+  "permalink": "/docs/djinn-board/architecture/platform",
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 2,
+  "frontMatter": {
+    "id": "platform",
+    "title": "Platform",
+    "sidebar_position": 2,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Installation",
+    "permalink": "/docs/djinn-board/installation"
+  },
+  "next": {
+    "title": "Persistance Layer",
+    "permalink": "/docs/djinn-board/architecture/persistance-layer"
+  }
+}

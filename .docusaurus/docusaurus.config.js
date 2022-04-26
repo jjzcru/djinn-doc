@@ -56,8 +56,20 @@ export default {
           "title": "Architecture",
           "items": [
             {
+              "label": "Djinn",
+              "to": "/docs/architecture"
+            },
+            {
               "label": "Djinn Board",
               "to": "/docs/djinn-board/overview"
+            },
+            {
+              "label": "Djinn Cloud",
+              "to": "/docs/djinn-cloud/overview"
+            },
+            {
+              "label": "Djinn Client",
+              "to": "/docs/djinn-client/overview"
             }
           ]
         },
@@ -271,6 +283,15 @@ export default {
       },
       "additionalLanguages": []
     },
+    "zoom": {
+      "selector": ".markdown :not(em) > img",
+      "config": {
+        "background": {
+          "light": "rgb(255, 255, 255)",
+          "dark": "rgb(50, 50, 50)"
+        }
+      }
+    },
     "colorMode": {
       "defaultMode": "light",
       "disableSwitch": false,
@@ -288,6 +309,7 @@ export default {
     }
   },
   "plugins": [
+    "/Users/jjzcru/Workspace/Djinn/djinn/node_modules/docusaurus-plugin-image-zoom/src/index.js",
     [
       "@docusaurus/plugin-pwa",
       {

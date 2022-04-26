@@ -1,0 +1,29 @@
+{
+  "unversionedId": "djinn-board/architecture/persistance-layer",
+  "id": "djinn-board/architecture/persistance-layer",
+  "title": "Persistance Layer",
+  "description": "This is the layer that is used to keep a persistent state of the system and is accessed by the Authentication Service, the Gateway, and the platform.",
+  "source": "@site/docs/djinn-board/architecture/persistance-layer.md",
+  "sourceDirName": "djinn-board/architecture",
+  "slug": "/djinn-board/architecture/persistance-layer",
+  "permalink": "/docs/djinn-board/architecture/persistance-layer",
+  "editUrl": null,
+  "tags": [],
+  "version": "current",
+  "sidebarPosition": 3,
+  "frontMatter": {
+    "id": "persistance-layer",
+    "title": "Persistance Layer",
+    "sidebar_position": 3,
+    "custom_edit_url": null
+  },
+  "sidebar": "tutorialSidebar",
+  "previous": {
+    "title": "Platform",
+    "permalink": "/docs/djinn-board/architecture/platform"
+  },
+  "next": {
+    "title": "Event Bus",
+    "permalink": "/docs/djinn-board/architecture/event-bus"
+  }
+}
