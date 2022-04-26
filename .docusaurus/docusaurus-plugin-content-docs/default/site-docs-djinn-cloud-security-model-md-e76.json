@@ -2,7 +2,7 @@
   "unversionedId": "djinn-cloud/security-model",
   "id": "djinn-cloud/security-model",
   "title": "Security Model",
-  "description": "The cloud, as it's name state, is going to be publically available, and is more prone to attacks than the board that lives in a private network.",
+  "description": "The cloud, as its name state, is going to be publically available and is more prone to attacks than the board that lives in a private network.",
   "source": "@site/docs/djinn-cloud/security-model.md",
   "sourceDirName": "djinn-cloud",
   "slug": "/djinn-cloud/security-model",

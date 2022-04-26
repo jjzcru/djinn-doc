@@ -2,7 +2,7 @@
   "unversionedId": "djinn-cloud/community-edition",
   "id": "djinn-cloud/community-edition",
   "title": "Community Edition",
-  "description": "This edition is open source and self hosted, the user are able to install the application in any server that they want.",
+  "description": "This edition is open source and self-hosted, the user is able to install the application on any server that they want.",
   "source": "@site/docs/djinn-cloud/community-edition.md",
   "sourceDirName": "djinn-cloud",
   "slug": "/djinn-cloud/community-edition",

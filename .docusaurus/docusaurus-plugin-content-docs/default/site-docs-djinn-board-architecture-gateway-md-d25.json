@@ -2,7 +2,7 @@
   "unversionedId": "djinn-board/architecture/gateway",
   "id": "djinn-board/architecture/gateway",
   "title": "Gateway",
-  "description": "This is a service that is going to offer a graphql API to interact with the application from the outside world, is going to run in the port 5555 and applications can be built on top of the graphql.",
+  "description": "This is a service that is going to offer a GraphQL API to interact with the application from the outside world, is going to run in the port 5555 and applications can be built on top of the GraphQL.",
   "source": "@site/docs/djinn-board/architecture/gateway.md",
   "sourceDirName": "djinn-board/architecture",
   "slug": "/djinn-board/architecture/gateway",

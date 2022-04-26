@@ -2,7 +2,7 @@
   "unversionedId": "djinn-board/overview",
   "id": "djinn-board/overview",
   "title": "Overview",
-  "description": "This is the architecture for the application that is going to run inside the board,",
+  "description": "This is the architecture for the application that is going to run inside the board, Raspberry Pi 4, the raspberry pi is also going to include 2 hardware adapters to support Z-wave and Zigbee.",
   "source": "@site/docs/djinn-board/overview.md",
   "sourceDirName": "djinn-board",
   "slug": "/djinn-board/overview",

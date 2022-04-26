@@ -2,7 +2,7 @@
   "unversionedId": "djinn-board/architecture/event-bus",
   "id": "djinn-board/architecture/event-bus",
   "title": "Event Bus",
-  "description": "In the application all the comunication is going to be asynchrounous and is going to use an message queue to handle the request, the reason we are doing this is because is easy to scale the application using the asynchrounous nature of a publish-subscribe system.",
+  "description": "In the application all the communication is going to be asynchronous and is going to use a message queue to handle the request, the reason we are doing this is that is easy to scale the application using the asynchronous nature of a publish-subscribe system.",
   "source": "@site/docs/djinn-board/architecture/event-bus.md",
   "sourceDirName": "djinn-board/architecture",
   "slug": "/djinn-board/architecture/event-bus",

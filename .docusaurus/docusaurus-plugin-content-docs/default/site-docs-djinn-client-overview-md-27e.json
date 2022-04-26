@@ -2,7 +2,7 @@
   "unversionedId": "djinn-client/overview",
   "id": "djinn-client/overview",
   "title": "Overview",
-  "description": "This is an application that is going to talk directly with the Djinn Gateway",
+  "description": "This is an application that is going to talk directly with the Djinn Gateway there are two types of connections that can happen:",
   "source": "@site/docs/djinn-client/overview.md",
   "sourceDirName": "djinn-client",
   "slug": "/djinn-client/overview",

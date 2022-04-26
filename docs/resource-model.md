@@ -16,7 +16,7 @@ A resource model is a unified way to describe the resources that the platform is
 
 ## Plugins
 
-Resource model that describe the information of the plugin once it's installed
+Resource model that describe the information of the plugin once it's installed.
 
 | Properties    | Description                                                             |
 | ------------- | ----------------------------------------------------------------------- |
@@ -55,7 +55,7 @@ Resource model that describe the information of the plugin once it's installed
 
 ## Device Type
 
-Resource that describe the type of devices that are supported by the platform, the device type are associated to a plugin to map out which plugin can handle that device, it also
+The resource that describe the type of devices that are supported by the platform, the device type is associated to a plugin to map out which plugin can handle that device, it also
 
 | Properties   | Description                                                                                              |
 | ------------ | -------------------------------------------------------------------------------------------------------- |
